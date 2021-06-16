@@ -2,8 +2,8 @@
 
 **AYMARA:**
 * Saturnino Callo Ticona, ***Diccionario Aymara-Castellano y Castellano-Aymara “KAMISARAKI”***, segunda edición, Tacna, Perú, 507pp.<br>ay_es-callo, es_ay-callo
-* Gregorio Callisaya A., et al., ***Glosario de nuevos términos aimaras***, Universidad Mayor de San Andres, Tecnologias de Información y Comunicación (UMSATIC), La Paz, Bolivia, s/f, 18pp.
-* Ludovico Bertonio, ***Vocabulario de la Lengua Aymara***, Juli, Perú, 1612, con ortografía actualizada por Radio San Gabriel y digitalizada por ILLA-A.<br>es_ay-bertonio, 
+* Gregorio Callisaya A., et al., ***Glosario de nuevos términos aimaras***, Universidad Mayor de San Andres, Tecnologias de Información y Comunicación (UMSATIC), La Paz, Bolivia, s/f, 18pp.<br>es_ay-callisaya-html
+* Ludovico Bertonio, ***Vocabulario de la Lengua Aymara***, Juli, Perú, 1612, con ortografía actualizada por Radio San Gabriel y digitalizada por ILLA-A.<br>es_ay-bertonio
 * Félix Layme Pairumani, ***Diccionario Bilingüe: Aymara-Castellano***, quinta edición preliminar, La Paz, Bolivia, 2011, 509pp.<br>ay_es-layme, es_ay-layme 
 * N. Apaza Suca, D. Condori Cruz, M. N. Ramos Rojas, ***Yatiqirinaka Aru Pirwa, Qullawa Aymara Aru***, Ministerio de Educación, Lima, Perú, 2005, 141pp.<br>ay-min-edu-peru-pango, es_ay-min-edu-peru
 
