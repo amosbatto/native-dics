@@ -42,7 +42,7 @@ Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, Star
 * Joaquín Herrero S.J. y Federico Sánchez de Lozada, ***Diccionario Quechua: Estructura semántica del quechua cochabambino contemporáneo***, Cochabamba, Bolivia, 1983, 581pp, http://quechua.ucla.edu/dictionaries<br>`qu-es-herrero-sanchez-html`
 
 **QUECHUA-AYMARA:**
-* Franciscanos Misioneros de los Colegios Propaganda Fide del Peru, ***Diccionario Poliglota Incaico: comprende más de 12,000 voces castellanas y 100,000 de keshua del Cuzco, Ayacucho, Junín, Ancash y Aymará***, Edición Ministerioay-poliglota-pango  de Educación, Lima, Perú, [1905] 1998, 551pp.<br>`qu-cuzco-poliglota-pango`, `qu-ayacucho-poliglota-pango`, `qu-ancash-poliglota-pango`, `qu-junin-poliglota-pango` 
+* Franciscanos Misioneros de los Colegios Propaganda Fide del Peru, ***Diccionario Poliglota Incaico: comprende más de 12,000 voces castellanas y 100,000 de keshua del Cuzco, Ayacucho, Junín, Ancash y Aymará***, Edición Ministerioay-poliglota-pango  de Educación, Lima, Perú, [1905] 1998, 551pp.<br>`qu-cuzco-poliglota-pango`, `qu-ayacucho-poliglota-pango`, `qu-ancash-poliglota-pango`, `qu-junin-poliglota-pango`, `simidic/ai_to_fr.db` (aymara), `simidic/an_to_fr.db` (Ancash), `simidic/an_to_fr.db` (Ancash) 
 
 **MAPUCHE (MAPUZUGUN):**
 * Equipo de Educación Mapuche Wixaleyiñ, ***Vocabulario Mapuche-Castellano***, http://sites.google.com/site/wixaleyin (2013), 96pp.<br>`map_es-wixaleyin-html`, `es_map-wixaleyin-html`  
