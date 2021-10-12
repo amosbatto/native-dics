@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contenido>
+	<evento>
+		<titulo>Aniversario de la empresa</titulo>
+		<tipo>fiesta</tipo>
+		<descripcion>El aniversario se llevara a cabo un dia muy cercano a navidad.</descripcion>
+	</evento>
+	<evento>
+		<titulo>Junta de miembros</titulo>
+		<tipo>otra</tipo>
+		<descripcion>Junta general de todos los miembros actuales de la comunidad.</descripcion>
+	</evento>
+	<evento>
+		<titulo>Consejo de administrativos</titulo>
+		<tipo>otra</tipo>
+		<descripcion>Todos los gerentes se reuniran para quedar algunos puntos.</descripcion>
+	</evento>
+	<evento>
+		<titulo>Aniversario de la empresa</titulo>
+		<tipo>fiesta</tipo>
+		<descripcion>El aniversario se llevara a cabo un dia muy cercano a navidad.</descripcion>
+	</evento>
+	<evento>
+		<titulo>Junta de miembros</titulo>
+		<tipo>otra</tipo>
+		<descripcion>Junta general de todos los miembros actuales de la comunidad.</descripcion>
+	</evento>
+	<evento>
+		<titulo>Consejo de administrativos</titulo>
+		<tipo>otra</tipo>
+		<descripcion>Todos los gerentes se reuniran para quedar algunos puntos.</descripcion>
+	</evento>
+</contenido>
