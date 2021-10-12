@@ -4,12 +4,20 @@ The following dictionaries of native languages can be used in GoldenDict (http:/
  
 These same dictionaries are also available in our Android app, SimiDic (https://github.com/KetanoLab/SimiDic), which can be downloaded at: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
 
-See the instructions below to install these dictionaries in GoldenDict, StarDict and SimiDic.  
+See the instructions below to install these dictionaries in GoldenDict, StarDict and SimiDic. 
 
-## Available Dictionaries
+---
+
+Los siguientes diccionarios de lenguas originarias pueden ser utilizados en GoldenDict (http://goldendict.org/) o StarDict (http://stardict-4.sourceforge.net/) en un PC con Linux o Windows. StarDict también funciona en MacOS, pero nunca lo he probado.
+
+Estos diccionarios también son disponibles en nuestra app de Android, que es SimiDic (https://github.com/KetanoLab/SimiDic) y puede ser descargado en: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
+
+Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, StarDict y SimiDic. 
+
+## Available dictionaries / Diccionarios disponibles
 
 **AYMARA:**
-* Saturnino Callo Ticona, ***Diccionario Aymara-Castellano y Castellano-Aymara “KAMISARAKI”***, segunda edición, Tacna, Perú, 507pp.<br>`ay_es-callo`, `es_ay-callo`
+* Saturnino Callo Ticona, ***Diccionario Aymara-Castellano y Castellano-Aymara “KAMISARAKI”***, segunda edición, Tacna, Perú, 507pp.<br>`ay_es-callo`, `es_ay-callo`, `simidic/`
 * Gregorio Callisaya A., et al., ***Glosario de nuevos términos aimaras***, Universidad Mayor de San Andres, Tecnologias de Información y Comunicación (UMSATIC), La Paz, Bolivia, s/f, 18pp.<br>`es_ay-callisaya-html`
 * Ludovico Bertonio, ***Vocabulario de la Lengua Aymara***, Juli, Perú, 1612, con ortografía actualizada por Radio San Gabriel y digitalizada por ILLA-A.<br>`es_ay-bertonio`
 * Félix Layme Pairumani, ***Diccionario Bilingüe: Aymara-Castellano***, quinta edición preliminar, La Paz, Bolivia, 2011, 509pp.<br>`ay_es-layme`, `es_ay-layme` 
@@ -54,11 +62,16 @@ See the instructions below to install these dictionaries in GoldenDict, StarDict
 **URU (Uchumataqu):**
 * Kajta Hannß, ***Vocabulario Uru (Uchumataqu): Castellano/English/Deutsch/Français – Uru***, 2013.<br>*Nota: Para visualizar mejor el texto, descargue y instale la fuente [Doulos SIL](https://software.sil.org/doulos/download/).*<br>`uru_es-hannss-html`, `es_uru-hannss-html`, `fr_uru-hannss-html`, `de_uru-hannss-html`, `en_uru-hannss-html` 
 
-## GoldenDict desktop application
 
-To use these dictionaries in GoldenDict on a PC, download the directories of the dictionaries that you want to use and copy those directories to any location on your local computer. Then, open GoldenDict and go to **Edit > Dictionaries** in the menu. In the "**Dictionaries**" dialog box that opens, go to the "**Sources**" tab and then the "**Files**" tab. Then, click on "**Add**" to add a new path. Then enter the path where you stored the directories of the dictionaries. Also remember to mark the "**Recursive**" option for that path. Then click on the "**Rescan Now**" button so the dictionaries will immediately be added to GoldenDict or restart GoldenDict so it will scan for the new dictionaries.
+## GoldenDict - desktop application / applicación de escritorio
 
-## StarDict desktop application
+To use these dictionaries in GoldenDict on a PC, download the directories of the dictionaries that you want to use and copy those directories to any location on your local computer. Then, open GoldenDict and go to **Edit > Dictionaries** in the menu. In the "**Dictionaries**" dialog box that opens, go to the **Sources** tab and then the **Files** sub-tab. Then, click on the **Add** button to add a new path. Then enter the path where you stored the directories of the dictionaries. Also remember to mark the **Recursive** option for that path. Then click on the **Rescan Now** button so the dictionaries will immediately be added to GoldenDict or restart GoldenDict so it will scan for the new dictionaries when starting.
+
+---
+
+Para utilizar estos diccionarios en GoldenDict en un PC, descargue los directorios que Ud. quiere y copie esos directorios a cualquier ubicación en su computadora. Luego abra GoldenDict y vaya a **Editar > Diccionarios** (**Edit > Dictionaries**) en el menú. En el diálogo "**Diccionarios**" ("**Dictionaries**") que abre, vaya a la pestaña **Fuentes** (**Sources**) y la sub-pestaña **Ficheros** (**Files**). Luego haga clic en el botón **Añadir** (**Add**) para agregar una ruta nueva. Luego introducir la ruta donde Ud. ha guardado los directorios de los diccionarios en su conputadora. También marque la opción **Recursiva** (**Recursive**) de esta ruta. Luego haga clic en el botón **Reescanear ahora** (**Rescan Now**) para incorporar los diccionarios inmediatemente en GoldenDict o reinciar GoldenDict para incorporar los diccionarios nuevos al inicio.
+
+## StarDict - desktop application / applicación de escritorio
 
 GoldenDict is recommended over StarDict, since it is a newer program with a better interface. To use these dictionaries in StarDict on a PC, download the directories of the dictionaries that you want to use and copy those directories into the **`dic`** directory of StarDict.  
 
@@ -68,15 +81,37 @@ In Windows, it is generally located at:
 In Linux, it is generally located at:  
 `/usr/share/stardict/dic`
 
-Note: you will need to use su or sudo to get root access to copy the files into this location in Linux.
+**Note:** you will need to use **`su`** or **`sudo`** to get root access to copy the files into this location in Linux.
 
 The next time that StarDict is started, it should automatically find the dictionaries and you can search in the dictionaries.
 
+---
 
-## SimiDic Android app
+GoldenDict es mas recomendado que StarDict, ya que es un programa más nuevo con una interfaz más amable. Para utilizar estos diccionarios en StarDict en Windows, Linux o Mac OS, descargue los directorios de los diccionarios que Ud. quiere y copie esos directories en el directorio **`dic`** de StarDict.  
+
+En Windows, generalmente se ubica en:  
+`C:/Program Files\stardict\dic`, `C:\Program Files (x86)\stardict\dic`,  `C:\Archivos de programa\stardict\dic` *o* `C:\Archivos de programa (x86)\stardict\dic`
+
+En Windows, generalmente se ubica en:
+`/usr/share/stardict/dic`
+
+**Nota:** Puede usar **`su`** o **`sudo`** para obtener acceso de root y copiar los archivos a esa ruta en Linux.
+
+La próxima vez que StarDict es iniciado, debería encontrar automáticamente los nuevos diccionarios instalados.
+
+
+## SimiDic - Android app / app de Android
 
 SimiDic has a built-in function to download and install dictionaries, but our server is no longer functioning so the download function doesn't work. Nontheless, the dictionaries can be manually installed in Android devices which have a MicroSD card. 
 
-To install the dictionaries in SimiDic, first create a **`/ketanolab/dictionaries`** directory on the SD card in your Android device. If your Android device has been rooted, then you can create the directory at /sdcard/ketanolab/dictionaries. Then, download the **`.db`** files from https://github.com/amosbatto/native-dics/tree/main/simidic and copy those **.db** files into the **`/ketanolab/dictionaries`** directory on the SD card. 
+To install the dictionaries in SimiDic, first create a **`/ketanolab/dictionaries`** directory on the SD card in your Android device. If your Android device has been rooted, then you can create the directory at **`/sdcard/ketanolab/dictionaries`**. Then, download the **`.db`** files from https://github.com/amosbatto/native-dics/tree/main/simidic and copy those **.db** files into the **`/ketanolab/dictionaries`** directory on the SD card. 
 
 The next time that SimiDic is started, it will automatically find the dictionaries and add them to the SimiDic interface. 
+
+---
+
+SimiDic tiene una función incorporada para descargar e instalar diccionarios, pero nuestro servidor ahora no está funcionando, entonces esta función no sirve ahora. Sin embargo los diccionarios pueden ser instalados manualmente en aparatos de Android que tengan una tarjeta de MicroSD.
+
+Para instalar los diccionarios en SimiDic, primero cree el directorio **`/ketanolab/dictionaries`** en la tarjeta SE en su aparato de Android. Si su aparato de Android ha sido ruteado (*rooted*), puede crear el directorio en la ruta **`/sdcard/ketanolab/dictionaries`**. Luego descargue los archivos **`.db`** de https://github.com/amosbatto/native-dics/tree/main/simidic y copie esos archivos **.db** al directorio **`/ketanolab/dictionaries`** en la tarjeta SD. 
+
+La próxima vez que SimiDic es iniciado, se encuentra automáticamente los nuevos diccionios para realizar consultas en la interfaz de SimiDic.   
