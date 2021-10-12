@@ -1,5 +1,7 @@
 # native-dics
 
+The following dictionaries can be used in GoldenDict (http://goldendict.org/) or StarDict (http://stardict-4.sourceforge.net/) on a PC running Linux or Windows. StarDict reportedly also works in Mac OS, but I haven't tried it.  
+
 **AYMARA:**
 * Saturnino Callo Ticona, ***Diccionario Aymara-Castellano y Castellano-Aymara “KAMISARAKI”***, segunda edición, Tacna, Perú, 507pp.<br>ay_es-callo, es_ay-callo
 * Gregorio Callisaya A., et al., ***Glosario de nuevos términos aimaras***, Universidad Mayor de San Andres, Tecnologias de Información y Comunicación (UMSATIC), La Paz, Bolivia, s/f, 18pp.<br>es_ay-callisaya-html
@@ -45,3 +47,34 @@
 
 **URU (Uchumataqu):**
 * Kajta Hannß, ***Vocabulario Uru (Uchumataqu): Castellano/English/Deutsch/Français – Uru***, 2013.<br>*Nota: Para visualizar mejor el texto, descargue y instale la fuente [Doulos SIL](https://software.sil.org/doulos/download/).*<br>uru_es-hannss-html, es_uru-hannss-html, fr_uru-hannss-html, de_uru-hannss-html, en_uru-hannss-html 
+
+##GoldenDict desktop application
+
+To use these dictionaries in GoldenDict on a PC, download the directories of the dictionaries that you want to use and copy those directories to any location on your local computer. Then, open GoldenDict and go to Edit > Dictionaries in the menu. In the "Dictionaries" dialog box that opens, go to the "Sources" tab and then the "Files" tab. Then, click on "Add" to add a new path. Then enter the path where you stored the directories of the dictionaries. Also remember to mark the "Recursive" option for that path. Then click on the "Rescan Now" button so the dictionaries will immediately be added to GoldenDict or restart GoldenDict so it will scan for the new dictionaries.
+
+## StarDict desktop application
+
+GoldenDict is recommended over StarDict, since it is a newer program with a better interface. To use these dictionaries in StarDict on a PC, download the directories of the dictionaries that you want to use and copy those directories into the "dic" directory of StarDict.  
+
+In Windows, it is generally located at:  
+C:/Program Files\stardict\dic
+or:
+C:\Program Files (x86)\stardict\dic
+
+In Linux, it is generally located at:  
+/usr/share/stardict/dic
+
+Note: you will need to use su or sudo to get root access to copy the files into this location in Linux.
+
+The next time that StarDict is started, it should automatically find the dictionaries and you can search in the dictionaries.
+
+
+## SimiDic Android app
+
+These same dictionaries are also available in our Android app, SimiDic (https://github.com/KetanoLab/SimiDic), which can be downloaded at: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
+
+Unfortunately, the dictionaries cannot be automatically downloaded inside SimiDic, since the server we set up is no longer functioning, but the dictionaries can still be manually installed. 
+
+To install the dictionaries in SimiDic, first create a /ketanolab/dictionaries directory on the SD card in your Android device. If your Android device has been rooted, then you can create the directory at /sdcard/ketanolab/dictionaries. Then, download the .db files from https://github.com/amosbatto/native-dics/tree/main/simidic and copy those .db files into the /ketanolab/dictionaries directory on the SD card. 
+
+The next time that SimiDic is started, it will automatically find the dictionaries and add them to the SimiDic interface. 
