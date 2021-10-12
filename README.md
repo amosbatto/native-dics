@@ -19,13 +19,13 @@ See the instructions below to install these dictionaries in GoldenDict, StarDict
 * Salustiano Ayma, José Barrientos, Gladys Márquez F., ***ARUSIMIÑEE: castellano, aymara, guaraní, qhichwa***, Ministerio de Educación, La Paz, Bolivia, 2004, 93pp.<br>`ay-arusiminee`, `gu-arusiminee`, `qu-arusiminee`, `es-arusiminee`
 
 **GUARANÍ:**
-* Comité HABLE Guaraní, ***Rɨru Ñaneñee Diccionario: Guaraní – Castellano***, 2a ed. Charagua, Santa Cruz, Bolivia, 1996., segunda edición, Charagua, Santa Cruz, Bolivia, 2011, 258pp.<br>gu_es-hable-guarani, es_gu-hable-guarani 
+* Comité HABLE Guaraní, ***Rɨru Ñaneñee Diccionario: Guaraní – Castellano***, 2a ed. Charagua, Santa Cruz, Bolivia, 1996., segunda edición, Charagua, Santa Cruz, Bolivia, 2011, 258pp.<br>`gu_es-hable-guarani`, `es_gu-hable-guarani` 
 * Elio Ortiz y Elías Caurey, ***Diccionario etimológico y etnográfico de la lengua guaraní hablada en Bolivia (Guaraní-Español)***, Plural Editores, La Paz, Bolivia, 2011, 474pp.<br>`es_gu-ortiz-caurey`, `gu_es-ortiz-caurey`
 
 **QUECHUA:**
 * Academia Mayor de La Lengua Quechua, ***Diccionario: Quechua – Español – Quechua, Qheswa – Español – Qheswa: Simi Taqe***, 2da ed., Cusco, Perú, 2005, 313pp.<br>`qu_es-amlq`, `es_qu-amlq`
 * Teófilo Laime Ajacopa, Efraín Cazazola y Felix Layme Pairumani, ***Iskay simipi yuyayk’ancha: Quechua – Castellano, Castellano – Quechua***, 2a ed. mejorada (versión preliminar), La Paz, Bolivia, enero 2007, 212pp.<br>`qu_es-laime`, `es_qu-laime` 
-* Diego González Holguín, ***Vocabvlario de la Lengva General de todo Perv llamada lengua Qquichua, o del Inca***, Lima, Perú, 1608, digitalizado por Runasimipi.org, 2007, 427pp.<br>es_qu-holguin, qu_es-holguin
+* Diego González Holguín, ***Vocabvlario de la Lengva General de todo Perv llamada lengua Qquichua, o del Inca***, Lima, Perú, 1608, digitalizado por Runasimipi.org, 2007, 427pp.<br>`es_qu-holguin`, `qu_es-holguin`
 * Rodolfo Cerrón-Palomino, ***Quechua Sureño: Diccionario Unificado***, Biblioteca Nacional del Perú: Lima, 1994, 139pp.<br>`es_qu-cerron`, `qu_es-cerron`
 * Leoncio Gutiérrez Camacho, Leonidas Mantilla Gutiérrez y Shara Huaman Jullunila, ***Apurimaqpaq Runasimi Taqe, Diccionario de Quechua Apurimeño***, Versión Preliminar, Academia Mayor de la Lengua Quechua filial Apurímac, Abancay, Perú, feb. 2007, pp 130.<br>`es_qu-apurimac`, `qu_es-apurimac`   
 * Nonato Rufino Chuquimamani Valer, ***Yachakuqkunapaq Simi Qullqa, Qusqu Qullaw, Chichwa Simipi***, Ministerio de Educación, Lima, Perú, 2005, 218pp.<br>`qu-cuzco-min-ed-peru-pango`, `es_qu-cuzco-min-ed-peru`
@@ -56,7 +56,7 @@ See the instructions below to install these dictionaries in GoldenDict, StarDict
 
 ## GoldenDict desktop application
 
-To use these dictionaries in GoldenDict on a PC, download the directories of the dictionaries that you want to use and copy those directories to any location on your local computer. Then, open GoldenDict and go to **Edit > Dictionaries** in the menu. In the "Dictionaries" dialog box that opens, go to the "Sources" tab and then the "Files" tab. Then, click on "Add" to add a new path. Then enter the path where you stored the directories of the dictionaries. Also remember to mark the "Recursive" option for that path. Then click on the "Rescan Now" button so the dictionaries will immediately be added to GoldenDict or restart GoldenDict so it will scan for the new dictionaries.
+To use these dictionaries in GoldenDict on a PC, download the directories of the dictionaries that you want to use and copy those directories to any location on your local computer. Then, open GoldenDict and go to **Edit > Dictionaries** in the menu. In the "**Dictionaries**" dialog box that opens, go to the "**Sources**" tab and then the "**Files**" tab. Then, click on "**Add**" to add a new path. Then enter the path where you stored the directories of the dictionaries. Also remember to mark the "**Recursive**" option for that path. Then click on the "**Rescan Now**" button so the dictionaries will immediately be added to GoldenDict or restart GoldenDict so it will scan for the new dictionaries.
 
 ## StarDict desktop application
 
