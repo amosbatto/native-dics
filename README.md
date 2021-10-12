@@ -60,15 +60,13 @@ To use these dictionaries in GoldenDict on a PC, download the directories of the
 
 ## StarDict desktop application
 
-GoldenDict is recommended over StarDict, since it is a newer program with a better interface. To use these dictionaries in StarDict on a PC, download the directories of the dictionaries that you want to use and copy those directories into the "dic" directory of StarDict.  
+GoldenDict is recommended over StarDict, since it is a newer program with a better interface. To use these dictionaries in StarDict on a PC, download the directories of the dictionaries that you want to use and copy those directories into the **`dic`** directory of StarDict.  
 
 In Windows, it is generally located at:  
-C:/Program Files\stardict\dic
-or:
-C:\Program Files (x86)\stardict\dic
+`C:/Program Files\stardict\dic` *or* `C:\Program Files (x86)\stardict\dic`
 
 In Linux, it is generally located at:  
-/usr/share/stardict/dic
+`/usr/share/stardict/dic`
 
 Note: you will need to use su or sudo to get root access to copy the files into this location in Linux.
 
@@ -79,6 +77,6 @@ The next time that StarDict is started, it should automatically find the diction
 
 SimiDic has a built-in function to download and install dictionaries, but our server is no longer functioning so the download function doesn't work. Nontheless, the dictionaries can be manually installed in Android devices which have a MicroSD card. 
 
-To install the dictionaries in SimiDic, first create a /ketanolab/dictionaries directory on the SD card in your Android device. If your Android device has been rooted, then you can create the directory at /sdcard/ketanolab/dictionaries. Then, download the .db files from https://github.com/amosbatto/native-dics/tree/main/simidic and copy those .db files into the /ketanolab/dictionaries directory on the SD card. 
+To install the dictionaries in SimiDic, first create a **`/ketanolab/dictionaries`** directory on the SD card in your Android device. If your Android device has been rooted, then you can create the directory at /sdcard/ketanolab/dictionaries. Then, download the **`.db`** files from https://github.com/amosbatto/native-dics/tree/main/simidic and copy those **.db** files into the **`/ketanolab/dictionaries`** directory on the SD card. 
 
 The next time that SimiDic is started, it will automatically find the dictionaries and add them to the SimiDic interface. 
