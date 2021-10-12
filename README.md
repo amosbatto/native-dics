@@ -1,6 +1,12 @@
 # native-dics
 
-The following dictionaries can be used in GoldenDict (http://goldendict.org/) or StarDict (http://stardict-4.sourceforge.net/) on a PC running Linux or Windows. StarDict reportedly also works in Mac OS, but I haven't tried it.  
+The following dictionaries of native languages can be used in GoldenDict (http://goldendict.org/) or StarDict (http://stardict-4.sourceforge.net/) on a PC running Linux or Windows. StarDict reportedly also works in Mac OS, but I haven't tried it.
+ 
+These same dictionaries are also available in our Android app, SimiDic (https://github.com/KetanoLab/SimiDic), which can be downloaded at: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
+
+See the instructions below to install these dictionaries in GoldenDict, StarDict and SimiDic.  
+
+## Available Dictionaries
 
 **AYMARA:**
 * Saturnino Callo Ticona, ***Diccionario Aymara-Castellano y Castellano-Aymara “KAMISARAKI”***, segunda edición, Tacna, Perú, 507pp.<br>ay_es-callo, es_ay-callo
@@ -71,9 +77,7 @@ The next time that StarDict is started, it should automatically find the diction
 
 ## SimiDic Android app
 
-These same dictionaries are also available in our Android app, SimiDic (https://github.com/KetanoLab/SimiDic), which can be downloaded at: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
-
-Unfortunately, the dictionaries cannot be automatically downloaded inside SimiDic, since the server we set up is no longer functioning, but the dictionaries can still be manually installed. 
+SimiDic has a built-in function to download and install dictionaries, but our server is no longer functioning so the download function doesn't work. Nontheless, the dictionaries can be manually installed in Android devices which have a MicroSD card. 
 
 To install the dictionaries in SimiDic, first create a /ketanolab/dictionaries directory on the SD card in your Android device. If your Android device has been rooted, then you can create the directory at /sdcard/ketanolab/dictionaries. Then, download the .db files from https://github.com/amosbatto/native-dics/tree/main/simidic and copy those .db files into the /ketanolab/dictionaries directory on the SD card. 
 
