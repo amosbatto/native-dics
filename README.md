@@ -56,7 +56,7 @@ See the instructions below to install these dictionaries in GoldenDict, StarDict
 
 ## GoldenDict desktop application
 
-To use these dictionaries in GoldenDict on a PC, download the directories of the dictionaries that you want to use and copy those directories to any location on your local computer. Then, open GoldenDict and go to Edit > Dictionaries in the menu. In the "Dictionaries" dialog box that opens, go to the "Sources" tab and then the "Files" tab. Then, click on "Add" to add a new path. Then enter the path where you stored the directories of the dictionaries. Also remember to mark the "Recursive" option for that path. Then click on the "Rescan Now" button so the dictionaries will immediately be added to GoldenDict or restart GoldenDict so it will scan for the new dictionaries.
+To use these dictionaries in GoldenDict on a PC, download the directories of the dictionaries that you want to use and copy those directories to any location on your local computer. Then, open GoldenDict and go to **Edit > Dictionaries** in the menu. In the "Dictionaries" dialog box that opens, go to the "Sources" tab and then the "Files" tab. Then, click on "Add" to add a new path. Then enter the path where you stored the directories of the dictionaries. Also remember to mark the "Recursive" option for that path. Then click on the "Rescan Now" button so the dictionaries will immediately be added to GoldenDict or restart GoldenDict so it will scan for the new dictionaries.
 
 ## StarDict desktop application
 
