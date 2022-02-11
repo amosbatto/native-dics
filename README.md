@@ -1,18 +1,31 @@
 # native-dics
 
-The following dictionaries of native languages can be used in GoldenDict (http://goldendict.org/) or StarDict (http://stardict-4.sourceforge.net/) on a PC running Linux or Windows. StarDict reportedly also works in Mac OS, but I haven't tried it.
+The following dictionaries of native languages can be used in GoldenDict (http://goldendict.org/) or StarDict (http://stardict-4.sourceforge.net/) on a PC running Linux or Windows. StarDict reportedly also works in Mac OS, but we haven't tried it.
  
 These same dictionaries are also available in our Android app, SimiDic (https://github.com/KetanoLab/SimiDic), which can be downloaded at: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
 
 See the instructions below to install these dictionaries in GoldenDict, StarDict and SimiDic. To download all these dictionaries at once, go to https://github.com/amosbatto/native-dics/archive/refs/heads/main.zip
 
+We are creating a new mobile app named "*Nusimi*", which means "my language", when combining *nu* ("my") from Mojeño/Arawak and *simi* ("language") in Quechua. Nusimi is based on Kotlin and it fixes many of the limitations in SimiDic. We will post instructions and a link to download *Nusimi* when the new app is ready. We hope to include more native languages from many regions in *Nusimi*, which is why we combined a prefix from the Arawak family, which has 40 languages in 12 Latin American countries, with a root word from Quechua, which is the most widely spoken native language in the Americas. 
+
+If you would like us to format your dictionary to work in GoldenDict/StarDict/SimiDic/Nusimi, please contact Amos Batto (amosbatto@yahoo.com, cell: +591-76585096, Telegram: @amosbatto).
+
 ---
 
-Los siguientes diccionarios de lenguas originarias pueden ser utilizados en GoldenDict (http://goldendict.org/) o StarDict (http://stardict-4.sourceforge.net/) en un PC con Linux o Windows. StarDict también funciona en MacOS, pero nunca lo he probado.
+Los siguientes diccionarios de lenguas originarias pueden ser utilizados en GoldenDict (http://goldendict.org/) o StarDict (http://stardict-4.sourceforge.net/) en un PC con Linux o Windows. StarDict también funciona en MacOS, pero nunca lo hemos probado.
 
 Estos diccionarios también son disponibles en nuestra app de Android, que es SimiDic (https://github.com/KetanoLab/SimiDic) y puede ser descargado en: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
 
-Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, StarDict y SimiDic. Para descargar todos estos diccionarios, ir a: https://github.com/amosbatto/native-dics/archive/refs/heads/main.zip
+Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, StarDict y SimiDic. Para descargar todos estos diccionarios a la vez, ir a: https://github.com/amosbatto/native-dics/archive/refs/heads/main.zip
+
+Estamos creando una nueva app llamada "*Nusimi*", que significa "mi lengua", con la combinación de *nu* ("mi") de mojeño/arawak y *simi* ("lengua") en quechua. Nusimi es basado en Kotlin y arregla muchas de las limitaciones de SimiDic. Vamos a publicar instrucciones y un enlace para descargar *Nusimi* cuando la nueva app esté lista. Esperamos incluir más lenguas originarias de muchas regiones en *Nusimi*, y por eso, hemos combinado un prefijo de la familia arawak, que contiene 40 lenguas en 12 países latinoamericanos, con una raíz de quechua, que es la lengua originaria más hablada en las Américas.
+
+Si Ud. quiere que formateemos su diccionario para funcionar en GoldenDict/StarDict/SimiDic/Nusimi, por favor contactar con Amos Batto (amosbatto@yahoo.com, cel: +591-76585096, Telegram: @amosbatto).
+
+![GoldenDict 1.5.0rc2 con estos diccionarios](./GoldenDict_1.5b.png)
+
+![GoldenDict con una lista de diccionarios](./GoldenDict_info_diccionarios.png)
+
 
 ## Available dictionaries / Diccionarios disponibles
 
@@ -52,10 +65,10 @@ Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, Star
 **MOCHÓ (MAYA):**
 * Alonso Guzmán, ***Manual Mochó***, Chiapas, México, 2004.<br>`simidic/es_mc_al.db`
 
-**Mojeño Ignaciano:**
+**MOJEÑO IGNACIANO:**
 * Instituto de Lengua y Cultura Mojeño Ignaciano “Salvador Chappy Muibar”, ***Diccionario Mojeño Ignaciano***, San Ignacio de Moxos, Bolivia, 2021.<br>`ign_es-ilc-mojeno-ignaciano`, `es_ign-ilc-mojeno-ignaciano`, `simidic/ig_es_in.db`, `simidic/es_ig_in.db`
 
-**Mojeño Trinitario:**
+**MOJEÑO TRINITARIO:**
 * Instituto de Lengua y Cultura Mojeño Trinitario “José Santos Noco Guaji”, ***Taechirawkoriono Vechjiriiwo Trinranono: Diccionario Idioma Trinitario***, Santa Cruz, Bolivia, 2021, 130pp.<br>`trn-es_ilc-mojeño-trinitario`, `es_trn-ilc-mojeno-trinitario`, `simidic/tr_es_in.db`, `simidic/es_tr_in.db`
 
 **MOSETÉN:**
@@ -76,11 +89,27 @@ Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, Star
 
 ## GoldenDict - desktop application / applicación de escritorio
 
+It is recommended to install the latest development version of GoldenDict, which is packaged in most Linux distributions. For example, the following command installs GoldenDict in Debian/Ubuntu/Mint:  
+`sudo apt install goldendict`
+
+For Windows, it is recommended to download the [installer for GoldenDict 1.5.0rc2](https://sourceforge.net/projects/goldendict/files/early%20access%20builds/GoldenDict-1.5.0-RC2-372-gc3ff15f-Install.exe/download)
+
 To use these dictionaries in GoldenDict on a PC, download the directories of the dictionaries that you want to use and copy those directories to any location on your local computer. Then, open GoldenDict and go to **Edit > Dictionaries** in the menu. In the "**Dictionaries**" dialog box that opens, go to the **Sources** tab and then the **Files** sub-tab. Then, click on the **Add** button to add a new path. Then enter the path where you stored the directories of the dictionaries. Also remember to mark the **Recursive** option for that path. Then click on the **Rescan Now** button so the dictionaries will immediately be added to GoldenDict or restart GoldenDict so it will scan for the new dictionaries when starting.
 
 ---
 
+Se recomienda instalar la última versión de GoldenDict en desarrollo, que ya está empaquetada en la mayoria de las distribuciones de Linux. Por ejemplo el the following command installs GoldenDict in Debian/Ubuntu/Mint:  
+`sudo apt install goldendict`
+
+Para Windows, se recomienda descargar el [instalador de GoldenDict 1.5.0rc2](https://sourceforge.net/projects/goldendict/files/early%20access%20builds/GoldenDict-1.5.0-RC2-372-gc3ff15f-Install.exe/download)
+
+Para cambiar la interfaz a castellano, se puede ir a **Edit > Preferences** (**Editar > Preferencias**) en el menú y seleccionar "Español" en el cuadro desplegable **Interface language** (**Lengua de la interfaz**) en el diálogo de preferencias.
+
+![Cambiar la lengua de la interfaz de GoldenDict](./GoldenDict_preferencias.png)
+
 Para utilizar estos diccionarios en GoldenDict en un PC, descargue los directorios que Ud. quiere y copie esos directorios a cualquier ubicación en su computadora. Luego abra GoldenDict y vaya a **Editar > Diccionarios** (**Edit > Dictionaries**) en el menú. En el diálogo "**Diccionarios**" ("**Dictionaries**") que abre, vaya a la pestaña **Fuentes** (**Sources**) y la sub-pestaña **Ficheros** (**Files**). Luego haga clic en el botón **Añadir** (**Add**) para agregar una ruta nueva. Luego introducir la ruta donde Ud. ha guardado los directorios de los diccionarios en su conputadora. También marque la opción **Recursiva** (**Recursive**) de esta ruta. Luego haga clic en el botón **Reescanear ahora** (**Rescan Now**) para incorporar los diccionarios inmediatemente en GoldenDict o reinciar GoldenDict para incorporar los diccionarios nuevos al inicio.
+
+![Reescanear las fuentes de diccionarios en GoldenDict](./GoldenDict_reescanear_ahora.png)
 
 ## StarDict - desktop application / applicación de escritorio
 
@@ -103,10 +132,10 @@ GoldenDict es mas recomendado que StarDict, ya que es un programa más nuevo con
 En Windows, generalmente se ubica en:  
 `C:/Program Files\stardict\dic`, `C:\Program Files (x86)\stardict\dic`,  `C:\Archivos de programa\stardict\dic` *o* `C:\Archivos de programa (x86)\stardict\dic`
 
-En Windows, generalmente se ubica en:
+En Linux, generalmente se ubica en:
 `/usr/share/stardict/dic`
 
-**Nota:** Puede usar **`su`** o **`sudo`** para obtener acceso de root y copiar los archivos a esa ruta en Linux.
+**Nota:** Se puede usar **`su`** o **`sudo`** para obtener acceso de root y copiar los archivos a esa ruta en Linux.
 
 La próxima vez que StarDict es iniciado, debería encontrar automáticamente los nuevos diccionarios instalados.
 
@@ -117,7 +146,7 @@ SimiDic has a built-in function to download and install dictionaries, but our se
 
 To install the dictionaries in SimiDic, first create a **`/ketanolab/dictionaries`** directory on the SD card in your Android device. If your Android device has been rooted, then you can create the directory at **`/sdcard/ketanolab/dictionaries`**. Then, download the **`.db`** files from https://github.com/amosbatto/native-dics/tree/main/simidic and copy those **.db** files into the **`/ketanolab/dictionaries`** directory on the SD card. 
 
-The next time that SimiDic is started, it will automatically find the dictionaries and add them to the SimiDic interface. The dictionary files will be automatically transfered to the internal memory of the mobile device.
+The next time that SimiDic is started, it will automatically find the dictionaries and add them to SimiDic. The dictionary files will be automatically deleted from the SD card and transfered to the internal memory of the mobile device.
 
 ---
 
@@ -125,4 +154,4 @@ SimiDic tiene una función incorporada para descargar e instalar diccionarios, p
 
 Para instalar los diccionarios en SimiDic, primero cree el directorio **`/ketanolab/dictionaries`** en la tarjeta SE en su aparato de Android. Si su aparato de Android ha sido ruteado (*rooted*), puede crear el directorio en la ruta **`/sdcard/ketanolab/dictionaries`**. Luego descargue los archivos **`.db`** de https://github.com/amosbatto/native-dics/tree/main/simidic y copie esos archivos **.db** al directorio **`/ketanolab/dictionaries`** en la tarjeta SD. 
 
-La próxima vez que SimiDic es iniciado, se encuentra automáticamente los nuevos diccionios para realizar consultas en la interfaz de SimiDic. Los archivos de diccionarios serán transferidos de la tarjeta SD a la memoria interna del aparato móvil.
+La próxima vez que SimiDic es iniciado, se encuentra automáticamente los nuevos diccionios para realizar consultas en la interfaz de SimiDic. Los archivos de los diccionarios serán borrados en la tarjeta SD y transferidos a la memoria interna del aparato móvil.
