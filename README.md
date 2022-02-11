@@ -22,7 +22,7 @@ Estamos creando una nueva app llamada "*Nusimi*", que significa "mi lengua", con
 
 Si Ud. quiere que formateemos su diccionario para funcionar en GoldenDict/StarDict/SimiDic/Nusimi, por favor contactar con Amos Batto (amosbatto@yahoo.com, cel: +591-76585096, Telegram: @amosbatto).
 
-![GoldenDict 1.5.0rc2 con estos diccionarios](./GoldenDict_1.5b.png)
+![GoldenDict 1.5.0rc2 con estos diccionarios](./GoldenDict-1.5b.png)
 
 ![GoldenDict con una lista de diccionarios](./GoldenDict_info_diccionarios.png)
 
@@ -89,10 +89,10 @@ Si Ud. quiere que formateemos su diccionario para funcionar en GoldenDict/StarDi
 
 ## GoldenDict - desktop application / applicación de escritorio
 
-It is recommended to install the latest development version of GoldenDict, which is packaged in most Linux distributions. For example, the following command installs GoldenDict in Debian/Ubuntu/Mint:  
+It is recommended to install the latest development version of GoldenDict, which is already packaged in most Linux distributions. For example, the following command installs GoldenDict in Debian/Ubuntu/Mint:  
 `sudo apt install goldendict`
 
-For Windows, it is recommended to download the [installer for GoldenDict 1.5.0rc2](https://sourceforge.net/projects/goldendict/files/early%20access%20builds/GoldenDict-1.5.0-RC2-372-gc3ff15f-Install.exe/download)
+For Windows, it is recommended to download the [GoldenDict 1.5.0rc2 installer](https://sourceforge.net/projects/goldendict/files/early%20access%20builds/GoldenDict-1.5.0-RC2-372-gc3ff15f-Install.exe/download)
 
 To use these dictionaries in GoldenDict on a PC, download the directories of the dictionaries that you want to use and copy those directories to any location on your local computer. Then, open GoldenDict and go to **Edit > Dictionaries** in the menu. In the "**Dictionaries**" dialog box that opens, go to the **Sources** tab and then the **Files** sub-tab. Then, click on the **Add** button to add a new path. Then enter the path where you stored the directories of the dictionaries. Also remember to mark the **Recursive** option for that path. Then click on the **Rescan Now** button so the dictionaries will immediately be added to GoldenDict or restart GoldenDict so it will scan for the new dictionaries when starting.
 
