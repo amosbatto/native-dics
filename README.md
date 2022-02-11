@@ -4,7 +4,7 @@ The following dictionaries of native languages can be used in GoldenDict (http:/
  
 These same dictionaries are also available in our Android app, SimiDic (https://github.com/KetanoLab/SimiDic), which can be downloaded at: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
 
-See the instructions below to install these dictionaries in GoldenDict, StarDict and SimiDic. 
+See the instructions below to install these dictionaries in GoldenDict, StarDict and SimiDic. To download all these dictionaries at once, go to https://github.com/amosbatto/native-dics/archive/refs/heads/main.zip
 
 ---
 
@@ -12,7 +12,7 @@ Los siguientes diccionarios de lenguas originarias pueden ser utilizados en Gold
 
 Estos diccionarios también son disponibles en nuestra app de Android, que es SimiDic (https://github.com/KetanoLab/SimiDic) y puede ser descargado en: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
 
-Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, StarDict y SimiDic. 
+Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, StarDict y SimiDic. Para descargar todos estos diccionarios, ir a: https://github.com/amosbatto/native-dics/archive/refs/heads/main.zip
 
 ## Available dictionaries / Diccionarios disponibles
 
@@ -22,6 +22,7 @@ Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, Star
 * Ludovico Bertonio, ***Vocabulario de la Lengua Aymara***, Juli, Perú, 1612, con ortografía actualizada por Radio San Gabriel y digitalizada por ILLA-A.<br>`es_ay-bertonio`
 * Félix Layme Pairumani, ***Diccionario Bilingüe: Aymara-Castellano***, quinta edición preliminar, La Paz, Bolivia, 2011, 509pp.<br>`ay_es-layme`, `es_ay-layme`, `simidic/ay_es_fe.db`, `simidic/es_ay_fe.db` 
 * N. Apaza Suca, D. Condori Cruz, M. N. Ramos Rojas, ***Yatiqirinaka Aru Pirwa, Qullawa Aymara Aru***, Ministerio de Educación, Lima, Perú, 2005, 141pp.<br>`ay-min-edu-peru-pango`, `es_ay-min-edu-peru`, `simidic/ay_ay_ed.db`, `simidic/es_ay_ed.db`
+* Instituto de Lengua y Cultura de la Nación Aymara (ILCNA) ***Aru Pirwa Aymara,*** 2021, El Alto, Bolivia.<br>`aym_aym-ilcn-aymara`, `simidic/ay_ay_in`
 
 **AYMARA-GUARANÍ-QUECHUA:**
 * Salustiano Ayma, José Barrientos, Gladys Márquez F., ***ARUSIMIÑEE: castellano, aymara, guaraní, qhichwa***, Ministerio de Educación, La Paz, Bolivia, 2004, 93pp.<br>`ay-arusiminee`, `gu-arusiminee`, `qu-arusiminee`, `es-arusiminee`, `simidic/es_qu_mi.db`, `simidic/qu_es_mi.db`, `simidic/ay_es_mi.db`, `simidic/gn_es_mi.db`
@@ -40,6 +41,7 @@ Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, Star
 * G. Palomino Rojas y G. R. Quintero Bendezú, ***Yachakuqkunapa Simi Qullqa, Ayakuchu Chanka, Qichwa Simipi***, Ministerio de Educación, Lima, Perú, 2005, 145 pp.<br>`es_qu-ayacucho-min-ed-peru`, `qu-ayacucho-min-ed-peru-pango`, `simidic/qy_qy_ed.db`, `simidic/es_qy_ed.db`
 * Leonel Alexander Menacho López, ***Yachakuqkunapa Shimi Qullqa, Anqash Qichwa Shimichaw***, Ministerio de Educación, Lima, Perú, 2005, 131 pp.<br>`qu-ancash-min-ed-peru-pango`, `es_qu-ancash-min-ed-peru`, `simidic/qn_qn_ed.db`, `simidic/es_qn_ed.db`
 * Joaquín Herrero S.J. y Federico Sánchez de Lozada, ***Diccionario Quechua: Estructura semántica del quechua cochabambino contemporáneo***, Cochabamba, Bolivia, 1983, 581pp, http://quechua.ucla.edu/dictionaries<br>`qu-es-herrero-sanchez-html`, `simidic/qu_es_jo.db`
+* Instituto de Lengua y Cultura de la Nación Quechua y CENAQ, ***Qhichwa simipirwa: Diccionario de la Nación Quechua***, Cochabamba, Bolivia, 2018, 558pp.<br>`qu_es-ilcn-quechua`, `es_qu-ilcn-quechua`,`es_qu-ilcn-quechua`, `simidic/es_qu_in.db`
 
 **QUECHUA-AYMARA:**
 * Franciscanos Misioneros de los Colegios Propaganda Fide del Peru, ***Diccionario Poliglota Incaico: comprende más de 12,000 voces castellanas y 100,000 de keshua del Cuzco, Ayacucho, Junín, Ancash y Aymará***, Edición Ministerio de Educación, Lima, Perú, [1905] 1998, 551pp.<br>`qu-cuzco-poliglota-pango`, `qu-ayacucho-poliglota-pango`, `qu-ancash-poliglota-pango`, `qu-junin-poliglota-pango`, `simidic/es_po_fr.db` (castellano), `simidic/qz_po_fr.db` (Cuzco), `simidic/qy_po_fr.db` (Ayacucho), `simidic/qn_po_fr.db` (Ancash), `simidic/qj_po_fr.db` (Junín), `simidic/ay_po_fr.db` (aymara) 
@@ -48,8 +50,13 @@ Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, Star
 * Equipo de Educación Mapuche Wixaleyiñ, ***Vocabulario Mapuche-Castellano***, http://sites.google.com/site/wixaleyin (2013), 96pp.<br>`map_es-wixaleyin-html`, `es_map-wixaleyin-html`, `simidic/ma_es_wi.db`, `simidic/es_ma_wi.db`
 
 **MOCHÓ (MAYA):**
-
 * Alonso Guzmán, ***Manual Mochó***, Chiapas, México, 2004.<br>`simidic/es_mc_al.db`
+
+**Mojeño Ignaciano:**
+* Instituto de Lengua y Cultura Mojeño Ignaciano “Salvador Chappy Muibar”, ***Diccionario Mojeño Ignaciano***, San Ignacio de Moxos, Bolivia, 2021.<br>`ign_es-ilc-mojeno-ignaciano`, `es_ign-ilc-mojeno-ignaciano`, `simidic/ig_es_in.db`, `simidic/es_ig_in.db`
+
+**Mojeño Trinitario:**
+* Instituto de Lengua y Cultura Mojeño Trinitario “José Santos Noco Guaji”, ***Taechirawkoriono Vechjiriiwo Trinranono: Diccionario Idioma Trinitario***, Santa Cruz, Bolivia, 2021, 130pp.<br>`trn-es_ilc-mojeño-trinitario`, `es_trn-ilc-mojeno-trinitario`, `simidic/tr_es_in.db`, `simidic/es_tr_in.db`
 
 **MOSETÉN:**
 * Abel Maito Canare, et al., ***Kirjka pheyakdye’ tïmsi’ tsinsi’khan kastellanokhan: Diccionario Mosetén-Castellano, Castellano-Mosetén***, Organización de los Pueblos Indígenas Mosetén (OPIM), UMSS, PROEIB Andes, Bolivia, 2011, 132pp.<br>*Nota: Para visualizar mejor el texto, descargue y instale la fuente [Charis SIL](https://software.sil.org/charis/download/).*<br>`mos_es-opim-html`, `es_mos-opim-html`, `simidic/mo_es_or.db`, `simidic/es_mo_or.db`
@@ -110,7 +117,7 @@ SimiDic has a built-in function to download and install dictionaries, but our se
 
 To install the dictionaries in SimiDic, first create a **`/ketanolab/dictionaries`** directory on the SD card in your Android device. If your Android device has been rooted, then you can create the directory at **`/sdcard/ketanolab/dictionaries`**. Then, download the **`.db`** files from https://github.com/amosbatto/native-dics/tree/main/simidic and copy those **.db** files into the **`/ketanolab/dictionaries`** directory on the SD card. 
 
-The next time that SimiDic is started, it will automatically find the dictionaries and add them to the SimiDic interface. 
+The next time that SimiDic is started, it will automatically find the dictionaries and add them to the SimiDic interface. The dictionary files will be automatically transfered to the internal memory of the mobile device.
 
 ---
 
@@ -118,4 +125,4 @@ SimiDic tiene una función incorporada para descargar e instalar diccionarios, p
 
 Para instalar los diccionarios en SimiDic, primero cree el directorio **`/ketanolab/dictionaries`** en la tarjeta SE en su aparato de Android. Si su aparato de Android ha sido ruteado (*rooted*), puede crear el directorio en la ruta **`/sdcard/ketanolab/dictionaries`**. Luego descargue los archivos **`.db`** de https://github.com/amosbatto/native-dics/tree/main/simidic y copie esos archivos **.db** al directorio **`/ketanolab/dictionaries`** en la tarjeta SD. 
 
-La próxima vez que SimiDic es iniciado, se encuentra automáticamente los nuevos diccionios para realizar consultas en la interfaz de SimiDic.   
+La próxima vez que SimiDic es iniciado, se encuentra automáticamente los nuevos diccionios para realizar consultas en la interfaz de SimiDic. Los archivos de diccionarios serán transferidos de la tarjeta SD a la memoria interna del aparato móvil.

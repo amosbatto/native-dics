@@ -4,7 +4,7 @@
         "author": "Félix Layme Pairumani",
         "description": "Diccionario Bilingüe: Aymara – Castellano, 5a ed. versión actualizada y corregida, La Paz, Bolivia, 2011, 507pp.",
         "file": "es_ay_fe.db",
-        "url": "http://www.illa-a.org/simidic/es_ay_fe.db",
+        "url": "http://ketanolab.com/simidic/es_ay_fe.db",
         "size": "3.5 MB"
     },
     {
@@ -12,7 +12,7 @@
         "author": "Félix Layme Pairumani",
         "description": "Diccionario Bilingüe: Aymara – Castellano, 5a ed. versión actualizada y corregida, La Paz, Bolivia, 2011, 507pp.",
         "file": "ay_es_fe.db",
-        "url": "http://www.illa-a.org/simidic/ay_es_fe.db",
+        "url": "http://ketanolab.com/simidic/ay_es_fe.db",
         "size": "2.1 MB"
     },
     {
@@ -20,7 +20,7 @@
         "author": "Teófilo Laime Ajacopa",
         "description": "Diccionario Bilingüe, Iskay simipi yuyayk'ancha: Quechua – Castellano, Castellano – Quechua, La Paz, Bolivia, 2007, 444pp.",
         "file": "es_qu_te.db",
-        "url": "http://www.illa-a.org/simidic/es_qu_te.db",
+        "url": "http://ketanolab.com/simidic/es_qu_te.db",
         "size": "861 KB"
     },
     {
@@ -28,7 +28,7 @@
         "author": "Teófilo Laime Ajacopa",
         "description": "Diccionario Bilingüe, Iskay simipi yuyayk'ancha: Quechua – Castellano, Castellano – Quechua, La Paz, Bolivia, 2007, 444pp.",
         "file": "qu_es_te.db",
-        "url": "http://www.illa-a.org/simidic/qu_es_te.db",
+        "url": "http://ketanolab.com/simidic/qu_es_te.db",
         "size": "1.5 MB"
     },
     {
@@ -36,7 +36,7 @@
         "author": "Comité HABLE Guaraní",
         "description": "Ñaneñee-Rɨru Diccionario: Guaraní – Castellano, 2a edición, Comité HABLE Guaraní, Charagua, Santa Cruz, Bolivia, 1996.",
         "file": "gn_es_co.db",
-        "url": "http://www.illa-a.org/simidic/gn_es_co.db",
+        "url": "http://ketanolab.com/simidic/gn_es_co.db",
         "size": "872 KB"
     },
     {
@@ -44,7 +44,7 @@
         "author": "Comité HABLE Guaraní",
         "description": "Ñaneñee-Rɨru Diccionario: Castellano – Guaraní, 2a edición, Comité HABLE Guaraní, Charagua, Santa Cruz, Bolivia, 1996.",
         "file": "es_gn_co.db",
-        "url": "http://www.illa-a.org/simidic/es_gn_co.db",
+        "url": "http://ketanolab.com/simidic/es_gn_co.db",
         "size": "811 KB"
     },
     {
@@ -52,7 +52,7 @@
         "author": "Saturnino Callo Ticona",
         "description": "Diccionario Aymara-Castellano, Castellano-Aymara 'KAMISARAKI', 2a ed., Tacna, Perú, 2009. 507pp.",
         "file": "ay_es_sa.db",
-        "url": "http://www.illa-a.org/simidic/ay_es_sa.db",
+        "url": "http://ketanolab.com/simidic/ay_es_sa.db",
         "size": "2.2 MB"
     },
     {
@@ -60,7 +60,7 @@
         "author": "Saturnino Callo Ticona",
         "description": "Diccionario Aymara-Castellano, Castellano-Aymara 'KAMISARAKI', 2a ed., Tacna, Perú, 2009, 507pp.",
         "file": "es_ay_sa.db",
-        "url": "http://www.illa-a.org/simidic/es_ay_sa.db",
+        "url": "http://ketanolab.com/simidic/es_ay_sa.db",
         "size": "1.5 MB"
     },
     {
@@ -68,7 +68,7 @@
         "author": "Elio Ortiz y Elías Caurey",
         "description": "Diccionario etimológico y etnográfico de la lengua guaraní hablada en Bolivia (Guaraní-Español), Plural Editors, La Paz, Bolivia, 2011, 474pp.",
         "file": "gn_es_el.db",
-        "url": "http://www.illa-a.org/simidic/gn_es_el.db",
+        "url": "http://ketanolab.com/simidic/gn_es_el.db",
         "size": "2.1 MB"
     },
     {
@@ -76,7 +76,7 @@
         "author": "Elio Ortiz y Elías Caurey",
         "description": "Diccionario etimológico y etnográfico de la lengua guaraní hablada en Bolivia (Guaraní-Español), Plural Editors, La Paz, Bolivia, 2011, 474pp.",
         "file": "es_gn_el.db",
-        "url": "http://www.illa-a.org/simidic/es_gn_el.db",
+        "url": "http://ketanolab.com/simidic/es_gn_el.db",
         "size": "115 KB"
     },
     {
@@ -84,7 +84,7 @@
         "author": "Ministerio de Educación de Bolivia",
         "description": "Arusimiñee: Castellano, Aymara, Guaraní, Quechua, Salustiano Ayma, José Barrientes, Gladys Márquez F., Ministerio de Educación de Bolivia, La Paz, 2004, 121pp",
         "file": "es_qu_mi.db",
-        "url": "http://www.illa-a.org/simidic/es_qu_mi.db",
+        "url": "http://ketanolab.com/simidic/es_qu_mi.db",
         "size": "797 KB"
     },
     {
@@ -92,7 +92,7 @@
         "author": "Ministerio de Educación de Bolivia",
         "description": "Salustiano Ayma, José Barrientes, Gladys Márquez F., Arusimiñee: Castellano, Aymara, Guaraní, Quechua, La Paz, 2004, 121pp",
         "file": "qu_es_mi.db",
-        "url": "http://www.illa-a.org/simidic/qu_es_mi.db",
+        "url": "http://ketanolab.com/simidic/qu_es_mi.db",
         "size": "968 KB"
     },
     {
@@ -100,7 +100,7 @@
         "author": "Ministerio de Educación de Bolivia",
         "description": "Salustiano Ayma, José Barrientes, Gladys Márquez F., Arusimiñee: Castellano, Aymara, Guaraní, Quechua, La Paz, 2004, 121pp",
         "file": "ay_es_mi.db",
-        "url": "http://www.illa-a.org/simidic/ay_es_mi.db",
+        "url": "http://ketanolab.com/simidic/ay_es_mi.db",
         "size": "870 KB"
     },
     {
@@ -108,7 +108,7 @@
         "author": "Ministerio de Educación de Bolivia",
         "description": "Arusimiñee: Castellano, Aymara, Guaraní, Quechua, Salustiano Ayma, José Barrientes, Gladys Márquez F., Ministerio de Educación de Bolivia, La Paz, 2004, 121pp",
         "file": "gn_es_mi.db",
-        "url": "http://www.illa-a.org/simidic/gn_es_mi.db",
+        "url": "http://ketanolab.com/simidic/gn_es_mi.db",
         "size": "736 KB"
     },
     {
@@ -116,7 +116,7 @@
         "author": "Academia Mayor de la Lengua Quechua",
         "description": "Diccionario: Quechua - Español - Quechua, Qheswa - Español - Qheswa: Simi Taqe, 2da ed., Cusco, Perú, 2005, 928pp.",
         "file": "es_qu_am.db",
-        "url": "http://www.illa-a.org/simidic/es_qu_am.db",
+        "url": "http://ketanolab.com/simidic/es_qu_am.db",
         "size": "937 KB"
     },
     {
@@ -124,7 +124,7 @@
         "author": "Academia Mayor de la Lengua Quechua",
         "description": "Diccionario: Quechua - Español - Quechua, Qheswa - Español - Qheswa: Simi Taqe, 2da ed., Cusco, Perú, 2005, 928pp.",
         "file": "qu_es_am.db",
-        "url": "http://www.illa-a.org/simidic/qu_es_am.db",
+        "url": "http://ketanolab.com/simidic/qu_es_am.db",
         "size": "4.1 MB"
     },
     {
@@ -132,7 +132,7 @@
         "author": "Academia Mayor de la Lengua Quechua filial Apurímac",
         "description": "Leoncio Gutiérrez Camacho, Leonidas Mantilla Gutiérrez y Shara Huaman Jullunila, Apurimaqpaq Runasimi Taqe, Diccionario de Quechua Apurimeño, Versión Preliminar, Abancay, Perú, feb. 2007, 130pp.",
         "file": "es_qu_ac.db",
-        "url": "http://www.illa-a.org/simidic/es_qu_ac.db",
+        "url": "http://ketanolab.com/simidic/es_qu_ac.db",
         "size": "263 KB"
     },
     {
@@ -140,7 +140,7 @@
         "author": "Academia Mayor de la Lengua Quechua filial Apurímac",
         "description": "Leoncio Gutiérrez Camacho, Leonidas Mantilla Gutiérrez y Shara Huaman Jullunila, Apurimaqpaq Runasimi Taqe, Diccionario de Quechua Apurimeño, Versión Preliminar, Abancay, Perú, feb. 2007, 130pp.",
         "file": "qu_es_ac.db",
-        "url": "http://www.illa-a.org/simidic/qu_es_ac.db",
+        "url": "http://ketanolab.com/simidic/qu_es_ac.db",
         "size": "283 KB"
     },
     {
@@ -148,7 +148,7 @@
         "author": "Diego González Holguín",
         "description": "Vocabvlario de la Lengva General de todo Perv llamada lengua Qquichua, o del Inca, Lima, Perú, 1608 [1989], 707pp.",
         "file": "es_qu_di.db",
-        "url": "http://www.illa-a.org/simidic/es_qu_di.db",
+        "url": "http://ketanolab.com/simidic/es_qu_di.db",
         "size": "1.3 MB"
     },
     {
@@ -156,7 +156,7 @@
         "author": "Diego González Holguín",
         "description": "Vocabvlario de la Lengva General de todo Perv llamada lengua Qquichua, o del Inca, Lima, Perú, 1608 [1989], 707pp.",
         "file": "qu_es_di.db",
-        "url": "http://www.illa-a.org/simidic/qu_es_di.db",
+        "url": "http://ketanolab.com/simidic/qu_es_di.db",
         "size": "1.5 MB"
     },
     {
@@ -164,7 +164,7 @@
         "author": "Rodolfo Cerrón-Palomino",
         "description": "Quechua Sureño: Diccionario Unificado, Biblioteca Nacional del Perú: Lima, 1994, 139pp.",
         "file": "qu_es_ro.db",
-        "url": "http://www.illa-a.org/simidic/qu_es_ro.db",
+        "url": "http://ketanolab.com/simidic/qu_es_ro.db",
         "size": "331 KB"
     },
     {
@@ -172,7 +172,7 @@
         "author": "Rodolfo Cerrón-Palomino",
         "description": "Quechua Sureño: Diccionario Unificado, Biblioteca Nacional del Perú: Lima, 1994, 139pp.",
         "file": "es_qu_ro.db",
-        "url": "http://www.illa-a.org/simidic/es_qu_ro.db",
+        "url": "http://ketanolab.com/simidic/es_qu_ro.db",
         "size": "154 KB"
     },
 {
@@ -180,7 +180,7 @@
         "author": "Franciscanos de los Colegios de Propaganda Fide del Perú",
         "description": "Vocabulario Políglota Incaico: Comprende más de 12,000 voces castellanas y 100,000 de keshua del Cuzco, Ayacucho, Junín, Ancash y Aymará, Lima, Perú, 1905 [1998], 551pp.",
         "file": "es_po_fr.db",
-        "url": "http://www.illa-a.org/simidic/es_po_fr.db",
+        "url": "http://ketanolab.com/simidic/es_po_fr.db",
         "size": "10.2 MB"
     },
 {
@@ -188,7 +188,7 @@
         "author": "Franciscanos de los Colegios de Propaganda Fide del Perú",
         "description": "Vocabulario Políglota Incaico: Comprende más de 12,000 voces castellanas y 100,000 de keshua del Cuzco, Ayacucho, Junín, Ancash y Aymará, Lima, Perú, 1905 [1998], 551pp.",
         "file": "qz_po_fr.db",
-        "url": "http://www.illa-a.org/simidic/qz_po_fr.db",
+        "url": "http://ketanolab.com/simidic/qz_po_fr.db",
         "size": "18.3 MB"
     },
 {
@@ -196,7 +196,7 @@
         "author": "Franciscanos de los Colegios de Propaganda Fide del Perú",
         "description": "Vocabulario Políglota Incaico: Comprende más de 12,000 voces castellanas y 100,000 de keshua del Cuzco, Ayacucho, Junín, Ancash y Aymará, Lima, Perú, 1905 [1998], 551pp.",
         "file": "qy_po_fr.db",
-        "url": "http://www.illa-a.org/simidic/qy_po_fr.db",
+        "url": "http://ketanolab.com/simidic/qy_po_fr.db",
         "size": "21.9 MB"
     },
 {
@@ -204,7 +204,7 @@
         "author": "Franciscanos de los Colegios de Propaganda Fide del Perú",
         "description": "Vocabulario Políglota Incaico: Comprende más de 12,000 voces castellanas y 100,000 de keshua del Cuzco, Ayacucho, Junín, Ancash y Aymará, Lima, Perú, 1905 [1998], 551pp.",
         "file": "qn_po_fr.db",
-        "url": "http://www.illa-a.org/simidic/qn_po_fr.db",
+        "url": "http://ketanolab.com/simidic/qn_po_fr.db",
         "size": "17.2 MB"
     },
 {
@@ -212,7 +212,7 @@
         "author": "Franciscanos de los Colegios de Propaganda Fide del Perú",
         "description": "Vocabulario Políglota Incaico: Comprende más de 12,000 voces castellanas y 100,000 de keshua del Cuzco, Ayacucho, Junín, Ancash y Aymará, Lima, Perú, 1905 [1998], 551pp.",
         "file": "qj_po_fr.db",
-        "url": "http://www.illa-a.org/simidic/qj_po_fr.db",
+        "url": "http://ketanolab.com/simidic/qj_po_fr.db",
         "size": "25.0 MB"
     },
 {
@@ -220,7 +220,7 @@
         "author": "Franciscanos de los Colegios de Propaganda Fide del Perú",
         "description": "Vocabulario Políglota Incaico: Comprende más de 12,000 voces castellanas y 100,000 de keshua del Cuzco, Ayacucho, Junín, Ancash y Aymará, Lima, Perú, 1905 [1998], 551pp.",
         "file": "ay_po_fr.db",
-        "url": "http://www.illa-a.org/simidic/ay_po_fr.db",
+        "url": "http://ketanolab.com/simidic/ay_po_fr.db",
         "size": "17.0 MB"
     },
 {
@@ -228,7 +228,7 @@
         "author": "Nonato Rufino Chuquimamani Valer",
         "description": " Yachakuqkunapaq Simi Qullqa, Qusqu Qullaw, Chichwa Simipi, Ministerio de Educación, Lima, Perú, 2005, 218pp.",
         "file": "qz_qz_ed.db",
-        "url": "http://www.illa-a.org/simidic/qz_qz_ed.db",
+        "url": "http://ketanolab.com/simidic/qz_qz_ed.db",
         "size": "799 KB"
     },
 {
@@ -236,7 +236,7 @@
         "author": "Nonato Rufino Chuquimamani Valer",
         "description": " Yachakuqkunapaq Simi Qullqa, Qusqu Qullaw, Chichwa Simipi, Ministerio de Educación, Lima, Perú, 2005, 218pp.",
         "file": "es_qz_ed.db",
-        "url": "http://www.illa-a.org/simidic/es_qz_ed.db",
+        "url": "http://ketanolab.com/simidic/es_qz_ed.db",
         "size": "61 KB"
     },
 {
@@ -244,7 +244,7 @@
         "author": "G. Palomino Rojas y G. R. Quintero Bendezú",
         "description": "Yachakuqkunapa Simi Qullqa, Ayakuchu Chanka, Qichwa Simipi, Ministerio de Educación, Lima, Perú, 2005, 145pp.",
         "file": "qy_qy_ed.db",
-        "url": "http://www.illa-a.org/simidic/qy_qy_ed.db",
+        "url": "http://ketanolab.com/simidic/qy_qy_ed.db",
         "size": "419 KB"
     },
 {
@@ -252,7 +252,7 @@
         "author": "G. Palomino Rojas y G. R. Quintero Bendezú",
         "description": "Yachakuqkunapa Simi Qullqa, Ayakuchu Chanka, Qichwa Simipi, Ministerio de Educación, Lima, Perú, 2005, 145pp.",
         "file": "es_qy_ed.db",
-        "url": "http://www.illa-a.org/simidic/es_qy_ed.db",
+        "url": "http://ketanolab.com/simidic/es_qy_ed.db",
         "size": "43 KB"
     },
 {
@@ -260,7 +260,7 @@
         "author": "Leonel Alexander Menacho López",
         "description": "Yachakuqkunapa Shimi Qullqa, Anqash Qichwa Shimichaw, Ministerio de Educación, Lima, Perú, 2005, 131pp.",
         "file": "qn_qn_ed.db",
-        "url": "http://www.illa-a.org/simidic/qn_qn_ed.db",
+        "url": "http://ketanolab.com/simidic/qn_qn_ed.db",
         "size": "383 KB"
     },
 {
@@ -268,7 +268,7 @@
         "author": "Leonel Alexander Menacho López",
         "description": "Yachakuqkunapa Shimi Qullqa, Anqash Qichwa Shimichaw, Ministerio de Educación, Lima, Perú, 2005, 131pp.",
         "file": "es_qn_ed.db",
-        "url": "http://www.illa-a.org/simidic/es_qn_ed.db",
+        "url": "http://ketanolab.com/simidic/es_qn_ed.db",
         "size": "37 KB"
     },
 {
@@ -276,7 +276,7 @@
         "author": "N. Apaza Suca, D. Condori Cruz, M. N. Ramos Rojas",
         "description": "Yatiqirinaka Aru Pirwa, Qullawa Aymara Aru, Ministerio de Educación, Lima, Perú, 2005, 141pp.",
         "file": "ay_ay_ed.db",
-        "url": "http://www.illa-a.org/simidic/ay_ay_ed.db",
+        "url": "http://ketanolab.com/simidic/ay_ay_ed.db",
         "size": "455 KB"
     },
 {
@@ -284,7 +284,7 @@
         "author": "N. Apaza Suca, D. Condori Cruz, M. N. Ramos Rojas",
         "description": "Yatiqirinaka Aru Pirwa, Qullawa Aymara Aru, Ministerio de Educación, Lima, Perú, 2005, 141pp.",
         "file": "es_ay_ed.db",
-        "url": "http://www.illa-a.org/simidic/es_ay_ed.db",
+        "url": "http://ketanolab.com/simidic/es_ay_ed.db",
         "size": "44 KB"
     },
 {
@@ -292,7 +292,7 @@
         "author": "Katja Hannß",
         "description": "Vocabulario Uru: Uchumataqu-Castellano, 2013.",
         "file": "ur_es_kh.db",
-        "url": "http://www.illa-a.org/simidic/ur_es_kh.db",
+        "url": "http://ketanolab.com/simidic/ur_es_kh.db",
         "size": "3.6 MB"
     },
 {
@@ -300,7 +300,7 @@
         "author": "Katja Hannß",
         "description": "Vocabulario Uru: Castellano-Uchumataqu, 2013.",
         "file": "es_ur_kh.db",
-        "url": "http://www.illa-a.org/simidic/es_ur_kh.db",
+        "url": "http://ketanolab.com/simidic/es_ur_kh.db",
         "size": "1.2 MB"
     },
 {
@@ -308,7 +308,7 @@
         "author": "Katja Hannß",
         "description": "Vocabulario Uru: English-Uchumataqu, 2013.",
         "file": "en_ur_kh.db",
-        "url": "http://www.illa-a.org/simidic/en_ur_kh.db",
+        "url": "http://ketanolab.com/simidic/en_ur_kh.db",
         "size": "1.2 MB"
     },
 {
@@ -316,7 +316,7 @@
         "author": "Katja Hannß",
         "description": "Vocabulario Uru: Deutsch-Uchumataqu, 2013.",
         "file": "de_ur_kh.db",
-        "url": "http://www.illa-a.org/simidic/de_ur_kh.db",
+        "url": "http://ketanolab.com/simidic/de_ur_kh.db",
         "size": "1.0 MB"
     },
 {
@@ -324,7 +324,7 @@
         "author": "Katja Hannß",
         "description": "Vocabulario Uru: Français-Uchumataqu, 2013.",
         "file": "fr_ur_kh.db",
-        "url": "http://www.illa-a.org/simidic/fr_ur_kh.db",
+        "url": "http://ketanolab.com/simidic/fr_ur_kh.db",
         "size": "862 KB"
     },
 {
@@ -332,7 +332,7 @@
         "author": "CIPTA y UMSS-PROEIB Andes",
         "description": "Alejandro Marupa Beyuma, et al., Mimi butsepi Takana-Kastillanu, Kastillanu-Takana: Diccionario Takana-Castellano, Castellano-Takana, Consejo Indígena de los Pueblos Takana, Bolivia, 2011, 206pp.",
         "file": "ta_es_ci.db",
-        "url": "http://www.illa-a.org/simidic/ta_es_ci.db",
+        "url": "http://ketanolab.com/simidic/ta_es_ci.db",
         "size": "961 KB"
     },
 {
@@ -340,7 +340,7 @@
         "author": "CIPTA y UMSS-PROEIB Andes",
         "description": "Alejandro Marupa Beyuma, et al., Mimi butsepi Takana-Kastillanu, Kastillanu-Takana: Diccionario Takana-Castellano, Castellano-Takana, Consejo Indígena de los Pueblos Takana, Bolivia, 2011, 206pp.",
         "file": "es_ta_ci.db",
-        "url": "http://www.illa-a.org/simidic/es_ta_ci.db",
+        "url": "http://ketanolab.com/simidic/es_ta_ci.db",
         "size": "687 KB"
     },
 {
@@ -348,7 +348,7 @@
         "author": "Educación Mapuche Wixaleyiñ",
         "description": "Vocabulario Mapuche-Castellano, http://sites.google.com/site/wixaleyin (2013), 96pp.",
         "file": "ma_es_wi.db",
-        "url": "http://www.illa-a.org/simidic/ma_es_wi.db",
+        "url": "http://ketanolab.com/simidic/ma_es_wi.db",
         "size": "314 KB"
     },
 {
@@ -356,7 +356,7 @@
         "author": "Educación Mapuche Wixaleyiñ",
         "description": "Vocabulario Mapuche-Castellano, http://sites.google.com/site/wixaleyin (2013), 96pp.",
         "file": "es_ma_wi.db",
-        "url": "http://www.illa-a.org/simidic/es_ma_wi.db",
+        "url": "http://ketanolab.com/simidic/es_ma_wi.db",
         "size": "119 KB"
     },
 {
@@ -364,7 +364,7 @@
         "author": "PEIB-Tsimane'",
         "description": "Cándido Nery, et al., Diccionario Tsimane', Programa de Educación Intercultural Bilingüe-Tsimane', Santa Cruz (2007), 161pp.",
         "file": "ts_es_pe.db",
-        "url": "http://www.illa-a.org/simidic/ts_es_pe.db",
+        "url": "http://ketanolab.com/simidic/ts_es_pe.db",
         "size": "348 KB"
     },
 {
@@ -372,7 +372,7 @@
         "author": "PEIB-Tsimane'",
         "description": "Cándido Nery, et al., Diccionario Tsimane', Programa de Educación Intercultural Bilingüe-Tsimane', Santa Cruz (2007), 161pp.",
         "file": "es_ts_pe.db",
-        "url": "http://www.illa-a.org/simidic/es_ts_pe.db",
+        "url": "http://ketanolab.com/simidic/es_ts_pe.db",
         "size": "369 KB"
     },
 {
@@ -380,7 +380,7 @@
         "author": "PEIB-Movima",
         "description": "Melvin Rossel Yoqui, et al., Diccionario Movima, Programa de Educación Intercultural Bilingüe-Movima, Santa Cruz (2007), 72pp.",
         "file": "mo_es_pe.db",
-        "url": "http://www.illa-a.org/simidic/mo_es_pe.db",
+        "url": "http://ketanolab.com/simidic/mo_es_pe.db",
         "size": "176 KB"
     },
 {
@@ -388,7 +388,7 @@
         "author": "PEIB-Movima",
         "description": "Melvin Rossel Yoqui, et al., Diccionario Movima, Programa de Educación Intercultural Bilingüe-Movima, Santa Cruz (2007), 72pp.",
         "file": "es_mo_pe.db",
-        "url": "http://www.illa-a.org/simidic/es_mo_pe.db",
+        "url": "http://ketanolab.com/simidic/es_mo_pe.db",
         "size": "169 KB"
     },
 {
@@ -396,7 +396,7 @@
         "author": "Gregorio Callisaya A. et al.",
         "description": "Glosario de Nuevos Términos Aimaras, Universidad Mayor de San Andrés Tecnologias de Información y Comunicación (UMSATIC), La Paz, Bolivia, 2005, 18pp.",
         "file": "es_ay_gr.db",
-        "url": "http://www.illa-a.org/simidic/es_ay_gr.db",
+        "url": "http://ketanolab.com/simidic/es_ay_gr.db",
         "size": "115 KB"
     },
 {
@@ -404,7 +404,7 @@
         "author": "Joaquín Herrero S.J. y Federico Sánchez de Lozada",
         "description": "Diccionario Quechua: Estructura semántica del quechua cochabambino contemporáneo, Cochabamba, Bolivia, 1983, 581pp.",
         "file": "qu_es_jo.db",
-        "url": "http://www.illa-a.org/simidic/qu_es_jo.db",
+        "url": "http://ketanolab.com/simidic/qu_es_jo.db",
         "size": "12.6 MB"
     },
 {
@@ -412,7 +412,7 @@
         "author": "Organización de los Pueblos Indígenas Mosetén y UMSS–PROEIB Andes",
         "description": "Kirjka pheyakdye' tïmsi' tsinsi'khan kastellanokhan: Diccionario Mosetén-Castellano, Castellano-Mosetén, Cochabamba (2011), 131pp.",
         "file": "mo_es_or.db",
-        "url": "http://www.illa-a.org/simidic/mo_es_or.db",
+        "url": "http://ketanolab.com/simidic/mo_es_or.db",
         "size": "448 KB"
     },
 {
@@ -420,7 +420,7 @@
         "author": "Organización de los Pueblos Indígenas Mosetén y UMSS–PROEIB Andes",
         "description": "Kirjka pheyakdye' tïmsi' tsinsi'khan kastellanokhan: Diccionario Mosetén-Castellano, Castellano-Mosetén, Cochabamba (2011), 131pp.",
         "file": "es_mo_or.db",
-        "url": "http://www.illa-a.org/simidic/es_mo_or.db",
+        "url": "http://ketanolab.com/simidic/es_mo_or.db",
         "size": "373 KB"
     },
 {
@@ -428,7 +428,7 @@
         "author": "Alonso Guzmán",
         "description": "Manual Mochó Alonso Guzmán (2004)",
         "file": "mc_es_al.db",
-        "url": "http://www.illa-a.org/simidic/mc_es_al.db",
+        "url": "http://ketanolab.com/simidic/mc_es_al.db",
         "size": "45 KB"
     },
 {
@@ -436,8 +436,64 @@
         "author": "Alonso Guzmán",
         "description": "Manual Mochó Alonso Guzmán (2004)",
         "file": "es_mc_al.db",
-        "url": "http://www.illa-a.org/simidic/es_mc_al.db",
+        "url": "http://ketanolab.com/simidic/es_mc_al.db",
         "size": "45 KB"
+    },
+{
+        "name": "Aymara (ILCNA)",
+        "author": "Instituto de Lengua y Cultura de la Nación Aymara (ILCNA)",
+        "description": "Instituto de Lengua y Cultura de la Nación Aymara-ILCNA (2021) Aru Pirwa Aymara, El Alto, Bolivia.",
+        "file": "ay_ay_in",
+        "url": "http://ketanolab.com/simidic/ay_ay_in.db",
+        "size": "1.5 MB"
+    },
+{
+        "name": "Mojeño Ignaciano–Español (ILC Ignaciano SCM)",
+        "author": "Instituto de Lengua y Cultura Mojeño Ignaciano “Salvador Chappy Muibar”",
+        "description": "Instituto de Lengua y Cultura Mojeño Ignaciano “Salvador Chappy Muibar” (2021) Diccionario Mojeño Ignaciano, San Ignacio de Moxos, Bolivia.",
+        "file": "ig_es_in.db",
+        "url": "http://ketanolab.com/simidic/ig_es_in.db",
+        "size": "1.0 MB"
+    },
+{
+        "name": "Español–Mojeño Ignaciano (ILC Ignaciano SCM)",
+        "author": "Instituto de Lengua y Cultura Mojeño Ignaciano “Salvador Chappy Muibar”",
+        "description": "Instituto de Lengua y Cultura Mojeño Ignaciano “Salvador Chappy Muibar” (2021) Diccionario Mojeño Ignaciano, San Ignacio de Moxos, Bolivia.",
+        "file": "es_ig_in.db",
+        "url": "http://ketanolab.com/simidic/ig_mo_in.db",
+        "size": "1.9 MB"
+    },
+{
+        "name": "Mojeño Trinitario–Español (ILC Trinitario JSNG)",
+        "author": "Instituto de Lengua y Cultura Mojeño Trinitario “José Santos Noco Guaji”",
+        "description": "Instituto de Lengua y Cultura Mojeño Trinitario 'José Santos Noco Guaji” (2021) Taechirawkoriono Vechjiriiwo Trinranono: Diccionario Idioma Trinitario, Santa Cruz, Bolivia, 130pp.",
+        "file": "tr_es_in.db",
+        "url": "http://ketanolab.com/simidic/tr_es_in.db",
+        "size": "322 KB"
+    },
+{
+        "name": "Español–Mojeño Trinitario (ILC Trinitario JSNG)",
+        "author": "Instituto de Lengua y Cultura Mojeño Trinitario “José Santos Noco Guaji”",
+        "description": "Instituto de Lengua y Cultura Mojeño Trinitario 'José Santos Noco Guaji” (2021) Taechirawkoriono Vechjiriiwo Trinranono: Diccionario Idioma Trinitario, Santa Cruz, Bolivia, 130pp.",
+        "file": "es_tr_in.db",
+        "url": "http://ketanolab.com/simidic/es_tr_in.db",
+        "size": "321 KB"
+    },
+{
+        "name": "Quechua Boliviano–Castellano (ILCN Quechua)",
+        "author": "Instituto de Lengua y Cultura de la Nación Quechua (ILCNQ)",
+        "description": "Instituto de Lengua y Cultura de la Nación Quechua y CENAQ (2018) Qhichwa simipirwa: Diccionario de la Nación Quechua, Cochabamba, Bolivia, 558pp.",
+        "file": "qu_es_in.db",
+        "url": "http://ketanolab.com/simidic/qu_es_in.db",
+        "size": "3.3 MB"
+    },
+{
+        "name": "Castellano–Quechua Boliviano (ILCN Quechua)",
+        "author": "Instituto de Lengua y Cultura de la Nación Quechua (ILCNQ)",
+        "description": "Instituto de Lengua y Cultura de la Nación Quechua y CENAQ (2018) Qhichwa simipirwa: Diccionario de la Nación Quechua, Cochabamba, Bolivia, 558pp.",
+        "file": "es_qu_in.db",
+        "url": "http://ketanolab.com/simidic/es_qu_in.db",
+        "size": "3.3 MB"
     }
 
 ]
