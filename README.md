@@ -14,6 +14,10 @@ If you would like us to format your dictionary to work in GoldenDict/StarDict/Si
 
 Los siguientes diccionarios de lenguas originarias pueden ser utilizados en GoldenDict (http://goldendict.org/) o StarDict (http://stardict-4.sourceforge.net/) en un PC con Linux o Windows. StarDict también funciona en MacOS, pero nunca lo hemos probado.
 
+![GoldenDict 1.5.0rc2 con estos diccionarios](./GoldenDict-1.5b.png)
+
+![GoldenDict con una lista de diccionarios](./GoldenDict_info_diccionarios.png)
+
 Estos diccionarios también son disponibles en nuestra app de Android, que es SimiDic (https://github.com/KetanoLab/SimiDic) y puede ser descargado en: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
 
 Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, StarDict y SimiDic. Para descargar todos estos diccionarios a la vez, ir a: https://github.com/amosbatto/native-dics/archive/refs/heads/main.zip
@@ -21,10 +25,6 @@ Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, Star
 Estamos creando una nueva app llamada "*Nusimi*", que significa "mi lengua", con la combinación de *nu* ("mi") de mojeño/arawak y *simi* ("lengua") en quechua. Nusimi es basado en Kotlin y arregla muchas de las limitaciones de SimiDic. Vamos a publicar instrucciones y un enlace para descargar *Nusimi* cuando la nueva app esté lista. Esperamos incluir más lenguas originarias de muchas regiones en *Nusimi*, y por eso, hemos combinado un prefijo de la familia arawak, que contiene 40 lenguas en 12 países latinoamericanos, con una raíz de quechua, que es la lengua originaria más hablada en las Américas.
 
 Si Ud. quiere que formateemos su diccionario para funcionar en GoldenDict/StarDict/SimiDic/Nusimi, por favor contactar con Amos Batto (amosbatto@yahoo.com, cel: +591-76585096, Telegram: @amosbatto).
-
-![GoldenDict 1.5.0rc2 con estos diccionarios](./GoldenDict-1.5b.png)
-
-![GoldenDict con una lista de diccionarios](./GoldenDict_info_diccionarios.png)
 
 
 ## Available dictionaries / Diccionarios disponibles
