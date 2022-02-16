@@ -46,21 +46,6 @@ Si Ud. quiere que formateemos su diccionario para funcionar en GoldenDict/StarDi
 * Comité HABLE Guaraní, ***Rɨru Ñaneñee Diccionario: Guaraní – Castellano***, 2a ed. Charagua, Santa Cruz, Bolivia, 1996., segunda edición, Charagua, Santa Cruz, Bolivia, 2011, 258pp.<br>`gu_es-hable-guarani`, `es_gu-hable-guarani`, `simidic/gn_es_co.db`, `simidic/es_gn_co.db`
 * Elio Ortiz y Elías Caurey, ***Diccionario etimológico y etnográfico de la lengua guaraní hablada en Bolivia (Guaraní-Español)***, Plural Editores, La Paz, Bolivia, 2011, 474pp.<br>`es_gu-ortiz-caurey`, `gu_es-ortiz-caurey`, `simidic/gn_es_el.db`, `simidic/es_gn_el.db`
 
-**QUECHUA:**
-* Academia Mayor de La Lengua Quechua, ***Diccionario: Quechua – Español – Quechua, Qheswa – Español – Qheswa: Simi Taqe***, 2da ed., Cusco, Perú, 2005, 313pp.<br>`qu_es-amlq`, `es_qu-amlq`, `simidic/es_qu_am.db`, `simidic/qu_es_am.db`
-* Teófilo Laime Ajacopa, Efraín Cazazola y Felix Layme Pairumani, ***Iskay simipi yuyayk’ancha: Quechua – Castellano, Castellano – Quechua***, 2a ed. mejorada (versión preliminar), La Paz, Bolivia, enero 2007, 212pp.<br>`qu_es-laime`, `es_qu-laime`, `simidic/qu_es_te.db`, `simidic/es_qu_te.db`
-* Diego González Holguín, ***Vocabvlario de la Lengva General de todo Perv llamada lengua Qquichua, o del Inca***, Lima, Perú, 1608, digitalizado por Runasimipi.org, 2007, 427pp.<br>`es_qu-holguin`, `qu_es-holguin`, `simidic/qu_es_di.db`, `simidic/es_qu_di.db`
-* Rodolfo Cerrón-Palomino, ***Quechua Sureño: Diccionario Unificado***, Biblioteca Nacional del Perú: Lima, 1994, 139pp.<br>`es_qu-cerron`, `qu_es-cerron`, `simidic/qu_es_ro.db`, `simidic/es_qu_ro.db` 
-* Leoncio Gutiérrez Camacho, Leonidas Mantilla Gutiérrez y Shara Huaman Jullunila, ***Apurimaqpaq Runasimi Taqe, Diccionario de Quechua Apurimeño***, Versión Preliminar, Academia Mayor de la Lengua Quechua filial Apurímac, Abancay, Perú, feb. 2007, pp 130.<br>`es_qu-apurimac`, `qu_es-apurimac`, `simidic/qu_es_ac.db`, `simidic/es_qu_ac.db`   
-* Nonato Rufino Chuquimamani Valer, ***Yachakuqkunapaq Simi Qullqa, Qusqu Qullaw, Chichwa Simipi***, Ministerio de Educación, Lima, Perú, 2005, 218pp.<br>`qu-cuzco-min-ed-peru-pango`, `es_qu-cuzco-min-ed-peru`, `simidic/qz_qz_ed.db`, `simidic/es_qz_ed.db`
-* G. Palomino Rojas y G. R. Quintero Bendezú, ***Yachakuqkunapa Simi Qullqa, Ayakuchu Chanka, Qichwa Simipi***, Ministerio de Educación, Lima, Perú, 2005, 145 pp.<br>`es_qu-ayacucho-min-ed-peru`, `qu-ayacucho-min-ed-peru-pango`, `simidic/qy_qy_ed.db`, `simidic/es_qy_ed.db`
-* Leonel Alexander Menacho López, ***Yachakuqkunapa Shimi Qullqa, Anqash Qichwa Shimichaw***, Ministerio de Educación, Lima, Perú, 2005, 131 pp.<br>`qu-ancash-min-ed-peru-pango`, `es_qu-ancash-min-ed-peru`, `simidic/qn_qn_ed.db`, `simidic/es_qn_ed.db`
-* Joaquín Herrero S.J. y Federico Sánchez de Lozada, ***Diccionario Quechua: Estructura semántica del quechua cochabambino contemporáneo***, Cochabamba, Bolivia, 1983, 581pp, http://quechua.ucla.edu/dictionaries<br>`qu-es-herrero-sanchez-html`, `simidic/qu_es_jo.db`
-* Instituto de Lengua y Cultura de la Nación Quechua y CENAQ, ***Qhichwa simipirwa: Diccionario de la Nación Quechua***, Cochabamba, Bolivia, 2018, 558pp.<br>`qu_es-ilcn-quechua`, `es_qu-ilcn-quechua`,`es_qu-ilcn-quechua`, `simidic/es_qu_in.db`
-
-**QUECHUA-AYMARA:**
-* Franciscanos Misioneros de los Colegios Propaganda Fide del Peru, ***Diccionario Poliglota Incaico: comprende más de 12,000 voces castellanas y 100,000 de keshua del Cuzco, Ayacucho, Junín, Ancash y Aymará***, Edición Ministerio de Educación, Lima, Perú, [1905] 1998, 551pp.<br>`qu-cuzco-poliglota-pango`, `qu-ayacucho-poliglota-pango`, `qu-ancash-poliglota-pango`, `qu-junin-poliglota-pango`, `simidic/es_po_fr.db` (castellano), `simidic/qz_po_fr.db` (Cuzco), `simidic/qy_po_fr.db` (Ayacucho), `simidic/qn_po_fr.db` (Ancash), `simidic/qj_po_fr.db` (Junín), `simidic/ay_po_fr.db` (aymara) 
-
 **MAPUCHE (MAPUZUGUN):**
 * Equipo de Educación Mapuche Wixaleyiñ, ***Vocabulario Mapuche-Castellano***, http://sites.google.com/site/wixaleyin (2013), 96pp.<br>`map_es-wixaleyin-html`, `es_map-wixaleyin-html`, `simidic/ma_es_wi.db`, `simidic/es_ma_wi.db`
 
@@ -78,6 +63,21 @@ Si Ud. quiere que formateemos su diccionario para funcionar en GoldenDict/StarDi
 
 **MOVIMA:**
 * Melvin Rossel Yoqui, et al., ***Diccionario Movima***, Programa de Educación Intercultural Bilingüe-Movima, Santa Cruz (2007), 72pp.<br>`es_mov-peib-movima`, `mov_es-peib-movima`, `simidic/mo_es_pe.db`, `simidic/es_mo_pe.db`
+
+**QUECHUA:**
+* Academia Mayor de La Lengua Quechua, ***Diccionario: Quechua – Español – Quechua, Qheswa – Español – Qheswa: Simi Taqe***, 2da ed., Cusco, Perú, 2005, 313pp.<br>`qu_es-amlq`, `es_qu-amlq`, `simidic/es_qu_am.db`, `simidic/qu_es_am.db`
+* Teófilo Laime Ajacopa, Efraín Cazazola y Felix Layme Pairumani, ***Iskay simipi yuyayk’ancha: Quechua – Castellano, Castellano – Quechua***, 2a ed. mejorada (versión preliminar), La Paz, Bolivia, enero 2007, 212pp.<br>`qu_es-laime`, `es_qu-laime`, `simidic/qu_es_te.db`, `simidic/es_qu_te.db`
+* Diego González Holguín, ***Vocabvlario de la Lengva General de todo Perv llamada lengua Qquichua, o del Inca***, Lima, Perú, 1608, digitalizado por Runasimipi.org, 2007, 427pp.<br>`es_qu-holguin`, `qu_es-holguin`, `simidic/qu_es_di.db`, `simidic/es_qu_di.db`
+* Rodolfo Cerrón-Palomino, ***Quechua Sureño: Diccionario Unificado***, Biblioteca Nacional del Perú: Lima, 1994, 139pp.<br>`es_qu-cerron`, `qu_es-cerron`, `simidic/qu_es_ro.db`, `simidic/es_qu_ro.db` 
+* Leoncio Gutiérrez Camacho, Leonidas Mantilla Gutiérrez y Shara Huaman Jullunila, ***Apurimaqpaq Runasimi Taqe, Diccionario de Quechua Apurimeño***, Versión Preliminar, Academia Mayor de la Lengua Quechua filial Apurímac, Abancay, Perú, feb. 2007, pp 130.<br>`es_qu-apurimac`, `qu_es-apurimac`, `simidic/qu_es_ac.db`, `simidic/es_qu_ac.db`   
+* Nonato Rufino Chuquimamani Valer, ***Yachakuqkunapaq Simi Qullqa, Qusqu Qullaw, Chichwa Simipi***, Ministerio de Educación, Lima, Perú, 2005, 218pp.<br>`qu-cuzco-min-ed-peru-pango`, `es_qu-cuzco-min-ed-peru`, `simidic/qz_qz_ed.db`, `simidic/es_qz_ed.db`
+* G. Palomino Rojas y G. R. Quintero Bendezú, ***Yachakuqkunapa Simi Qullqa, Ayakuchu Chanka, Qichwa Simipi***, Ministerio de Educación, Lima, Perú, 2005, 145 pp.<br>`es_qu-ayacucho-min-ed-peru`, `qu-ayacucho-min-ed-peru-pango`, `simidic/qy_qy_ed.db`, `simidic/es_qy_ed.db`
+* Leonel Alexander Menacho López, ***Yachakuqkunapa Shimi Qullqa, Anqash Qichwa Shimichaw***, Ministerio de Educación, Lima, Perú, 2005, 131 pp.<br>`qu-ancash-min-ed-peru-pango`, `es_qu-ancash-min-ed-peru`, `simidic/qn_qn_ed.db`, `simidic/es_qn_ed.db`
+* Joaquín Herrero S.J. y Federico Sánchez de Lozada, ***Diccionario Quechua: Estructura semántica del quechua cochabambino contemporáneo***, Cochabamba, Bolivia, 1983, 581pp, http://quechua.ucla.edu/dictionaries<br>`qu-es-herrero-sanchez-html`, `simidic/qu_es_jo.db`
+* Instituto de Lengua y Cultura de la Nación Quechua y CENAQ, ***Qhichwa simipirwa: Diccionario de la Nación Quechua***, Cochabamba, Bolivia, 2018, 558pp.<br>`qu_es-ilcn-quechua`, `es_qu-ilcn-quechua`,`es_qu-ilcn-quechua`, `simidic/es_qu_in.db`
+
+**QUECHUA-AYMARA:**
+* Franciscanos Misioneros de los Colegios Propaganda Fide del Peru, ***Diccionario Poliglota Incaico: comprende más de 12,000 voces castellanas y 100,000 de keshua del Cuzco, Ayacucho, Junín, Ancash y Aymará***, Edición Ministerio de Educación, Lima, Perú, [1905] 1998, 551pp.<br>`qu-cuzco-poliglota-pango`, `qu-ayacucho-poliglota-pango`, `qu-ancash-poliglota-pango`, `qu-junin-poliglota-pango`, `simidic/es_po_fr.db` (castellano), `simidic/qz_po_fr.db` (Cuzco), `simidic/qy_po_fr.db` (Ayacucho), `simidic/qn_po_fr.db` (Ancash), `simidic/qj_po_fr.db` (Junín), `simidic/ay_po_fr.db` (aymara) 
 
 **TAKANA:**
 * Alejandro Marupa Beyuma, et al., ***Mimi butsepi Takana-Kastillanu, Kastillanu-Takana: Diccionario Takana-Castellano, Castellano-Takana***, Consejo Indígena de los Pueblos Takana (CIPTA), UMSS, PROEIB Andes, Bolivia, 2011, 206pp.<br>`tak_es-cipta-html`, `es_tak-cipta-html`, `simidic/ta_es_ci.db`, `simidic/es_ta_ci.db`
