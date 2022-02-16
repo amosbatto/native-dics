@@ -20,7 +20,7 @@ Los siguientes diccionarios de lenguas originarias pueden ser utilizados en Gold
 
 Estos diccionarios también son disponibles en nuestra app de Android, que es SimiDic (https://github.com/KetanoLab/SimiDic) y puede ser descargado en: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
 
-![Buscar en SimiDic](SimiDic_search.png) ![Mostrar entrada en SimiDic](SimiDic_display_entry.png)
+![Buscar en SimiDic](./SimiDic_search.png) ![Mostrar entrada en SimiDic](./SimiDic_display_entry.png)
 
 Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, StarDict y SimiDic. Para descargar todos estos diccionarios a la vez, ir a: https://github.com/amosbatto/native-dics/archive/refs/heads/main.zip
 
@@ -91,7 +91,9 @@ Si Ud. quiere que formateemos su diccionario para funcionar en GoldenDict/StarDi
 
 ## GoldenDict - desktop application / applicación de escritorio
 
-It is recommended to install the latest development version of GoldenDict, which is already packaged in most Linux distributions. For example, the following command installs GoldenDict in Debian/Ubuntu/Mint:  
+It is recommended to install the latest development version of GoldenDict, which is already packaged in most Linux distributions. 
+
+For example, the following command installs GoldenDict in Debian/Ubuntu/Mint:  
 `sudo apt install goldendict`
 
 For Windows, it is recommended to download the [GoldenDict 1.5.0rc2 installer](https://sourceforge.net/projects/goldendict/files/early%20access%20builds/GoldenDict-1.5.0-RC2-372-gc3ff15f-Install.exe/download)
@@ -100,7 +102,9 @@ To use these dictionaries in GoldenDict on a PC, download the directories of the
 
 ---
 
-Se recomienda instalar la última versión de GoldenDict en desarrollo, que ya está empaquetada en la mayoria de las distribuciones de Linux. Por ejemplo el the following command installs GoldenDict in Debian/Ubuntu/Mint:  
+Se recomienda instalar la última versión de GoldenDict en desarrollo, que ya está empaquetada en la mayoria de las distribuciones de Linux. 
+
+Por ejemplo el siguiente comando instala GoldenDict en Debian/Ubuntu/Mint:  
 `sudo apt install goldendict`
 
 Para Windows, se recomienda descargar el [instalador de GoldenDict 1.5.0rc2](https://sourceforge.net/projects/goldendict/files/early%20access%20builds/GoldenDict-1.5.0-RC2-372-gc3ff15f-Install.exe/download)
