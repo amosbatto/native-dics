@@ -20,6 +20,8 @@ Los siguientes diccionarios de lenguas originarias pueden ser utilizados en Gold
 
 Estos diccionarios también son disponibles en nuestra app de Android, que es SimiDic (https://github.com/KetanoLab/SimiDic) y puede ser descargado en: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
 
+![Buscar en SimiDic](SimiDic_search.png) ![Mostrar entrada en SimiDic](SimiDic_display_entry.png)
+
 Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, StarDict y SimiDic. Para descargar todos estos diccionarios a la vez, ir a: https://github.com/amosbatto/native-dics/archive/refs/heads/main.zip
 
 Estamos creando una nueva app llamada "*Nusimi*", que significa "mi lengua", con la combinación de *nu* ("mi") de mojeño/arawak y *simi* ("lengua") en quechua. Nusimi es basado en Kotlin y arregla muchas de las limitaciones de SimiDic. Vamos a publicar instrucciones y un enlace para descargar *Nusimi* cuando la nueva app esté lista. Esperamos incluir más lenguas originarias de muchas regiones en *Nusimi*, y por eso, hemos combinado un prefijo de la familia arawak, que contiene 40 lenguas en 12 países latinoamericanos, con una raíz de quechua, que es la lengua originaria más hablada en las Américas.
