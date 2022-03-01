@@ -50,7 +50,7 @@ Si Ud. quiere que formateemos su diccionario para funcionar en GoldenDict/StarDi
 * Equipo de Educación Mapuche Wixaleyiñ, ***Vocabulario Mapuche-Castellano***, http://sites.google.com/site/wixaleyin (2013), 96pp.<br>[`map_es-wixaleyin-html`](https://github.com/amosbatto/native-dics/tree/main/map_es-wixaleyin-html), [`es_map-wixaleyin-html`](https://github.com/amosbatto/native-dics/tree/main/es_map-wixaleyin-html), [`simidic/ma_es_wi.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/ma_es_wi.db), [`simidic/es_ma_wi.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/es_ma_wi.db)
 
 **MOCHÓ (MAYA):**
-* Alonso Guzmán, ***Manual Mochó***, Chiapas, México, 2004.<br>[`simidic/es_mc_al.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/es_mc_al.db)
+* Alonso Guzmán, ***Manual Mochó***, Chiapas, México, 2004.<br>[`mhc_es-guzman`](https://github.com/amosbatto/native-dics/tree/main/mhc_es-guzman), [`es_mhc-guzman`](https://github.com/amosbatto/native-dics/tree/main/es_mhc-guzman), [`simidic/es_mc_al.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/es_mc_al.db)
 
 **MOJEÑO IGNACIANO:**
 * Instituto de Lengua y Cultura Mojeño Ignaciano “Salvador Chappy Muibar”, ***Diccionario Mojeño Ignaciano***, San Ignacio de Moxos, Bolivia, 2021.<br>[`ign_es-ilc-mojeno-ignaciano`](https://github.com/amosbatto/native-dics/tree/main/ign_es-ilc-mojeno-ignaciano), [`es_ign-ilc-mojeno-ignaciano`](https://github.com/amosbatto/native-dics/tree/main/es_ign-ilc-mojeno-ignaciano), [`simidic/ig_es_in.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/ig_es_in.db), [`simidic/es_ig_in.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/es_ig_in.db)
