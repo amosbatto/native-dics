@@ -24,9 +24,9 @@ Una versión más antigua de nuestra app nombrada SimiDic (https://github.com/Ke
 
 ![Buscar en SimiDic](./SimiDic_search.png) ![Mostrar entrada en SimiDic](./SimiDic_display_entry.png)
 
-Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, StarDict y SimiDic. Para descargar todos estos diccionarios a la vez, ir a: https://github.com/amosbatto/native-dics/archive/refs/heads/main.zip
+Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, StarDict, NuSimi y SimiDic. Para descargar todos estos diccionarios a la vez, ir a: https://github.com/amosbatto/native-dics/archive/refs/heads/main.zip
 
-Si Ud. quiere que formateemos su diccionario para funcionar en GoldenDict/StarDict/SimiDic/Nusimi, por favor contactar con Amos Batto (amosbatto@yahoo.com, cel: +591-76585096, Telegram: @amosbatto).
+Si Ud. quiere que formateemos su diccionario para funcionar en GoldenDict/StarDict/Nusimi/SimiDic, por favor contactar con Amos Batto (amosbatto@yahoo.com, cel: +591-76585096, Telegram: @amosbatto).
 
 
 ## Available dictionaries / Diccionarios disponibles
