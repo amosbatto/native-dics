@@ -2,13 +2,13 @@
 
 The following dictionaries of native languages can be used in GoldenDict (http://goldendict.org/) or StarDict (http://stardict-4.sourceforge.net/) on a PC running Linux or Windows. StarDict reportedly also works in Mac OS, but we haven't tried it.
  
-These same dictionaries are also available in our Android app, SimiDic (https://github.com/KetanoLab/SimiDic), which can be downloaded at: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
+These same dictionaries are also available in our Android app NuSimi (https://github.com/KetanoLab/NuSimi), which can be downloaded at: https://play.google.com/store/apps/details?id=com.ketanolab.nusimi 
 
-See the instructions below to install these dictionaries in GoldenDict, StarDict and SimiDic. To download all these dictionaries at once, go to https://github.com/amosbatto/native-dics/archive/refs/heads/main.zip
+An older versión of our app named SimiDic (https://github.com/KetanoLab/SimiDic) is still available for people with older Android devices available at: https://play.google.com/store/apps/details?id=com.ketanolab.simidic 
 
-We are creating a new mobile app named "*Nusimi*", which means "my language", when combining *nu* ("my") from Mojeño/Arawak and *simi* ("language") in Quechua. Nusimi is based on Kotlin and it fixes many of the limitations in SimiDic. We will post instructions and a link to download *Nusimi* when the new app is ready. We hope to include more native languages from many regions in *Nusimi*, which is why we combined a prefix from the Arawak family, which has 40 languages in 12 Latin American countries, with a root word from Quechua, which is the most widely spoken native language in the Americas. 
+See the instructions below to install these dictionaries in GoldenDict, StarDict, NuSimi y SimiDic. To download all these dictionaries at once, go to: https://github.com/amosbatto/native-dics/archive/refs/heads/main.zip
 
-If you would like us to format your dictionary to work in GoldenDict/StarDict/SimiDic/Nusimi, please contact Amos Batto (amosbatto@yahoo.com, cell: +591-76585096, Telegram: @amosbatto).
+If you would like us to format your dictionary to work in GoldenDict/StarDict/NuSimi/SimiDic, please contact Amos Batto (amosbatto@yahoo.com, cell: +591-76585096, Telegram: @amosbatto).
 
 ---
 
@@ -18,13 +18,13 @@ Los siguientes diccionarios de lenguas originarias pueden ser utilizados en Gold
 
 ![GoldenDict con una lista de diccionarios](./GoldenDict_info_diccionarios.png)
 
-Estos diccionarios también son disponibles en nuestra app de Android, que es SimiDic (https://github.com/KetanoLab/SimiDic) y puede ser descargado en: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
+Estos diccionarios también son disponibles en nuestra app de Android, que es NuSimi (https://github.com/KetanoLab/NuSimi) y puede ser descargado en: https://play.google.com/store/apps/details?id=com.ketanolab.nusimi 
+
+Una versión más antigua de nuestra app nombrada SimiDic (https://github.com/KetanoLab/SimiDic) todavía está disponible para versiones antiguas de Android en: https://play.google.com/store/apps/details?id=com.ketanolab.simidic
 
 ![Buscar en SimiDic](./SimiDic_search.png) ![Mostrar entrada en SimiDic](./SimiDic_display_entry.png)
 
 Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, StarDict y SimiDic. Para descargar todos estos diccionarios a la vez, ir a: https://github.com/amosbatto/native-dics/archive/refs/heads/main.zip
-
-Estamos creando una nueva app llamada "*Nusimi*", que significa "mi lengua", con la combinación de *nu* ("mi") de mojeño/arawak y *simi* ("lengua") en quechua. Nusimi es basado en Kotlin y arregla muchas de las limitaciones de SimiDic. Vamos a publicar instrucciones y un enlace para descargar *Nusimi* cuando la nueva app esté lista. Esperamos incluir más lenguas originarias de muchas regiones en *Nusimi*, y por eso, hemos combinado un prefijo de la familia arawak, que contiene 40 lenguas en 12 países latinoamericanos, con una raíz de quechua, que es la lengua originaria más hablada en las Américas.
 
 Si Ud. quiere que formateemos su diccionario para funcionar en GoldenDict/StarDict/SimiDic/Nusimi, por favor contactar con Amos Batto (amosbatto@yahoo.com, cel: +591-76585096, Telegram: @amosbatto).
 
@@ -146,9 +146,31 @@ En Linux, generalmente se ubica en:
 La próxima vez que StarDict es iniciado, debería encontrar automáticamente los nuevos diccionarios instalados.
 
 
+## NuSimi - Android app / app de Android
+
+NuSimi is a dictionary app with a free/open source license ([GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) or later) that can be installed in Android 5 and later. "*Nusimi*" means "my language", when combining *nu* ("my") from Mojeño/Arawak and *simi* ("language") in Quechua. Nusimi is based on Kotlin and it fixes many of the limitations in SimiDic. We hope to include more native languages from many regions in *Nusimi*, which is why we combined a prefix from the Arawak family, which has 40 languages in 12 Latin American countries, with a root word from Quechua, which is the most widely spoken native language in the Americas. 
+
+Unlike many other dictionary apps, NuSimi stores the dictionaries on the device, so people aren't forced to pay for mobile data to consult the dictionaries and they can be used in remote areas without an internet connection. NuSimi has a built-in function to download and install dictionaries. After opening NuSimi, go to **Descargas** (**Downloads**) in the menu, and select the dictionaries to download. To change NuSimi's interface language, go to **Configuración** (**Settings**) and **Selecciona el idioma** (**Select Language**).
+
+The dictionaries can also be manually installed in Android devices which have an SD card. First, create a **`data/data/com.ketanolab.nusimi/files`** directory on the SD card in your Android device. If your Android device has been rooted, then you can create the directory at **`/sdcard/data/data/com.ketanolab.nusimi/files`**. Then, download the **`.db`** files from https://github.com/amosbatto/native-dics/tree/main/simidic and copy those **.db** files into the **`data/data/com.ketanolab.nusimi/files`** directory on the SD card. 
+
+The next time that SimiDic is started, it will automatically find the dictionaries and add them to SimiDic. The dictionary files will be automatically deleted from the SD card and transfered to the internal memory of the mobile device.
+
+---
+
+NuSimi es una app de software libre ([GPL 3.0](https://lslspanish.github.io/translation_GPLv3_to_spanish/) o después) para consultar diccionarios, que puede ser instalado en Android 5 y después. "*Nusimi*" significa "mi lengua", con la combinación de *nu* ("mi") de mojeño/arawak y *simi* ("lengua") en quechua. Nusimi es basado en Kotlin y arregla muchas de las limitaciones de SimiDic. Esperamos incluir más lenguas originarias de muchas regiones en *Nusimi*, y por eso, hemos combinado un prefijo de la familia arawak, que contiene 40 lenguas en 12 países latinoamericanos, con una raíz de quechua, que es la lengua originaria más hablada en las Américas.
+
+
+A diferencia de la mayoria de las apps de diccionarios en Android, NuSimi almacena los diccionarios en el aparato para que no sea necesario pagar por datos celulares para consultar los diccionarios y NuSimi puede funcionar en lugares remotos sin una conexión de internet. NuSimi tiene una función incorporada para descargar e instalar diccionarios. Después de abrir NuSimi, vaya a **Descargas** en el menú, y seleccione los diccionarios para descargar. Para cambiar la lengua de interfaz en NuSimi, vaya a **Configuración** (**Settings**) y **Selecciona el idioma** (**Select Language**).
+
+Además los diccionarios pueden ser instalados manualmente en aparatos de Android que tienen una tarjeta de SD. Primero cree un directorio **`data/data/com.ketanolab.nusimi/files`** en la tarjeta SD. Si su aparato de Android ha sido ruteado (*rooted*), puede crear el directorio en la ruta **`/sdcard/data/data/com.ketanolab.nusimi/files`**. Luego, descargue los archivos **`.db`** de https://github.com/amosbatto/native-dics/tree/main/simidic y copie esos archivos **.db** al directorio **`data/data/com.ketanolab.nusimi/files`** en la tarjeta SD. 
+
+La próxima vez que NuSimi es iniciado, se encuentra automáticamente los nuevos diccionios para realizar consultas en la interfaz de NuSimi. Los archivos de los diccionarios serán borrados en la tarjeta SD y transferidos a la memoria interna del aparato móvil.
+
+
 ## SimiDic - Android app / app de Android
 
-SimiDic has a built-in function to download and install dictionaries, but our server is no longer functioning so the download function doesn't work. Nontheless, the dictionaries can be manually installed in Android devices which have a MicroSD card. 
+If using Android 5 or later, we recommend installing NuSimi instead of SimiDic. SimiDic has a built-in function to download and install dictionaries, but our server is no longer functioning so the download function doesn't work. Nontheless, the dictionaries can be manually installed in Android devices which have a MicroSD card. 
 
 To install the dictionaries in SimiDic, first create a **`/ketanolab/dictionaries`** directory on the SD card in your Android device. If your Android device has been rooted, then you can create the directory at **`/sdcard/ketanolab/dictionaries`**. Then, download the **`.db`** files from https://github.com/amosbatto/native-dics/tree/main/simidic and copy those **.db** files into the **`/ketanolab/dictionaries`** directory on the SD card. 
 
@@ -156,8 +178,8 @@ The next time that SimiDic is started, it will automatically find the dictionari
 
 ---
 
-SimiDic tiene una función incorporada para descargar e instalar diccionarios, pero nuestro servidor ahora no está funcionando, entonces esta función no sirve ahora. Sin embargo los diccionarios pueden ser instalados manualmente en aparatos de Android que tengan una tarjeta de MicroSD.
+En aparatos de Android 5 o después, se recomienda instalar NuSimi en lugar de SimiDic. SimiDic tiene una función incorporada para descargar e instalar diccionarios, pero nuestro servidor ahora no está funcionando, entonces esta función no sirve ahora. Sin embargo los diccionarios pueden ser instalados manualmente en aparatos de Android que tengan una tarjeta de MicroSD.
 
-Para instalar los diccionarios en SimiDic, primero cree el directorio **`/ketanolab/dictionaries`** en la tarjeta SE en su aparato de Android. Si su aparato de Android ha sido ruteado (*rooted*), puede crear el directorio en la ruta **`/sdcard/ketanolab/dictionaries`**. Luego descargue los archivos **`.db`** de https://github.com/amosbatto/native-dics/tree/main/simidic y copie esos archivos **.db** al directorio **`/ketanolab/dictionaries`** en la tarjeta SD. 
+Para instalar los diccionarios en SimiDic, primero cree el directorio **`/ketanolab/dictionaries`** en la tarjeta SD en su aparato de Android. Si su aparato de Android ha sido ruteado (*rooted*), puede crear el directorio en la ruta **`/sdcard/ketanolab/dictionaries`**. Luego descargue los archivos **`.db`** de https://github.com/amosbatto/native-dics/tree/main/simidic y copie esos archivos **.db** al directorio **`/ketanolab/dictionaries`** en la tarjeta SD. 
 
 La próxima vez que SimiDic es iniciado, se encuentra automáticamente los nuevos diccionios para realizar consultas en la interfaz de SimiDic. Los archivos de los diccionarios serán borrados en la tarjeta SD y transferidos a la memoria interna del aparato móvil.
