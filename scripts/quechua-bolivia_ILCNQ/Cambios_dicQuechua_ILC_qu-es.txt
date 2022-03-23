@@ -1,1 +1,1394 @@
-/media/files/diccionarios/quechua_ILC/Cambios_dicQuechua_ILC_qu-es.txt
+******Cambios y observaciones en el diccionario quechua-castellano del ILCN Quechua*****
+
+1. El signo glotalizador tenía cuatro formas en el diccionario (`, ´, ’ y ›).
+Ejs: 
+Lluk`iy s.Corrupción
+Pachakamay k´uchu s. Espacio de ciencias de la vida. (ilcq)
+Ñit’iy, qillqachay r.p. Imprimir. (arusimiñee)
+Ñit’isqa ph. Ña ñit›isqa p›anqa. Publicado; impreso. (ñancha)
+
+He reemplazado todos con ' (apóstrofo recto), porque es el caracter incluido en la mayoria de teclados y es más facil escribir para realizar búsquedas en GoldenDict y SimiDic, pero a menudo Word y LibreOffice Writer son configurados para reemplazar ' por ’.
+
+
+2. La mayoria de los sufijos tiene guiones para indicar que son sufijos y están en minúsculas, pero algunos están en mayúsculas y/o no tiene guiones. Algunos tienen guiones después para indicar que son infijos (que sólo aparecen en el medio de palabras), pero no todos los infijos tienen guiones después.
+
+Ejs:
+- chi CHU k’ Causativo, sufijo causativo (modal). (str, rk)
+Mpu <mu + pu [mpu] k’ Movimiento transitivo intensivo-reflexivo; ir a hacérselo. (rk)
+Ra [ra] k’ Distributivo.
+Ta [ta] k’ Adverbial. llaqta-ta chayani llego al pueblo.
+-Taq k' Complemento del pronombre interrogativo.
+
+He estandardizado todos con guiones y minúsculas:
+-chi- CHU k' Causativo, sufijo causativo (modal). (str, rk)
+-mpu- <mu + pu [mpu] k' Movimiento transitivo intensivo-reflexivo; ir a hacérselo. (rk)
+-ra- [-ra-] k' Distributivo.
+-ta [-ta] k' Adverbial. llaqta-ta chayani llego al pueblo.
+-taq k' Complemento del pronombre interrogativo.
+
+Nota: para encontrar todos los sufijos, se puede usar esta expresión regular: \bk'\s
+
+3. Los * para marcar neologismos a veces no son pegados a la palabra y a veces son antes de la palabra.
+Ejs:
+Ch'aki qhasa *s. Escarcha.
+Lawraytiqti*s. Magma (Rocas Fundidas Del Volcán. (ilcq)
+Miqa, q'usñi samay, *q'apachiq s. Sahumador.
+Miq'a LPZ s.t. *podrido huevo,
+Ñañu apantiya CBB * s. Radio (Hrb).
+
+He puesto el * despues de las palabras en lugar de antes. También, he eliminado el espacio antes de * y agregado un espacio después:
+Ch'aki qhasa* s. Escarcha.
+Lawraytiqti* s. Magma (Rocas Fundidas Del Volcán. (ilcq)
+Miqa, q'usñi samay, q'apachiq* s. Sahumador.
+Miq'a* LPZ s.t. podrido huevo.
+Ñañu apantiya* CBB s. Radio (Hrb).
+
+Note: Para encontrarlos, utiliza estas expresiónes regulares: "\s+\*", "\*\w"
+
+
+4. He estandarizado los espacios después de cada elemento:
+Ejs:
+Pachakcha ñiqi yupa s.Centigramo
+Pachakcha p'uytu (pp')yupa. Centilitro. (arusimiñee)
+Pachakcha thatki (pth) yupa.Centímetro. (arusimiñee)
+->
+Pachakcha ñiqi yupa s. Centigramo
+Pachakcha p'uytu (pp') yupa. Centilitro. (arusimiñee)
+Pachakcha thatki (pth) yupa. Centímetro. (arusimiñee)
+
+Nota: para encontrar la falta de espacios, utiliza estas expresiones regulares:
+\b[sy]\.\w{2,}
+\br\.[a-zñ][a-zñ']{2}
+\b(. (|aq|aqha|asiku|awa|awqan|aym|challwa|chiru|cp|iñiy|ja|k’|k'uski|k'utu|ka|kas|kh|khuru|kikin|kiti|kurku|llaqta|llimp'i|mallki|masi|mikhu|musuq|ñancha|ñawpa|ñin|p'isqu|pacha|ph|qillqa|qq|r\.kh|r\.ku|r\.mp|r\.m\.r|r\.p|r\.t|r\.wa\-n|ranti|rumi|runa|s\.ranti|pro\.s\.t|sañu|simi|sunqu|sut|sxx|taki|tarpu|Tikra|t.ranti|t|Trbk|tupu|ukhu|uywa|wakin|wanlla|wasi|wawa|wallpa|y\.r|y\.s|\.s)\.\w
+
+
+5. He cambiado todas las entradas para iniciar en una letra mayúscula.
+Ej:
+inti yaykunan qPPA. s. Entrada del sol. (pat) 
+->
+Inti yaykunan qPPA. s. Entrada del sol. (pat) 
+
+Nota: Utiliza esta expresión regular para encontrar entradas que comienza con minúscula: ^[^A-ZÑ\-]
+
+
+6. He hecho una búsqueda de "BO" para encontrar todos casos en mayúsculas que deben ser en minúsculas.
+Ejs:
+-yku CHU k’ 1era persona plural (excl.), flexión de verBO. (str)
+Chupa PTS s. Cola, raBO. (ceq, lot, rh)
+Jatun wankar taki. s. BomBO. (arusimiñee)
+
+
+7. He agregado ":" despues de qhaway, kikin, y awqan. 
+Ej:
+Laq'ina s. Tinaja. (ceq) kikin llak'ina
+->
+Laq'ina s. Tinaja. (ceq) kikin: llak'ina
+
+Nota: Utiliza esta expresión regular para encontrarlos: "\b(kikin|qhaway|awqan) "
+
+
+8. He asegurado que las partes gramaticales terminan en punto con esta expresión regular:
+\b(guar|kas|. (|aqha|asiku|awa|aym|challwa|chiru|iñiy|ja|ka|kas|kh|khuru|mallki|masi|mikhu|musuq|ñin|pacha|ph|qillqa|r\.kh|r\.ku|r\.m\.r|r\.p|r\.t|rumi|runa|pro\.s\.t|taki|tarpu|Tikra|tupu|ukhu|uywa|wakin|wasi|wawa|y.r|y.s) 
+
+
+9. Las siguientes expresiones pueden separar las palabras claves de sus definiciones:
+
+^([^\t]+?) (LPZ |CHU |CBB |PTS |<|. (\.? |aq\.? |aqha\. |asiku\. |awa\. |challwa\. |chiru\.? |cp |iñiy\. |ja\. |k' |k'uski\.? |k'utu\.? |ka\. |kh\. |khipu\.? |khuru\. |Kiti\.? |kurku\.? |llaqta\.? |llimp'i\.? |mallki\. |masi\. |mikhu\. |musuq\. |ñancha\.? |ñawpa\.? |ñin\. |p'isqu\.? |pacha\. |Pachakallpa |ph\. |purum uywa |qillqa\. |qq |r\.|ranti\.? |Rikuchiq |rumi\. |runa\. |pro\.s\.t\. |s\.|sañu\.? |simi\.? |sunqu\.? |suti\. |sxx |taki\. |tarpu\. |Tikra\. |t\.|Trbk |tupu\. |ukhu\. |uywa\. |wakin\. |wanlla\. |wasi\. |wawa\. |wallpa\.? |y\.|yupa\.? |yacha\.? |yaw\. )
+
+^([^\t]+?) ([A-ZÑ])
+
+
+10. Hay que anadir "alquivi", "rh", "h. R. R.", "ñancha", "márquez", "montalvo", "tiyay", "jayma",  "aae", "drae" y "simi pirwa cenaq" en la lista de fuentes.
+
+
+11. He cambiado la abreviación de "bo." (plantas, botánica) a "bot.", porque "bo." es la abreviación ISO de "Bolivia".
+
+
+12. Muchas veces no estoy seguro si una palabra es parte de definición o esta indicando la categoria.
+Por ej:   
+Gavilán s. waman p'isqu. (arusimiñee)
+Isla s. Tara pacha (arusimiñee, lay).
+
+No es claro si "p'isqu" y "pacha" son categorias o son parte de las definiciónes. Tuve que buscar en el glosario Arusimiñee para verificar que "p'isqu" y "pacha" no son parte de las definiciónes. 
+En mi opinión, las categorias deberian ser marcadas en una manera que no se puede confundirlas. Por ejemplo, en lugar de usar "p'isqu" y "pacha", sería mas claro usar "Orni." (Ornitologia) y "Geog." (Geografía).
+Si es necesario usar quechua, debería usar tipografía small caps para distinguir las categorias de las definiciones, como el diccionario de La Academia Mayor de la Lengua Quechua (de Cuzco).
+
+Otro problemas es que el orden de las entradas es muy variable. Sería mejor usar el siguiente orden para distinguir la categoria de la definición:
+Gavilán p'isqu. s. Waman. (arusimiñee)
+Isla pacha. s. Tara. (arusimiñee, lay)
+
+13. En términos de colores, he puesto las partes gramaticales y las procedencias (<lengua) en verde, las categorias en azul, las regiones en morado, las referencias a otras palabras (ej: awqan:...) en rojo y las fuentes en marrón.
+He creado un script de python llamado colorDicQuechuaILC.py para insertar los colores en el diccionario y puedo cambiar estos colores si Uds. prefieren otros colores.
+
+Porque no hay un ordén estandar en el diccionario, el script colorDicQuechuaILC.py no puede identificar el papel de una palabra por su ubicación en la entrada, entonces el script agrega colores si la palabra tiene un punto después. He quitado puntos despues de palabras como "wanlla.", "rumi.", "wawa.", "simi.", "ukhu." y "ranti." para evitar que reciban colores:
+
+Ejs:
+Cariñoso (lit. De boca dulce) s. misk'i simi sxx sumaqta parlaykukun. Kikin: ñukñu simi. (rk)
+Diputado s. Ura wasi ranti. (rk)
+->
+Cariñoso (lit. De boca dulce) s. misk'i simi sxx sumaqta parlaykukun. Kikin: ñukñu simi (rk)
+Diputado s. Ura wasi ranti (rk)
+
+También he agregado puntos despues de palabras como "k'utu." y "ranti." para recibir colores correctamente:
+
+Ejs: 
+
+También he traslado elementos para identificar más claramente que una categoria no es parte de la definición.
+
+Ejs:
+Cardón gigante s. Achuma mallki. (drae)
+Cardón s. variedad de cacto qhiwayllu (qhewallu) PTS mallki. (aul, ceq, lot)
+Carmen karmina LPZ  suti. s. (pat, rk)
+Carnaval s. Anata taki. (arusimiñee)
+Carne s. (para decir a los bebés), pedacitos de carne para los bebés chichi wawa.(ceq, lot)
+->
+Cardón gigante mallki. s. Achuma (drae)
+Cardón, variedad de cacto PTS mallki. s. Qhiwayllu (qhewallu). (aul, ceq, lot)
+Carmen LPZ suti. s. Karmina (pat, rk)
+Carnaval taki. s. Anata (arusimiñee)
+Carne wawa. s. (para decir a los bebés), pedacitos de carne para los bebés. Chichi (ceq, lot)
+
+
+14. Con el script colorDicQuechuaILC.py, he insertado la tabla de abreviaturas y la lista de fuentes en GoldenDict. Para verlas, vaya a "Editar > Diccionarios" en el menú. En el diálogo que abre, haga clic en la pestaña "Diccionarios" y vaya a "Quechua Boliviano-Castellano (ILCN Quechua)" para ver la "Descripción". Puedo agregar más información allí, si Uds. desean. No tenemos un lugar para incluir esta informaión en SimiDic. En varios otros diccionarios (por ejemplo, el diccionario aymara de Félix Layme), hemos utilizado palabras completas en lugar de abreviaciones.
+
+15. He utilizado las etiquetas "Quechua Boliviano-Castellano (ILCN Quechua)" "Castellano-Quechua Boliviano (ILCN Quechua)" para identificar el diccionario porque el espacio es muy limitado en la interfaz de SimiDic. Puedo cambiar estas etiquetas para identificar los diccionarios. En SimiDic, ya tenemos varios diccionarios de quechua de Perú (Holguín, Cerron-Palomino, AMLQ, AMLQ-Apurimác, Poliglota, Min.Edu-Cuzco. Min.Edu-Ayacucho y Min.Edu-Ancash), entonces he aumentado "Boliviano" en las etiquetas para identificar la región. 
+
+16. Debe añadir "khipu", "yacha.", "yupa.", "s.t.", "yaw.", "lit.", "voc.", "voc.exclam.", "<latin", "<inglés", "pron.indet.", "pron.int.", "pl.", "mat.", "ch" y "pt." a la tabla de abreviaturas.
+Ejs: 
+Achkha yupaqillqa* khipu s. Polinomio.
+Yuyaynin yacha. s. Definición. (arusimiñee)
+Yupayruway, alwuritmu yupa. s. Algoritmo. (arusimiñee)
+Wist'u CBB PTS s.t. Torcido. (xa, ceq, lot, rh)
+Tu tuy yaw. Hola dice la mujer al varón. (dgh)
+Actividades recreativas lit. Pukllana qillqa. Ima pukllaytapis pukllanapaq (ñancha)
+Hola, dice la mujer a otra ñawpa. Ña nay voc. Aq warmipura jinata napayku­nakunku. (dgh, ñawpa)
+Hola dice el varón a la mujer voc.exclam. Paw (dgh)
+Camisa típica de la mujer almilla s. <kas. <latin [aymilla; allmilla] LPZ  (pat)
+Whisky. s. ( <inglés). Bebida alcohólica que se obtiene por destilación de diversos cereales malteados, especialmente la cebada. Wiski.
+Alguien	pron.indet. Pichá ari. Algien será.
+Cómo imayna ima jina (imayna) CHU  LPZ  PTS pron. Int. (ceq, lot, pat, rh, str)
+Esos, esas	pron. Dem.pl. Chaykuna
+Grande mat. Adj. Jatun (jatun) ch LPZ athun PTS (arusimiñee, ceq, pat, rh, str)
+Gemir v.tr. Arqhiy ch PTS (CBBa) quejarse de dolor aqliy ch (rk)
+Por mucho tiempo unayta [unayta]. Unaymanta pacha pt.
+
+17. En las fuentes, he eliminado la coma para separar el nombre del autor y el año de publicación, porque la coma también indica otra fuente. Para evitar confusión, es mejor eliminarla. También he eliminado los doble parénthesis.
+Ejs:
+(arusimiñee, márquez, 2004: 97)
+(arusimiñee, (márquez, 2004: 103))
+( (herbas, 1992: 316))
+->
+(arusimiñee, márquez 2004: 97)
+(arusimiñee, márquez 2004: 103)
+(herbas 1992: 316)
+
+Nota: se puede encontrar doble parénthesis con esta expresión regular: (\( *\(|\) *))
+
+18. No entiendo el uso de los corchetes cuando la escritura es la misma.
+Ejs:
+Rama desgajada k'aqlla [k'aqlla] s. (dgh) 
+Rana k'ayrankuli [k'ayrankuli] s. (ceq)
+
+¿Qué significa la versión entre parénthesis en estos casos?
+
+
+
+***** He realizado los siguientes cambios u observaciones en el diccionario: ******
+
+[En la tabla de abreviaturas:]
+s.ranti | suti ranti | pronombre | pro.dem.
+->
+s.ranti | suti ranti | pronombre | pron.
+
+
+k’ | k’askaq | sufijo | sufi.
+->
+k’ | k’askaq | sufijo | suf.
+
+
+sxx | Siglo XX, P'utuqsi | Siglo XX, Prov. Bustillos, Norte
+->
+sxx | Siglo XX, P'utuqsi | Siglo XX, Prov. Bustillos, Norte Potosí
+
+uywa. | uywa, kawsaqkunamanta | doméstico
+wasi. | wasipi kaqkuna-manta  | Doméstico | dom.
+->
+uywa. | Uywa, kawsaqkunamanta | animal doméstico
+wasi. | wasipi kaqkuna-manta  | de lo doméstico | dom.
+
+.s. | yuyay, sutiwan | frase nominal
+->
+y.s. | yuyay, sutiwan | frase nominal
+
+
+ranti | juk simita wakmanta yuyarinapaq | pronombre | pro.
+=>
+ranti | juk simita wakmanta yuyarinapaq | pronombre | pron.
+[Los pronombres son identificados como "pron.", por ej: "Algunos pron. Wakin, wakillan (pat)"]
+
+
+
+[En la tabla de fuentes]
+Terán de Dick, Alicia.
+(Varios Trabajos) (adt)
+->
+Terán de Dick, Alicia.
+(Varios Trabajos) (atd)
+
+
+1971 Sucre Quechua: A pedagogical gramar.
+Madison, Wisconsin: Deparment of Anthro-
+pology, University of Wisconsin. (str, lrs)
+->
+1971 Sucre Quechua: A pedagogical grammar.
+Madison, Wisconsin: Department of Anthro-
+pology, University of Wisconsin. (str, lrs)
+["gramar" y "deparment" son mal deletreados.]
+
+
+Purunkichiy, pulunkichiy LPZ r.p. Pululichiy. Inflar, p ej. GloBO. (pat)
+->
+Purunkichiy, pulunkichiy LPZ r.p. Pululichiy. Inflar, p ej. Globo. (pat)
+
+
+Q’uñichi sxx s. Recalentado, comidarecalentada. (rk)
+->
+Q’uñichi sxx s. Recalentado, comida recalentada. (rk)
+
+
+Tukuychay k’amiykunawan k’uski. Conclusiones y recomendaciones. ((Laime, Cazazola y Layme, 1997:247 - Márquez, 2004: 96)
+Tukuychaykuna k’uski. s. Conclusiones. ((Laime, Cazazola y Layme, 1997: 247)
+->
+Tukuychay k’amiykunawan k’uski. Conclusiones y recomendaciones. (Laime, Cazazola y Layme 1997:247; Márquez, 2004: 96)
+Tukuychaykuna k’uski. s. Conclusiones. (Laime, Cazazola y Layme 1997: 247)
+
+
+Qallariy CHU LPZ r.mp. Comenzar. (pat, str) Qallariy PTS r.mp., r.p. Empezar. (ceq, lot, rh) Qallariy s. Ñawpaqpi churasqa qillqa, juk p›anqata qallarinapaq. Prólogo. (ñancha)
+->
+Qallariy CHU LPZ r.mp. Comenzar. (pat, str) Qallariy PTS r.mp., r.p. Empezar. (ceq, lot, rh) Qallariy s. Ñawpaqpi churasqa qillqa, juk p'anqata qallarinapaq. Prólogo. (ñancha)
+[› fue utilizado como signo glotalizador]
+
+
+ñiq CHU -neq” k’ Aproximativo de lugar,. (str, rk)
+ñiqta r.t Ñan-ñiq-ta rinki. Ve por las proximidades del camino.
+->
+-ñiq CHU -neq” k’ Aproximativo de lugar,. (str, rk)
+-ñiqta r.t Ñan-ñiq-ta rinki. Ve por las proximidades del camino.
+[tampoco deben estar adentro de la definición de "niq" (hablador)]
+
+Puqusqa, lluqsisqan ph.Producto. (arusimiñee)
+->
+Puqusqa, lluqsisqan ph. Producto. (arusimiñee)
+
+pura k’ Entre (miembros del mismo grupo);lo mismo. (dgh, ceq, pat) LPZ warmi pura entre mujeres.
+->
+-pura k’ Entre (miembros del mismo grupo); lo mismo. (dgh, ceq, pat) LPZ warmi pura entre mujeres.
+
+phisu siki CBB . (. s. Puta. (h&s)
+Phisu CBB . (. s. Prostituta kikin: pampa warmi. (ceq, h&s)
+->
+Phisu siki CBB s. Puta. (h&s)
+Phisu CBB s. Prostituta. kikin: pampa warmi. (ceq, h&s)
+
+
+phuqchiy. Phurmuy.
+[¿falta?]
+
+P’unchaw CHU LPZ PTS s. Día. (arusimiñee, ceq, pat, rh, str) 
+chawpi p’unchay mediodía. Killa p’unchaw claro de luna. Sapa p’unchaw cada día.
+->
+P’unchaw CHU LPZ PTS s. Día. (arusimiñee, ceq, pat, rh, str) chawpi p’unchay mediodía. Killa p’unchaw claro de luna. Sapa p’unchaw cada día.
+[He unido en en una definición. Debe indicar que p'unchay es una variante de p'unchaw]
+
+
+Quncha masi. s. Sobrino,a; hombre a los hijos de su hermana ñawpan: Cconcha. Sobrinos dize el varon al hijo, o hija de su hermana. (dgh, ñawpa)
+[debe revisar "sobrinos dize"]
+
+Quyru s. Nube o catarata en los ojos. (dgh, arusimiñee, lay, pol, smtq) 
+ñawip quyrun. (dgh)
+->
+Quyru s. Nube o catarata en los ojos. (dgh, arusimiñee, lay, pol, smtq) ñawip quyrun. (dgh)
+
+
+[He cambiado la primera letra a mayúscula en muchas entradas.]
+Ej:
+qhaluyu [qhaluyo] s. Baile. (rk)
+qusachakuy. Tantakuy. Warmichakuy. Qharikuna s. Hombres, los.
+[Para encontrar las entradas sin mayúscula al comienzo, utiliza esta expresión regular: ^[a-zñ] 
+
+Rump’u s.t., s. Redondo como bola ñawpan: muruq’u. (dgh, arusimiñee) 
+Kikin: muyu redondo. Sinku rueda. Tinkullpa aro.
+->
+Rump’u s.t., s. Redondo como bola ñawpan: muruq’u. (dgh, arusimiñee) kikin: muyu redondo. Sinku rueda. Tinkullpa aro.
+
+
+Sapallu LPZ PTS mallki. s. Zapallo; (Cucúrbita máxima) ñawpan: Sapallu. Calabaça de la tierra. (dgh, lot, pat)
+iskario. Lakayu. Luluqchi. Pulu . q’illu sapallu.
+->
+Sapallu LPZ PTS mallki. s. Zapallo; (Cucúrbita máxima) ñawpan: Sapallu. Calabaça de la tierra. (dgh, lot, pat) iskario. Lakayu. Luluqchi. Pulu. q’illu sapallu.
+[debe revisar. ¿Qué es iskario?]
+
+siki k’ Indica persona caracterizada por el contenido de la palabra base. (rk) llasa siki remolón. Puñuy siki dormilón. Sikichupa s. Coxis
+->
+-siki k’ Indica persona caracterizada por el contenido de la palabra base. (rk) llasa siki remolón. Puñuy siki dormilón. 
+Sikichupa s. Coxis
+[dos entradas separadas y guion al frente de "siki"]
+
+
+T’ijiy LPZ r.p. Poner cuero al bomBO. (pat)
+->
+T’ijiy LPZ r.p. Poner cuero al bombo. (pat)
+
+Wallpachiy, yuyay paqarichiy* s. Creatividad Wallpakamay s. Expresión y creatividad Wallpa suwa CBB wallpasua
+LPZ p’isqu. s. Gallinazo (ave de rapiña); gavilán. (xa, ceq, pat)
+->
+Wallpachiy, yuyay paqarichiy* s. Creatividad 
+Wallpakamay s. Expresión y creatividad 
+Wallpa suwa CBB wallpasua LPZ p’isqu. s. Gallinazo (ave de rapiña); gavilán. (xa, ceq, pat)
+
+Arariwa s. Control. (arusimiñee). Vitamina kikin kallpachaq.
+->
+Arariwa s. Control. (arusimiñee). Vitamina kikin: kallpachaq.
+
+Chá k’ CHU Dubitativo, sufijo independiente, conjetural. (str, rk)
+->
+-chá k’ CHU Dubitativo, sufijo independiente, conjetural. (str, rk)
+
+[He aumentado ":" después "kikin" en muchos lugares]
+Ej:
+Chhasa CB st chismoso, delatador, soplón (rpaa) kikin thasa
+->
+Chhasa CB st chismoso, delatador, soplón (rpaa) kikin: thasa
+[Para encontrarlos utiliza esta expresión regular: \bkikin \w ]
+
+
+Irapata LPZ kiti. s. Lugar en niño Corín, donde hay un cabildo donde se hace ceremonia en cada carnaval. (pat)
+->
+Irapata LPZ kiti. s. Lugar en Niño Corín, donde hay un cabildo donde se hace ceremonia en cada carnaval. (pat)
+["Ñino" con mayúscula]
+
+Jallp’a qhaway, pachajallch’ay* s. Cuidado de Suelo (ilcq)
+->
+Jallp’a qhaway, pachajallch’ay* s. Cuidado de suelo (ilcq)
+["suelo" con minúscula]
+
+
+Q’ipi LPZ s. Carga. (pat)
+Alma q’ipi.
+Punku q’ipi.
+[Falta la traducción de las frases.]
+
+Kipa k’ Particula verbal que significa: hacer a medias (rpaa)
+->
+-kipa- k’ Particula verbal que significa: hacer a medias (rpaa)
+
+- chi CHU k’ Causativo, sufijo causativo (modal). (str, rk)
+->
+-chi CHU k’ Causativo, sufijo causativo (modal). (str, rk)
+[quitar espacio después del guion]
+
+
+LPZ Na - qa! es pues X. (pat)
+->
+Na - qa! LPZ es pues X. (pat)
+
+Sqa k’ Conocimiento indirecto.
+->
+-sqa k’ Conocimiento indirecto.
+
+Sullk’a Yachachiy Kamachiq Viceministro de Educación Escolarizada. (ñancha)
+Sullk’a yachachiy kamachiq Viceministro de educación escolarizada. (ñancha)
+->
+Sullk’a Yachachiy Kamachiq Viceministro de Educación Escolarizada. (ñancha)
+[eliminar la duplicación]
+
+Chimu k’ Causativo desplazativo.
+->
+-chimu- k’ Causativo desplazativo.
+
+inti yaykunan qPPA. s. Entrada del sol. (pat)
+[¿qPPA?]
+
+Iskayninchik LPZ ranti Nosotros dos. (rk.)
+->
+Iskayninchik LPZ ranti Nosotros dos. (rk)
+[sin punto en la fuente]
+
+Jallch’arimuy r.p. Ir a arreglar (un poco),.
+->
+Jallch’arimuy r.p. Ir a arreglar (un poco).
+
+Jap’iqay PTS musuq. r.p. Entender, comprender, retener en la memoria una información.. (ceq, jdb rk)
+->
+Jap’iqay PTS musuq. r.p. Entender, comprender, retener en la memoria una información. (ceq, jdb rk)
+
+Juñichiy wakichiy s. Organización poliítica
+->
+Juñichiy wakichiy s. Organización política
+
+Machay CHU PTS r.mp. Macvan-pacva. Embriagarse, emborracharse. (lot, str, rk)
+->
+Machay CHU PTS r.mp. Machan-pacha. Embriagarse, emborracharse. (lot, str, rk)
+
+-má PTS aq. K’ Sufijo enfático: con imperativos se traduce como.a ver!, con afirmaciones como.eso sí que es…! (ceq, lot, rk)
+->
+-má PTS aq. K’ Sufijo enfático: con imperativos se traduce como "a ver!", con afirmaciones como "eso sí que es…!" (ceq, lot, rk)
+
+Kacharpari CBB kacharpari PTS s. Despedida;. (xa, gro, lot)
+->
+Kacharpari CBB kacharpari PTS s. Despedida. (xa, gro, lot)
+
+Kamu <ku + mu [kamu] k’ Desplazamiento autobenefactivo reflexivo.
+->
+-kamu- <ku + mu [kamu] k’ Desplazamiento autobenefactivo reflexivo.
+
+kawsaykunapkiti* kawsay s . Biotopos. (ilcq)
+->
+Kawsaykunapkiti* kawsay s. Biotopos. (ilcq)
+
+Kusa LPZ , CBBA r.t Bien, Bueno. (pat)
+->
+Kusa LPZ, CBB r.t Bien, Bueno. (pat)
+
+
+Khakay musuq. r.p. Imponer; imponer ideas, lenguas, culturas, modas. (rk) k’ichñiy embutir. Sat’iy meter un objeto. Winay taquear.
+["k’ichñiy embutir. Sat’iy meter un objeto. Winay taquear." no debe ser parte de esta definición.]
+
+Kharkatisqa sapachasqa simi. s. Vibrante simple. ((Montalvo, 1996: 22)
+->
+Kharkatisqa sapachasqa simi. s. Vibrante simple. (Montalvo, 1996: 22)
+
+Khirjay LPZ r.p. Azotar, chicotear. (pat) CHU kikin: siq’uy, JASUT’IY
+->
+Khirjay LPZ r.p. Azotar, chicotear. (pat) CHU kikin: siq’uy, jasut'iy.
+
+K’askaqkuna musuq. s. Sufijos; los que se pegan,. (rk)
+->
+K’askaqkuna musuq. s. Sufijos; los que se pegan. (rk)
+
+Layu LPZ s. Trébol. (pat) CHU K’allku k’allku
+[K’allku k’allku no está en el diccionario. Falta kikin, qhaway or algo para indicar su relación con layu.]
+
+Liqhuy r.p. Mirar con enojo; mirar de soslayo. (ceq) CHU lirq’uy
+[lirq’uy no está en el diccionario. Si es una variante de liqhuy, debe tener algo para indicarlo.]
+
+Lla k’ Nomás; sufijo limitativo. (rk)
+->
+-lla k’ Nomás; sufijo limitativo. (rk)
+
+Llamk’aq LPZ s.t., s. Deshierbador. (pat) qhuraq 
+->
+Llamk’aq LPZ s.t., s. Deshierbador. (pat) kikin: qhuraq 
+[Falta Qhuraq en el diccionario quechua-español.]
+
+Llamk’asqa LPZ ph. Deshierbado . (pat) cultivado
+->
+Llamk’asqa LPZ ph. Deshierbado. (pat) cultivado
+
+Llamk’ay (llank’ay) LPZ r.p. Trabajar, deshierbar. (pat) LPZ sara llamk’ay. (pat)
+[Falta la traducción de sara llamk'ay]
+
+Llanch’iy (llanch’iy) PTS r.p. Sacar comida de la olla con la mano kikin: llawch’ikuy. (lot, rk) CHU Llaqch’iy
+[Llaqch’iy no está en el diccionario. Si es una variante de lanch'iy, debe indicarlo.]
+
+Llawi <kas. (llave) PTS s. Llave. (lot) kichana
+->
+Llawi <kas. (llave) PTS s. Llave. (lot) kikin: kichana
+
+Llawiy <kas. PTS r.p. Echar llave ñawpan: Llauini. Cerrar con llave. (dgh, lot, rk) ch’ataykuy
+->
+Llawiy <kas. PTS r.p. Echar llave ñawpan: Llauini. Cerrar con llave. (dgh, lot, rk) kikin: ch’ataykuy
+[ch’ataykuy no está en el diccionario.]
+
+Llawq’iy r.p. Meter las manos, robar. (ceq) Suway
+->
+Llawq’iy r.p. Meter las manos, robar. (ceq) qhaway: suway
+
+Llijuriq s.t. Luciente, brillante. (ceq) lliphipiq
+Llijuriy r.mp. Brillar, lucir. (ceq, rk) lliphipiy
+->
+Llijuriq s.t. Luciente, brillante. (ceq) kikin: lliphipiq
+Llijuriy r.mp. Brillar, lucir. (ceq, rk) kikin: lliphipiy
+
+[he agregado espacios después de muchas partes gramaticales (s.
+Lluk`iy s.Corrupción
+
+Qullamusya* s. Sentido Del Tacto
+->
+Qullamusya* s. Sentido del tacto.
+[Debe trasladarlo de la sección de Q' a Q.]
+
+-Qpa CHU -q”pa k’ Genitivo. (str)
+->
+-qpa CHU -q”pa k’ Genitivo. (str)
+
+khuchuy cortar (con cuchillo). K’utuy cortar. Llik’iy rasgar. P’itiy reventar. Rutuy segar.
+->
+K’utuy Cortar. qhaway: khuchuy cortar (con cuchillo), llik’iy rasgar, p’itiy reventar, rutuy segar.
+
+Machkha <may chhika CBB LPZ PTS t. Ranti. Machkha wawayuqtaq. Cuánto,s. (xa, ceq, lot, pat, rh)
+Machkhakamataq LPZ PTS Cuánto cuesta cada uno; lit. Hasta cuánto cada uno. (pat, rk) machkhapitaq Cuánto cuesta?; en cuánto está? machkhatataq? Machkhatataq munanki? Cuántos quieres? machkhataq Machkhataq kanku? Cuánto es, cuántos son?
+->
+Machkha <may chhika CBB LPZ PTS t. Ranti. Machkha wawayuqtaq. Cuánto,s. (xa, ceq, lot, pat, rh)
+  Machkhapitaq? Cuánto cuesta?; en cuánto está?
+  Machkhatataq? Machkhatataq munanki? Cuántos quieres?
+  Machkhataq? Machkhataq kanku? Cuánto es, cuántos son?
+Machkhakamataq LPZ PTS Cuánto cuesta cada uno; lit. Hasta cuánto cada uno. (pat, rk)
+[He translado los ejemplos de Machkakamataq a Machkha.]
+
+
+Maki (maki) CHU LPZ PTS s. Mano, ; brazo. (ceq, lot, pat, rh, str)
+Maki  LPZ  tupu.  s.  Makiwan  tupuna.  Medida. (pat)
+Aya maki mano helada.
+Ch’ulla maki manco. Medida (un puñado)
+Lluq’i maki mano izquierda. 
+Paña maki mano derecha. 
+Qara maki guante.
+->
+Maki (maki) CHU LPZ PTS s. Mano; brazo. (ceq, lot, pat, rh, str)
+  Aya maki mano helada.
+  Lluq’i maki mano izquierda. 
+  Paña maki mano derecha. 
+  Qara maki guante.
+Maki  LPZ  tupu.  s.  Makiwan  tupuna.  Medida. (pat)
+  Ch’ulla maki manco. Medida (un puñado)
+  
+Makiypiña LPZ Makinpi kachkan.Ya esta conmigo; esta en su mano (sospecha). (pat)
+->
+Makiypiña LPZ Makinpi kachkan. Ya esta conmigo; esta en su mano (sospecha). (pat)  
+
+Makitullukuna s. Huesos de La Mano
+->
+Makitullukuna s. Huesos de la mano
+
+Mujusut’incha* s. Adn (Sgl.)
+->
+Mujusut’incha* s. ADN (ácido desoxirribonucleico) (Sgl.)
+
+Musuq CHU LPZ PTS s.t. Nuevo. (ceq, lot, pat, str) Mawk’a. Thanta.
+->
+Musuq CHU LPZ PTS s.t. Nuevo. (ceq, lot, pat, str) awqan: mawk’a, thanta.
+
+
+Muqu PTS s. Promontorio; colina. (rh)
+Muqu LPZ PTS s.t., s. Enano; petizo. (pat, rk)
+Chaki muqu. (jl)
+Chay muqu wasapi tiyakun. Vive detrás de aquella colina. (rh)
+->
+Muqu PTS s. Promontorio; colina. (rh) Chay muqu wasapi tiyakun. Vive detrás de aquella colina. (rh) 
+Muqu LPZ PTS s.t., s. Enano; petizo. (pat, rk)
+  Chaki muqu. (jl)
+[He traslado el ejemplo a "Muqu"]
+
+Muyu s.t. Redondo como tabla. (dgh, arusimiñee) 
+Rump’u bola.
+Rinku rueda.
+Tinkullpa aro.
+->
+Muyu s.t. Redondo como tabla. (dgh, arusimiñee) qhaway: rump’u bola, sinku rueda, tinkullpa aro.
+
+
+Newton kamachi*pachakallpa s. Leyes de Newton
+->
+Newton kamachi* pachakallpa s. Leyes de Newton
+
+Ñañuchay r.p. Ñañuman kutichiy.Adelgazar (objetos cilíndricos, como hilos, hebras, palos). (ceq)
+->
+Ñañuchay r.p. Ñañuman kutichiy. Adelgazar (objetos cilíndricos, como hilos, hebras, palos). (ceq)
+
+Ñaqch’a ñaqch’a LPZ mallki. s. Qhurakuna, chakrapi kaq. Alferillo, hierba medicinal, fresca, para la fiebre. (pat) awja awja. Ñuqch’u ñuqch’u.
+->
+Ñaqch’a ñaqch’a LPZ mallki. s. Qhurakuna, chakrapi kaq. Alferillo, hierba medicinal, fresca, para la fiebre. (pat) qhaway: awja awja, ñuqch’u ñuqch’u.
+[ñuqch’u ñuqch’u no esta en el diccionario. Si awja awja y ñuqch’u ñuqch’u son la misma herba como ñaqch’a ñaqch’a, debe ser "kikin:"]
+
+Ñasña LPZ s.t. Ñat›u sinqa, t›apla sinqa. Ñato; nariz aplastada. (ceq, pat)
+->
+Ñasña LPZ s.t. Ñat'u sinqa, t'apa sinqa. Ñato; nariz aplastada. (ceq, pat)
+[¿Debe ser "t'apa" en lugar de t'apla?]
+
+Ñat’uy PTS r.p. T’anta ruwanapaq, masata kuyuchiy;. Amasar.
+->
+Ñat’uy PTS r.p. T’anta ruwanapaq, masata kuyuchiy. Amasar.
+
+Ñawpaqi+Y+pi kay r. Delante de (persona) awqan: qhipaYpi detrás de. (rk)
+->
+Ñawpaqi+y+pi kay r. Delante de (persona) awqan: qhipaypi detrás de. (rk)
+
+-Pacha LPZ k’ Momento. (pat)
+-Chay pacha esa vez. Kunanpacha ahora mismo.
+->
+-pacha LPZ k’ Momento. (pat) Chay pacha esa vez. Kunanpacha ahora mismo.
+
+P ~ pa [pax ~ -q] CHU -q” k’ Pip kasqanta sut’inchanapaq, saphi uyaywapi tukukuptin
+->
+-p ~ -pa [pax ~ -q] CHU -q” k’ Pip kasqanta sut’inchanapaq, saphi uyaywapi tukukuptin
+[¿Por qué doble apóstrofo en -q” ?]
+
+Pachallan CBB PTS s.t. Pachallanpuni kachkanki‘. Igual (estar), seguir como antes, lo mismo. (h&s, rh, rk)
+->
+Pachallan CBB PTS s.t. Pachallanpuni kachkanki. Igual (estar), seguir como antes, lo mismo. (h&s, rh, rk)
+
+Pachiy r.p. Agradecer (en niño Corín, gracias nomas dicen). (pat)
+->
+Pachiy r.p. Agradecer (en Niño Corín, gracias nomas dicen). (pat)
+
+P’uytu yupa. s. RomBO. (arusimiñee)
+->
+P’uytu yupa. s. Rombo. (arusimiñee)
+
+Quchapampa, Qucha Pampa CHU LPZ kiti. s. Cochabamba, ; pampa de lagos. (arusimiñee, pat, str, rk)
+->
+Quchapampa, Qucha Pampa CHU LPZ kiti. s. Cochabamba; pampa de lagos. (arusimiñee, pat, str, rk)
+
+Quri (qori) LPZ PTS rumi. s. Oro. (arusimiñee, ceq, lot, pat, rh)
+Quri kiru s. Dientes de oro. (rk). ninri quri aretes.
+->
+Quri (qori) LPZ PTS rumi. s. Oro. (arusimiñee, ceq, lot, pat, rh)
+  Ninri quri Aretes.
+Quri kiru s. Dientes de oro. (rk).  
+
+Qhasisina, yanqhasina *yupa s.t.
+[falta]
+
+Rimana PTS s. VerBO.
+Rimachiq, imachiq simi. s. VerBO. (arusimiñee)
+->
+Rimana PTS s. Verbo.
+Rimachiq, imachiq simi. s. Verbo. (arusimiñee)
+
+
+SapallaY ranti Yo solo, tú solo, …
+Sapa + Y ranti Solo yo, solo tu,.
+Sapay Yo solo.
+Sapayki Tu solo.
+Sapan Él solo, ella sola.
+Sapayku ranti Nosotros solos (exclusivo).
+Sapanchik ranti Nosotros solos (inclusivo). Sa-
+paykichik rantiUstedes solos.
+Sapanku ranti Ellos solos.
+->
+Sapa + Y ranti Solo yo, solo tu, …
+  Sapay Yo solo.
+  Sapayki Tu solo.
+  Sapan Él solo, ella sola.
+  Sapayku ranti Nosotros solos (exclusivo).
+  Sapanchik ranti Nosotros solos (inclusivo).
+  Sapaykichik ranti Ustedes solos.
+  Sapanku ranti Ellos solos.
+Sapalla + Y ranti Yo solo, tú solo, …
+
+
+Tampu LPZ s. TamBO. (pat)
+->
+Tampu LPZ s. Tambo. (pat)
+
+Titikachi LPZ kiti. s. Titicachi, ; comunidad de la Prov. Muñecas, NLP. (pat)
+->
+Titikachi LPZ kiti. s. Titicachi; comunidad de la Prov. Muñecas, NLP. (pat)
+
+Wichay uray Mana pampallachu, wakinñiq pataman, wakinñiq uraman. Desigual, superficie (camino, lugar con cuestas arriba y abajo). (dgh) Mana allin ruwasqa. Trabajo mal hecho. (rk) 
+->
+Wichay uray. Mana pampallachu, wakinñiq pataman, wakinñiq uraman. Desigual, superficie (camino, lugar con cuestas arriba y abajo). (dgh) Mana allin ruwasqa. Trabajo mal hecho. (rk)
+[Mana allin ruwasqa no debe ser incluido en esta definición.]
+
+
+Este sufijo varía en su pronunciación según las regiones:\nLPZ -chka, -chcha,\nCBB -sya, -sa,\nPTS -sha, -shka, CH 
+[Qué significa "CH"?]
+
+-lla k' Nomás; sufijo limitativo. (rk)
+[Hay que añadir que es utilizado para suavizar ordenes o agregar cortesia, porque "nomás" tiene un significado especial en los Andes.]
+
+-ñiq CHU -neq” k' Aproximativo de lugar,. (str, rk)
+->
+-ñiq CHU -neq” k' Aproximativo de lugar. (str, rk)
+
+Qaja LPZ , tit s. Chakrapi ruwasqa, allasqa papata tantanapaq. Hoyo en la chacra para reunir las papas cosechadas. (pat)
+Qajachay LPZ , tit r.p. Qaja ruway. Hacer la qaja. (pat)
+->
+Qaja LPZ tit s. Chakrapi ruwasqa, allasqa papata tantanapaq. Hoyo en la chacra para reunir las papas cosechadas. (pat)
+Qajachay LPZ tit r.p. Qaja ruway. Hacer la qaja. (pat)
+
+
+-Raq k' Yanapaniraq. Anticipativo,.
+->
+-raq k' Yanapaniraq. Anticipativo.
+
+-Rch [rch] k'utu s. Rimaycha. Frase. (ñancha)
+-Rchq [rchq] k'utu s. Rimachiq. Verbo. (ñancha)
+-Rq k'utu s. Ruwaq. Sujeto. (ñancha)
+->
+Rch [rch] k'utu s. Rimaycha. Frase. (ñancha)
+Rchq [rchq] k'utu s. Rimachiq. Verbo. (ñancha)
+Rq k'utu s. Ruwaq. Sujeto. (ñancha)
+
+
+[No sé si estos sólo son infijos:]
+-rqu [-rqo] CHU k' Rqu rqaman kutin mu-paq ñawpaqinpi. Honorífico (modal); movimiento hacia afuera. (str, rk)
+-rqa CHU k' Conocimiento directo. (str)
+-sis [-sis] CHU k' Reportativo (sufijo independiente). (str)
+
+-su- CHU k' Ti (objeto). (str)
+-wa- CBB CHU k' Me; 1p objeto. (h&s, str) k' riku-wa-n él me ve. (rk)
+->
+-su- CHU k' A tí (2p objeto). (str)
+-wa- CBB CHU k' A mí (1p objeto). (h&s, str) k' riku-wa-n él me ve. (rk)
+
+-y [-y] ka. Qam-ta kamachinapaq. Imperativo de segunda persona singular.
+->
+-y [-y] k' ka. Qam-ta kamachinapaq. Imperativo de segunda persona singular.
+
+Juk siqi *chiru yupa s. Una línea
+->
+Juk siqi, chiru yupa* s. Una línea
+
+Khallu s. Pierna de la manta ñawpan: Kallu. VUna pierna de la manta que es la mitad.
+->
+Khallu s. Pierna de la manta ñawpan: Kallu. Una pierna de la manta que es la mitad.
+
+Runtu LPZ tikra. s. Testículo kikin: q'uruta. (pat) LPZ k'isichu runtu..
+->
+Runtu LPZ tikra. s. Testículo kikin: q'uruta. (pat) LPZ k'isichu runtu.
+
+Winay LPZ PTS r.p. As kallpawan p’achata wakkunatawan sat’iy. Meter; llenar
+  Empujando Vinani. Recalcar, o meter como en costal, hacer carga. (dgh, ceq, pat)
+[Debe revisar "Vinani".]
+
+Phinkiq ch'iku (.)qillqa. s. Kay phinkiq ch'ikuqa rimay tukukusqanta, qutu rimay tukukusqanta ima wichq'an. Jinapis wak sinrupi wak rimay, wak qutu rimay rinanta ima rikuchin. Punto aparte. (arusimiñee, ñancha)
+->
+Phinkiq ch'iku (.) qillqa. s. Kay phinkiq ch'ikuqa rimay tukukusqanta, qutu rimay tukukusqanta ima wichq'an. Jinapis wak sinrupi wak rimay, wak qutu rimay rinanta ima rikuchin. Punto aparte. (arusimiñee, ñancha)
+
+Runap (kawsaynin qhawaq-)kamayuq musuq. Antropólogo. (rk)
+->
+Runap kawsaynin qhawaq, runap kamayuq musuq. Antropólogo. (rk)
+
+Warmikuna s. Warmikuna lxlaqtaman purinku. Mujeres.
+->
+Warmikuna s. Warmikuna llaqtaman purinku. Mujeres.
+
+Kharkatichiy kharkatichi.wa.n r.wan Temblar, hacer.
+->
+Kharkatichiy kharkatichi.wa.n r.wa-n Temblar, hacer.
+
+Jillukuy r.wan-n Aficionarse a las golosinas
+->
+Jillukuy r.wa-n Aficionarse a las golosinas
+
+Jina CHU PTS r.t. K' urmaykuqjina kachkani; wawajina;. Como. (lot, rh, str)
+->
+-jina CHU PTS r.t. k' urmaykuqjina kachkani; wawajina. Como. (lot, rh, str)
+
+Juq'uy juqu.wa.n CHU LPZ PTS r.wa Mojar, mojarse. (lot, pat, str, rk)
+->
+Juq'uy juqu.wa.n CHU LPZ PTS r.wa-n Mojar, mojarse. (lot, pat, str, rk)
+
+[He reemplazado "r. Ku" por "r.ku." 170 veces.]
+Ejs: 
+Juraq'achikuy r. Ku Descargarse; peinarse. (ceq, rk)
+Juraq'ay CBB PTS r. Ku Bajar(se). (xa, ceq, gro, rk) 
+->
+Juraq'achikuy r.ku. Descargarse; peinarse. (ceq, rk)
+Juraq'ay CBB PTS r.ku. Bajar(se). (xa, ceq, gro, rk) 
+
+
+[He reemplazado "r. Wa" por "r.wa-n" más que 6 veces.]
+Ejs:
+Amiy LPZ PTS r. Wa. Empalagarse. (lot, pat, rk) LPZ PTS Hastiarle a uno; tener demasiado. (pat) Hastiarse. (ceq) Amiwan Me empalaga, me hastía.
+Atiwan r. Wa puñuy ati.wa.n Tengo sueño. 
+->
+Amiy LPZ PTS r.wa-n Empalagarse. (lot, pat, rk) LPZ PTS Hastiarle a uno; tener demasiado. (pat) Hastiarse. (ceq) Amiwan Me empalaga, me hastía.
+Atiwan r.wa-n puñuy ati.wa.n Tengo sueño. 
+
+[He reemplazado "st. s." por "s.t., s." varias veces.]
+Ej:
+Kiru qhipa st. s. Alveodental (tla)
+->
+Kiru qhipa s.t., s. Alveodental (tla)
+
+
+Anchhukuy LPZ r. m.r. Asnup qhapariynin, waqan wuru. Rebuznar. (pat)
+->
+Anchhukuy LPZ r.m.r. Asnup qhapariynin, waqan wuru. Rebuznar. (pat)
+
+Anchhukuy LPZ r.m.p. Abrir la boca para comer. (pat)
+->
+Anchhukuy LPZ r.mp. Abrir la boca para comer. (pat)
+
+Khuska riy r. P Acompañar, ir juntos (aarp)
+->
+Khuska riy r.p. Acompañar, ir juntos (aarp)
+
+Mayllaray LPZ PTS r. T Lavar todo, completamente. (pat)
+->
+Mayllaray LPZ PTS r.t. Lavar todo, completamente. (pat)
+
+[He utilizado esta expressión regular para encontrar problemas en las etiquetas de verbos: \br\. (kh|ku|mp|p|m\.r|p|t|wa)\b  ]
+
+[He cambiado de K' a k' varias veces:]
+Ej:
+-n-na simi. K' Des-. (rk)
+->
+-n-na simi. k' Des-. (rk)
+
+Anti Suyu kiti. s. Región oriental, una de las cuatro regiones del Tahuantinsuyo. (ñawpa lay, smtq)
+->
+Anti Suyu kiti. s. ñawpa Región oriental, una de las cuatro regiones del Tahuantinsuyo. (lay, smtq)
+[ñawpa no es una fuente.]
+
+Ch'awchuy rp. Aparecer brotes en tubérculos o cereales, retoñar, brotar. Kikin: wiñaray (rpaa)
+>
+Ch'awchuy r.p. Aparecer brotes en tubérculos o cereales, retoñar, brotar. Kikin: wiñaray (rpaa)
+
+
+Anku s., s.t. Tendón nervioso; flaco, flexible. (ceq, lot)
+Awqan: Jasa Blando.
+Kikin: Thalu Duro.
+->
+Anku s., s.t. Tendón nervioso; flaco, flexible. (ceq, lot)
+  kikin: Jasa Blando.
+  awqan: Thalu Duro.
+
+
+\b(guar|kas|. (|asiku|awa|aym|ja|ka|kas|kh|ph|r\.kh|r\.ku|r\.m\.r|r\.p|r\.t|pro\.s\.t|y.r|y.s) 
+
+Jawa runa /mitma runa st. Extranjero. (ilcq) 
+->
+Jawa runa, mitma runa st. Extranjero. (ilcq) 
+
+Ukhu Entre (posposición). (rh) iskay ukhu Entre dos.
+->
+Ukhu Entre (preposición). (rh) iskay ukhu Entre dos.
+[No hay una abreviatura para una preposición.]
+
+Taki unquy sunqu »La enfermedad del canto», movimiento ritualista de resistencia organizada a la invasión o conquista simbólica cristiana. Devotos de los Wak'as.
+->
+Taki unquy sunqu "La enfermedad del canto", movimiento ritualista de resistencia organizada a la invasión o conquista simbólica cristiana. Devotos de los Wak'as.
+
+
+Uraqaq. Juraq'aq. Yupa s. Descendente
+->
+Uraqaq, juraq'aq, yupa s. Descendente  
+
+Yachachiyniyuq st. Escolarizada
+->
+Yachachiyniyuq s.t. Escolarizada
+
+Wasinta Por la casa wasi-n-ta pasan. Pasa por la casa. (rk)
+->
+Wasinta Por la casa wasi-n-ta pasan. Pasa por la casa. (rk)
+[¿debe ser "wasi-nta"?]
+
+Allin pukllay, pukllay yachay* prnl técnica.
+[Debe tener su parte gramatical en quechua, no castellano]
+
+. ( LPZ. s.t. Juqharikunku ayñanakunapaq: . ( runa, . ( yuqalla. Desgraciado, malo. (pat)
+->
+. ( LPZ s.t. Juqharikunku ayñanakunapaq: . ( runa, . ( yuqalla. Desgraciado, malo. (pat)
+
+Ampi, utku, khiya CBB, Cuz s. Algodón (H)
+->
+Ampi, utku, khiya CBB CUZ s. Algodón (H)
+[También CUZ (Cuzco) debe ser agregado a tabla de abreviaturas.]
+
+
+Ayllu runa st. Indígena. (CENAQ)
+->
+Ayllu runa s.t. Indígena. (CENAQ)
+
+Chanipura st. Equivalencia.
+->
+Chanipura s.t. Equivalencia.
+
+Chankatullu* chanka wich'u s. Fémur.
+->
+Chankatullu*, chanka wich'u s. Fémur.
+
+Chayjina i.t. Así, de ese modo. (rpaa)
+->
+Chayjina r.t. Así, de ese modo. (rpaa)
+
+Chillpi CB s. Astilla de piedra; cuña. (ceq, rk)
+->
+Chillpi CBB s. Astilla de piedra; cuña. (ceq, rk)
+
+Chukichaka ñawpan Nombre primitivo de la ciudad de Sucre. Chuquisaca
+->
+Chukichaka ñawpa. Nombre primitivo de la ciudad de Sucre, Chuquisaca.
+
+Chhalan chhalan onom. Platillo – instrumento musical
+->
+Chhalan chhalan ñin. Platillo – instrumento musical
+
+Chhasa CB st chismoso, delatador, soplón (rpaa) kikin: thasa
+->
+Chhasa CBB s.t. chismoso, delatador, soplón (rpaa) kikin: thasa
+
+
+[He reemplazado "st." por "s.t" muchas veces]
+Ejs:
+Ch'aka st. Afónico. Falta de voz (rpaa, tla)
+Chhuyu st. Fresco, moderadamente frío (rpaa)
+Chhilli st. Sencillo, simple (tla) 
+->
+Ch'aka s.t. Afónico. Falta de voz (rpaa, tla)
+Chhuyu s.t. Fresco, moderadamente frío (rpaa)
+Chhilli s.t. Sencillo, simple (tla) 
+
+
+[He reemplazado "rp." por "r.p." varias veces]
+Ejs:
+Chhurkuchay rp. Encrespar, ensortijar (rpaa)
+Chhuyuchiy rp. Refrigerar, enfriar, congelar
+->
+Chhurkuchay r.p. Encrespar, ensortijar (rpaa)
+Chhuyuchiy r.p. Refrigerar, enfriar, congelar
+
+[He reemplazado "rt." por "r.t." varias veces]
+Ejs:
+Kusi kusilla rt. Alegremente (tla)
+Kusilla rt. Alegremente (tla)
+->
+Kusi kusilla r.t. Alegremente (tla)
+Kusilla r.t. Alegremente (tla)
+
+[He reemplazado "s" por "s." varias veces]
+Ejs:
+Kamachiq wasi s Palacio. Casa destinada para la residencia de los reyes, autoridades o grandes personajes. (tla)
+Kutikipana thupa s Barra de repetición.
+->
+Kamachiq wasi s. Palacio. Casa destinada para la residencia de los reyes, autoridades o grandes personajes. (tla)
+Kutikipana thupa s Barra de repetición.
+
+
+Jark'akuy (r.) LPZ wanlla. r.ku. Defender(se). (pat, rk)
+->
+Jark'akuy r. LPZ wanlla. r.ku. Defender(se). (pat, rk)
+
+Chayaykamuy rp aproximarse, allegarse.
+->
+Chayaykamuy r.p. Aproximarse, allegarse.
+
+Ch'uma lakayutimanta piqtu mikhuna. Qppa. Guiso de lacayote
+->
+Ch'uma lakayutimanta piqtu mikhuna. CBB Guiso de lacayote
+
+
+Ch'urkiy, ch'urkiyakuykurku. Resistir, forcejear. (arusimiñee)
+->
+Ch'urkiy, ch'urkiyakuy kurku. Resistir, forcejear. (arusimiñee)
+
+
+Ik! Ja Que expresa fastidio o molestia (tla)
+->
+Ik! ja. Que expresa fastidio o molestia (tla)
+
+
+Imaynapis i.t De cualquier modo, como sea, de alguna manera. (rpaa)
+->
+Imaynapis r.t De cualquier modo, como sea, de alguna manera. (rpaa)
+
+Ubre chuchu [chuchu] s. Kikin: ñ úlcera llilli [llilli] s. (arusimiñe último qhipapi, qhipakay, qhipa qhepakay, adj. (arusimiñee)
+->
+Ubre s. chuchu [chuchu] Kikin: ñuñu. 
+úlcera s. llilli [llilli] (arusimiñee) 
+último adj. qhipapi, qhipakay, qhipa (arusimiñee)
+
+
+Juk k'ata, pampa pampalla ima y Única y universal. (ab, en base a Márquez, 2004: 114)
+->
+Juk k'ata, pampa pampalla ima y. Única y universal. (ab, en base a Márquez, 2004: 114)
+
+Kallpay, chaniy r. Valor cualitativo
+->
+Kallpay, chaniy s. Valor cualitativo
+
+
+Kan kanchu. Hay, tercera persona singular, puede aparecer con -chka, o con modales como -sqa, y -rqa. (gro, pat)
+->
+Kan, kanchu. Hay, tercera persona singular, puede aparecer con -chka, o con modales como -sqa, y -rqa. (gro, pat)
+
+Kusi qillpuchay v.tr. Beatificar (rpaa) 
+->
+Kusi qillpuchay r.mp. Beatificar (rpaa) 
+
+Kuyuriy v.prnl. Empezar a moverse
+->
+Kuyuriy r.wa-n Empezar a moverse
+
+Kuywiy v.intr. Trinar las aves. (tla, rpaa)
+->
+Kuywiy r.mp. Trinar las aves. (tla, rpaa)
+
+Llump'aq ss. Mana qhari riqsiq warmi. Virgen
+->
+Llump'aq s. Mana qhari riqsiq warmi. Virgen
+
+Mask'akipaq, k'uskiq st Investigador 
+->
+Mask'akipaq, k'uskiq s.t. Investigador 
+
+Ñina kmch. Digamos. qhaway: nina fuego. (rk)
+->
+Ñina ka. Digamos. qhaway: nina fuego. (rk)
+
+
+Pacha Mama yupaychaymanta yachachiy f. Educación para el medio ambiente (transversal). (arusimiñee)
+->
+Pacha Mama yupaychaymanta yachachiy y. Educación para el medio ambiente (transversal). (arusimiñee)
+
+
+Pallaykuna LPZ awa. s. Awapi ruwasqa warawakuna, awaykunata rimachinapaq. Diseños en los tejidos. (pat)
+Pallaykuna Kaykuna LPZ pi kan:. Inti, iskay p’isqu, kawallu, killa. Kuntur. Kurti. Mayu, ñawi, qhari. Turucha. Urwanu. Warmi.
+->
+Pallaykuna LPZ awa. s. Awapi ruwasqa warawakuna, awaykunata rimachinapaq. Diseños en los tejidos. (pat)
+  Pallaykuna kaykuna La Pazpi kan: Inti, iskay p’isqu, kawallu, killa. Kuntur. Kurti. Mayu, ñawi, qhari. Turucha. Urwanu. Warmi.
+
+
+Phaskay CBBPTS r.p. Desatar, desamarrar. (xa, ceq, lot, rh)
+->
+Phaskay CBB PTS r.p. Desatar, desamarrar. (xa, ceq, lot, rh)
+
+
+Phawaychikuy CBBA r.mp Atorarse con liquido, pito, llaqwa.
+->
+Phawaychikuy CBB r.mp. Atorarse con liquido, pito, llaqwa.
+
+Phawchimuy r. mr. Caer el agua de lo alto. (dgh)
+->
+Phawchimuy r.m.r. Caer el agua de lo alto. (dgh)  
+
+Phukunakuna LPZ taki. s. Instrumentos musicales de viento. (pat)
+Phukunakuna Kaykuna LPZ pi kan:. Chatri. Luri wayñu. Malta, pinkillu, qantu, qina qina, salliwa.
+->
+Phukunakuna LPZ taki. s. Instrumentos musicales de viento. (pat)
+  Phukunakuna kaykuna La Pazpi kan: Chatri. Luri wayñu. Malta, pinkillu, qantu, qina qina, salliwa.
+
+Qullqa CB s. Granero de maíz; silo, silo o fosa en la tierra para almacenar maíz. (dgh)
+Qullqa Pirwa CB kiti. s. Colcapirhua, barrio en Cochabamba. (rk)
+->
+Qullqa CBB s. Granero de maíz; silo, silo o fosa en la tierra para almacenar maíz. (dgh)
+Qullqa Pirwa CBB kiti. s. Colcapirhua, barrio en Cochabamba. (rk)
+
+Qhari warmi yupaychaypurakunapaq ] Educación para la equidad de género (transversal). (arusimiñee)
+->
+Qhari warmi yupaychaypurakunapaq Educación para la equidad de género (transversal). (arusimiñee)
+
+Qharichakuy LPZ r.p. Conseguir marido. (pat).
+Qusachakuy. Tantakuy. Warmichakuy.
+->
+Qharichakuy LPZ r.p. Conseguir marido. (pat). qhaway: qusachakuy, tantakuy, warmichakuy.
+
+Qhuya kupiratiwa, qhuya llamk'aysinakuy f. Cooperativa minera. (arusimiñee)
+->
+Qhuya kupiratiwa, qhuya llamk'aysinakuy y. Cooperativa minera. (arusimiñee)
+
+
+-rí? [rí?] k. Conjunción interrogativa Payrí, yachanchu? Y él, sabe?
+->
+-rí? [-rí?] k' kh. Conjunción interrogativa. Payrí, yachanchu? Y él, sabe?
+
+Runa kay sr. Ser mujer, ser varón; sexualidad
+[¿Qué significa "sr."?]
+
+Saqray Pt. r.p. Carmenar. (ceq)
+[¿Qué significa "Pt."?]
+
+
+Sayaynin, chhikan* st Altura
+->
+Sayaynin, chhikan* s.t. Altura
+
+Unay pacha* pr. Pasado.
+[¿Qué significa "pr."?]
+
+
+Unayniyuq Antiguo,.
+->
+Unayniyuq Antiguo.
+
+Utiy uti. Wa.n PTS r.p. Extenuarse. (ceq, lot, rh)
+->
+Utiy uti.wa.n PTS r.p. Extenuarse. (ceq, lot, rh)
+
+Llut'ay chu. Ñin. r.p. Engañar, embaucar. (str, rk)
+->
+Llut'ay CHU ñin. r.p. Engañar, embaucar. (str, rk)
+
+M, n 12 upayari qillqa. s. chunka iskayniyuq ñiqi qillqa ñancharisqa qillqakunamanta.
+->
+M, m 12 upayari qillqa. s. chunka iskayniyuq ñiqi qillqa ñancharisqa qillqakunamanta.
+
+
+Mana -wan sin mana kachiwan sin sal. (xa, rk)
+Mana -yuq sin mana llaqtayuq sin ciudadanía. (xa, rk)
+->
+Mana -wan Sin. Mana kachiwan sin sal. (xa, rk)
+Mana -yuq Sin. Mana llaqtayuq sin ciudadanía. (xa, rk)
+
+Mana. -chu CHU r.t. Interrogativo negativo. (str)
+Mana. (ni)-yuq sin. (ceq, rk)
+->
+Mana ...-chu CHU r.t. Interrogativo negativo. (str)
+Mana ...(-ni)-yuq Sin. (ceq, rk)
+
+Sunquchakuy pro. s.t estar contento
+->
+Sunquchakuy pro.s.t. estar contento
+
+Chawpi mallq’a taki*. s. Mezzo-soprano. (ilcq)
+->
+Chawpi mallq’a* taki. s. Mezzo-soprano. (ilcq)
+
+
+Chuma. s.t soso,, falta de sal, ínsipido sin gusto kikin: q'ayma, laq'a (tla)
+->
+Chuma. s.t. soso, falta de sal, ínsipido sin gusto kikin: q'ayma, laq'a (tla)
+
+Iqu st. s. Niño escuálido, enclenque (tla)
+->
+Iqu s.t., s. Niño escuálido, enclenque (tla)
+
+
+Sampuña kas. PTS s. Zampoña. (ceq, lot)
+->
+Sampuña <kas. PTS s. Zampoña. (ceq, lot)
+
+Pacha	LPZ s. Espacio. (ceq, lot, pat
+->
+Pacha	LPZ s. Espacio. (ceq, lot, pat)
+
+
+Runa kay  sr. Ser mujer, ser varón; sexualidad
+[¿Qué significa "sr."?]
+
+Qhuña (LPZ PTS s., s.t. Moco. (ceq, lot, pat)
+->
+Qhuña LPZ PTS s., s.t. Moco. (ceq, lot, pat)
+
+
+Phisna	CHU sxx s.t. Suave; se decía así del trompo que bailaba de manera uniforme. (k trbk)
+[¿Qué es la fuente "k"?]
+
+Kirukamayuq, kirujampiq* LPZ s. Dentista. (pat). (ilcq)
+->
+Kirukamayuq, kirujampiq* LPZ s. Dentista. (pat, ilcq)
+
+Nunakamay	r.p. Espiritualialidad. (ilcq)
+->
+Nunakamay	r.p. Espiritualidad. (ilcq)
+
+
+Radicar en un pueblo llaqtachakuy [llaqtachakuy] LPZ  v.intr. (pat) (tiyay) (jayma, aae)
+->
+Radicar en un pueblo llaqtachakuy [llaqtachakuy] LPZ v.intr. (pat, tiyay, jayma, aae)
+
+Prominisión, presentir algo	s. T'inkay, sunqu aysay, sunqu willay
+[¿Prominisión? ¿tal vez promoción o premonición?]
+
+Queso	masara pt. (diccionario bilingüe-jayma)
+->
+Queso	masara pt. (jayma) 
+
+
+Rana k'ayra [ ] (k'ayra) LPZ  PTS s. (arusimiñee, lot, pat) pilkantura (aae)
+->
+Rana k'ayra LPZ  PTS s. (arusimiñee, lot, pat) pilkantura (aae)
+
+Nusi LPZ . (. Ja. Allquchanapaq, qam imata yachanki ñispa runata k'umuykachachinapaq simi. Qué sabes; crítica del que se cree sabio. (pat)
+->
+Nusi LPZ Ja. Allquchanapaq, qam imata yachanki ñispa runata k'umuykachachinapaq simi. Qué sabes; crítica del que se cree sabio. (pat)
+
+
+Ir perdiendo la visión	v.tr. Rankhay (h), (l). 
+Someter, sojuzgar v.tr..jiwiqay (l), q'iwiqay ch.
+[¿Qué significan (h) y (l)?]
+
+
+Librero	aranway qillqa s. (arusimiñee) 
+Aranway qillqa	s. Librero. (arusimiñee)
+->
+Libreto	aranway qillqa s. (arusimiñee)
+Aranway qillqa	s. Libreto. (arusimiñee) 
+[Según el glosario de Arusimiñee]
+
+Loza muy delgada	llaplla, llapsa s., t., s. (dgh, arusimiñee) 
+->
+Loza muy delgada	llaplla, llapsa s., t. (dgh, arusimiñee) 
+
+
+[Hay que cambiar (iskay simipi yuyay k'anchay) a (lay) en muchos lugares]
+Ejs:
+Rastro	lastru [lastru] LPZ  s. (pat) yupi (iskay simi yuyay k'ancha)
+Raya	siqi [seqe] yupa. s. (arusimiñee) wachu, sinru sinri (iskay simi yuyay k'ancha)
+->
+Rastro	lastru [lastru] LPZ  s. (pat) yupi (lay)
+Raya	siqi [seqe] yupa. s. (arusimiñee) wachu, sinru sinri (lay)
+
+
+Región occidental del tahuantinsuyo	kunti suyu [kunti suyu] LPZ  kiti. s. (ñawpa lay, pat, smtq)
+[¿Qué es "ñawpa lay"?)
+
+[Hay que cambiar (simi taqe) a (smtq) en varios lugares:]
+Ej:
+Talón s. Takillpa (simi taqe)
+->
+Talón s. Takillpa (smtq)
+
+Sobrio	ch'aki sunqu CBB PTS adj. (ceq, h&s, lot) 
+Sobrio	ch'aqui sunqu adj. (ceq, lot)
+Sobrio	ch'uqi <aym. LPZ  s.t. Mana machasqachu kachkan. Ch'aki sunqu. (pat)
+->
+Sobrio	ch'aki sunqu CBB PTS adj. (ceq, h&s, lot) Mana machasqachu kachkan. Ch'aki sunqu. 
+Sobrio	ch'uqi <aym. LPZ s.t. (pat) 
+
+Calendario s. Almanaque wata watana pacha. (arusimiñee)
+->
+Calendario, almanaque s. Pacha watana, wata watana. (arusimiñee)
+[Así es en el glosario Arusimiñee]
+
+Carne cocida adj. T k’ili (k’ili) LPZ ’impu. (pat)
+->
+Carne cocida adj. K’ili (k’ili) LPZ t’impu. (pat)
+
+Cartel s. Lota raphicha yacha. (arusimiñee)
+->
+Cartel	yacha. s. Lota raphicha
+[Su fuente no es Arusimiñee.]
+
+Casa de la fiesta	s. (local) raymi wasi LPZ y. (pat)
+->
+Casa de la fiesta	y.s. (local) raymi wasi LPZ (pat)
+
+Catorce	s. y adj.  Chunka tawayuq yupa. 14. (arusimiñee)
+->
+Catorce, 14 yupa. s. y adj. Chunka tawayuq (arusimiñee)
+[Así el usuario puede buscar por "catorce" o "14" en GoldenDict.]
+
+Centena de millón jp. K'utu adj. Junup pachaknin. (ñancha)
+Centena de millón jp. K'utu junup pachaknin. (ñancha)
+->
+Centena de millón jp. K'utu adj. Junup pachaknin. (ñancha)
+[Eliminar duplicación]
+
+Hervir, empezar a	t'impuriy PTS r. Mr.
+->
+Hervir, empezar a	t'impuriy PTS r.m.r.
+
+Lavar todo, por todas partes	mayllaray LPZ  PTS r. T. (pat)
+->
+Lavar todo, por todas partes	mayllaray LPZ  PTS r.t. (pat)
+
+Condiscípulo s.,a Yachaqaq masi
+->
+Condiscípulo,a s. Yachaqaq masi
+
+Conmoverse, estar por llorar (lit. Mi corazón está por llorar)	v. Ref. Ch'allaq ñin sunquy LPZ y. (pat)
+->
+Conmoverse, estar por llorar (lit. Mi corazón está por llorar)	v.refl. Ch'allaq ñin sunquy LPZ y. (pat)
+
+Representantes del gobierno suyu kamachiqkunap rantin [suyu kamachixkunax rantin]
+Wanlla. Kachamusqan. (rk)
+->
+Representantes del gobierno wanlla. Suyu kamachiqkunap rantin [suyu kamachixkunax rantin]. Kachamusqan. (rk)
+
+Cuarto s. y adj. El tawa kaq (tawa kaj) CHU yupa. (ceq, str)
+->
+Cuarto, el yupa. s. y adj. Tawa kaq (tawa kaj) CHU (ceq, str)
+
+Cuero de cría de oveja o cabra, chivo chita	s. Qara LPZ chiwu qara. (pat)
+->
+Cuero de cría de oveja o cabra, chivo s. Chita qara LPZ chiwu qara. (pat)
+
+Cuyo/a	pron.int. Pip piq PTS t. Ranti.
+->
+Cuyo/a	pron.int. Pip piq PTS.
+
+Gubias, instrumentos para tallar madera	s. Lla­qllana / k'illpina
+Gubias, instrumentos para tallar madera	s. Lla­qllana / k'illpina 
+[Eliminar duplicación]
+
+Romper, rasgar un pedazo llik'inuqay <aiy: nuqa [llik'inoqay] LPZ v.tr. (ceq, pat, rk)
+->
+Romper, rasgar un pedazo
+
+llik'inuqay <aiy: nuqa [llik'inoqay] LPZ v.tr. (ceq, pat, rk)
+->
+llik'inuqay <aym: nuqa [llik'inoqay] LPZ v.tr. (ceq, pat, rk)
+
+
+Ponerse el poncho punchukuy [punchukuy]chu LPZ PTS v.tr. Punchukusaq ‘I'll put on my poncho'. (pat, rh)
+->
+Ponerse el poncho punchukuy [punchukuy] CHU LPZ PTS v.tr. Punchukusaq ‘I'll put on my poncho'. (pat, rh)
+
+Gallina ponedora runtu churaq wallpaLPZ adj. Wachaq wallpa. (pat) 
+->
+Gallina ponedora runtu churaq wallpa LPZ adj. Wachaq wallpa. (pat) 
+
+Ponerse gorro	ch'ullukuy [ch'ullukuy] chuLPZ v.refl. (pat) ch'ulukuy pt.
+->
+Ponerse gorro	ch'ullukuy [ch'ullukuy] CHU LPZ v.refl. (pat) ch'ulukuy pt.
+
+Alcoba	s. P¡itita, k'uchu, puñuna wasi k'uchu
+->
+Alcoba	s. P'itita, k'uchu, puñuna wasi k'uchu
+
+Alguien	pron.indet. Pichá ari. Algien será.
+->
+Alguien	pron.indet. Pichá ari. Alguien será.
+
+Escasear,d hacer; disminuir	v.tr. Qhasiyachiy, qhasiyay (rk)
+->
+Escasear, hacer; disminuir	v.tr. Qhasiyachiy, qhasiyay (rk)
+
+Robar los frutos del árbol en un huerto durante el carnaval en pandilla	v.tr. Paqumay (h,s,u)
+[¿Qué es la fuente "(h,s,u)" ?]
+
+Velo	LPZ qhaway: ñañaka. (pol,i)
+Velo de las mujeres	ñañaka p'acha. s. (dgh, pol,i)
+[¿Qué es la fuente "(pol,i)" ?]
+
+Diecinueve	adj. Y s,. Chunka jisq'unniyuq. 19. (arusimiñee)
+->
+Diecinueve	adj. y s. Chunka jisq'unniyuq. 19. (arusimiñee)
+
+Quince	chunka phichqayuq [chunka phisqayoq] yupay. s. y adj. 15. (arusimiñee)
+->
+Quince	chunka phichqayuq [chunka phisqayoq] yupa. s. y adj. 15. (arusimiñee)
+
+Diez	s. y adj. Chunka chu. Iskaynin makipi chunka ruk'ana. (arusimiñee, ceq, lot, rh, str).
+->
+Diez	s. y adj. Chunka. Iskaynin makipi chunka ruk'ana. (arusimiñee, ceq, lot, rh, str).
+
+Quinientos	phichqa pachak [phisqa pachaj] yupay. s. y adj. (arusimiñee)
+->
+Quinientos	phichqa pachak [phisqa pachaj] yupa. s. y adj. (arusimiñee)
+
+
+La casa de lucas -paq lukas-paq wasin. 
+->
+La casa de Lucas Lukas-paq wasin. 
+
+Yerna, mujer de su hijo; hija política (rk)
+[falta la parte de quechua]
+
+Sobrino(a), mujer a hijos de su hermana wawa masi. s. (dgh)
+[¿Es correcto?]
+
+Reclamar criticando la ayuda anterior ayakuy [ayakuy] LPZ r.p., mp imatapis quriwanchik chaymanta ñiwanchik quyki ñispa. (pat)
+->
+Reclamar criticando la ayuda anterior ayakuy [ayakuy] LPZ r.p., r.mp. Imatapis quriwanchik chaymanta ñiwanchik quyki ñispa. (pat)
+
+
+Thasay	PTS asiku. r.mp. Dormir puñuy. (lrs )
+Thasay	allqu. r.mp. Peer supiy. (ceq)
+->
+Thasay	PTS asiku. r.mp. Dormir. kikin: puñuy. (lrs)
+Thasay	allqu. r.mp. Peer. kikin: supiy. (ceq)
+
+
+Imaynachus	ranti No se cómo es.
+->
+Imaynachus	ranti. No sé cómo es.
+
+Way	aq. Aq Indica susto. (ceq, rk)
+->
+Way	aq. Indica susto. (ceq, rk)
