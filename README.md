@@ -6,7 +6,7 @@ These same dictionaries are also available in our Android app NuSimi (https://gi
 
 An older versión of our app named SimiDic (https://github.com/KetanoLab/SimiDic) is still available for older Android devices at the [Google Play Store](https://play.google.com/store/apps/details?id=com.ketanolab.simidic). 
 
-See the instructions below to install these dictionaries in GoldenDict, StarDict, NuSimi y SimiDic. Download [dics.zip](https://github.com/amosbatto/native-dics/raw/main/dics.zip) and uncompress it to get all these dictionaries at once for GoldenDict or StarDict. Download [simidic.zip](https://github.com/amosbatto/native-dics/raw/main/simidic.zip) and decompress it to get these dictionaries for NuSimi or SimiDic.
+See the instructions below to install these dictionaries in GoldenDict, StarDict, NuSimi y SimiDic. Download [dics.zip](https://github.com/amosbatto/native-dics/raw/main/dics.zip) and uncompress it to get all these dictionaries at once for GoldenDict or StarDict. Download [simidic.zip](https://github.com/amosbatto/native-dics/raw/main/simidic.zip) and decompress it to get all these dictionaries for NuSimi or SimiDic.
 
 If you would like us to format your dictionary to work in GoldenDict/StarDict/NuSimi/SimiDic, please contact Amos Batto (amosbatto@yahoo.com, cell: +591-76585096, Telegram: @amosbatto).
 
@@ -24,7 +24,7 @@ Una versión más antigua de nuestra app nombrada SimiDic (https://github.com/Ke
 
 ![Buscar en SimiDic](./docs/SimiDic_search.png) ![Mostrar entrada en SimiDic](./docs/SimiDic_display_entry.png)
 
-Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, StarDict, NuSimi y SimiDic. Descargue [dics.zip](https://github.com/amosbatto/native-dics/raw/main/dics.zip) y descómprimalo para conseguir todos estos diccionarios a la vez para utilizarlos en GoldenDict o StarDict. Descargue [simidic.zip](https://github.com/amosbatto/native-dics/raw/main/simidic.zip) y y descómprimalo para conseguir estos diccionarios para utilizarlos en NuSimi o SimiDic.
+Ver las instrucciones abajo para instalar estos diccionarios en GoldenDict, StarDict, NuSimi y SimiDic. Descargue [dics.zip](https://github.com/amosbatto/native-dics/raw/main/dics.zip) y descómprimalo para conseguir todos estos diccionarios a la vez para utilizarlos en GoldenDict o StarDict. Descargue [simidic.zip](https://github.com/amosbatto/native-dics/raw/main/simidic.zip) y y descómprimalo para conseguir todos estos diccionarios para utilizarlos en NuSimi o SimiDic.
 
 Si Ud. quiere que formateemos su diccionario para funcionar en GoldenDict/StarDict/Nusimi/SimiDic, por favor contactar con Amos Batto (amosbatto@yahoo.com, cel: +591-76585096, Telegram: @amosbatto).
 
@@ -50,7 +50,7 @@ Si Ud. quiere que formateemos su diccionario para funcionar en GoldenDict/StarDi
 * Equipo de Educación Mapuche Wixaleyiñ, ***Vocabulario Mapuche-Castellano***, http://sites.google.com/site/wixaleyin (2013), 96pp.<br>[`map_es-wixaleyin-html`](https://github.com/amosbatto/native-dics/tree/main/dics/map_es-wixaleyin-html), [`es_map-wixaleyin-html`](https://github.com/amosbatto/native-dics/tree/main/dics/es_map-wixaleyin-html), [`simidic/ma_es_wi.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/ma_es_wi.db), [`simidic/es_ma_wi.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/es_ma_wi.db)
 
 **MOCHÓ (MAYA):**
-* Alonso Guzmán, ***Manual Mochó***, Chiapas, México, 2004.<br>[`dics/mhc_es-guzman`](https://github.com/amosbatto/native-dics/tree/main/dics/mhc_es-guzman), [`dics/es_mhc-guzman`](https://github.com/amosbatto/native-dics/tree/main/dics/es_mhc-guzman), [`simidic/es_mc_al.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/es_mc_al.db)
+* Alonso Guzmán, ***Manual Mochó***, Chiapas, México, 2004.<br>[`dics/mhc_es-guzman`](https://github.com/amosbatto/native-dics/tree/main/dics/mhc_es-guzman), [`dics/es_mhc-guzman`](https://github.com/amosbatto/native-dics/tree/main/dics/es_mhc-guzman), [`simidic/mc_es_al.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/mc_es_al.db), [`simidic/es_mc_al.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/es_mc_al.db)
 
 **MOJEÑO IGNACIANO:**
 * Instituto de Lengua y Cultura Mojeño Ignaciano “Salvador Chappy Muibar”, ***Diccionario Mojeño Ignaciano***, San Ignacio de Moxos, Bolivia, 2021.<br>[`dics/ign_es-ilc-mojeno-ignaciano`](https://github.com/amosbatto/native-dics/tree/main/dics/ign_es-ilc-mojeno-ignaciano), [`dics/es_ign-ilc-mojeno-ignaciano`](https://github.com/amosbatto/native-dics/tree/main/dics/es_ign-ilc-mojeno-ignaciano), [`simidic/ig_es_in.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/ig_es_in.db), [`simidic/es_ig_in.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/es_ig_in.db)
