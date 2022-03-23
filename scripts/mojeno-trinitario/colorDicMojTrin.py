@@ -1,0 +1,1 @@
+/media/files/diccionarios/mojeño-trinitario/colorDicMojTrin.py

@@ -1,0 +1,1 @@
+/media/files/diccionarios/mapuche/convertVocMapuche.php
