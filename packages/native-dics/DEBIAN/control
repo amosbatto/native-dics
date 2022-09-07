@@ -1,0 +1,19 @@
+Package: native-dics
+Version: 0.1
+Architecture: all
+Maintainer: Amos Batto <amosbatto@yahoo.com>
+Recommends: goldendict (>= 1.5)
+Suggests: stardict, native-dics-proprietary
+Section: education
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.illaa.org/index.php/diccionarios/, https://github.com/amosbatto/native-dics
+Description: Free or non-commercial native language dictionaries for GoldenDict/StarDict 
+ Contains native language dictionaries for StarDict and GoldenDict 1.5, 
+ including Arusimiñee (2004); Yatiqirinaka Aru Pirwa, Qullawa Aymara Aru (2005), 
+ Yachakuqkunapaq Simi Qullqa, Qusqu Qullaw, Chichwa Simipi (2005); Yachakuqkunapa 
+ Shimi Qullqa, Anqash Qichwa Shimichaw (2005); Yachakuqkunapa Simi Qullqa, Ayakuchu Chanka, 
+ Qichwa Simipi (2005); Ludovico Bertonio (1612/1993); Franciscanos (1905/1998) 
+ Diccionario Poliglota Incaico; Diego González Holguín (1608); Teófilo Laime A. (2007); 
+ Herrero y Sánchez de Lozada (1983); OPIM (2011) Diccionario Mosetén-Castellano, 
+ Castellano-Mosetén; CIPTA (2011) Mimi butsepi Takana-Kastillanu, Kastillanu-Takana.

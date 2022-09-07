@@ -1,0 +1,31 @@
+Package: native-dics-proprietary
+Version: 0.1
+Architecture: all
+Maintainer: Amos Batto <amosbatto@yahoo.com>
+Recommends: goldendict (>= 1.5)
+Suggests: stardict
+Replaces: native-dics-free, native-dics-no-commercial
+Section: education
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.illaa.org/index.php/diccionarios/, https://github.com/amosbatto/native-dics
+Description: Proprietary native language dictionaries for GoldenDict/StarDict 
+ Contains these proprietary native language dictionaries for StarDict and GoldenDict 1.5:
+ Saturnino Callo Ticona. Diccionario Aymara-Castellano y Castellano-Aymara “KAMISARAKI”, 2a ed., Puno.
+ Gregorio Callisaya A., et al., Glosario de nuevos términos aimaras, UMSA, La Paz. 
+ Félix Layme Pairumani (2011) Diccionario Bilingüe: Aymara-Castellano, 5a ed., La Paz.
+ ILC de la Nación Aymara (2021) Aru Pirwa Aymara, El Alto.
+ Comité HABLE Guaraní (1996) Rɨru Ñaneñee Diccionario: Guaraní – Castellano, 2a ed. Charagua, Santa Cruz.
+ Elio Ortiz y Elías Caurey (2011) Diccionario etimológico y etnográfico de la lengua guaraní hablada en Bolivia (Guaraní-Español), La Paz.
+ Equipo de Educación Mapuche Wixaleyiñ (2013) Vocabulario Mapuche-Castellano.
+ Alonso Guzmán (2004) Manual Mochó, Chiapas, México.
+ ILC Mojeño Ignaciano “Salvador Chappy Muibar” (2021) Diccionario Mojeño Ignaciano, San Ignacio de Moxos.
+ ILC Mojeño Trinitario “José Santos Noco Guaji” (2021) Taechirawkoriono Vechjiriiwo Trinranono: Diccionario Idioma Trinitario, Santa Cruz.
+ Programa de Educación Intercultural Bilingüe-Movima (2007) Diccionario Movima, Santa Cruz.
+ Academia Mayor de La Lengua Quechua (2005) Diccionario: Quechua–Español–Quechua, Qheswa–Español–Qheswa: Simi Taqe, 2a ed., Cusco.
+ Rodolfo Cerrón-Palomino (1994) Quechua Sureño: Diccionario Unificado, Lima.
+ Academia Mayor de la Lengua Quechua filial Apurímac (2007) Apurimaqpaq Runasimi Taqe, Diccionario de Quechua Apurimeño, Abancay, Perú.
+ ILC de la Nación Quechua (2018) Qhichwa simipirwa: Diccionario de la Nación Quechua, Cochabamba.
+ Programa de Educación Intercultural Bilingüe-Tsimane’ (2007) Diccionario Tsimane’, Santa Cruz.
+ Kajta Hannß (2013) Vocabulario Uru (Uchumataqu): Castellano/English/Deutsch/Français – Uru.
+
