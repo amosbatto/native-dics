@@ -332,7 +332,7 @@
         "description": "Diccionario Chipaya",
         "file": "ch_es_ol.db",
         "url": "https://hanansoft.com/simidic/ch_es_ol.db",
-        "size": "?",
+        "size": "840 KB",
         "version": 1
     },
     
@@ -366,17 +366,6 @@
         "version": 1
     },
 
-    {
-        "name": "Español–Chipaya (Olson et al.)",
-        "author": "Ronald D. Olson, Ulpian Ricardo López García, et al.",
-        "description": "Diccionario Chipaya",
-        "file": "es_ch_ol.db",
-        "url": "https://hanansoft.com/simidic/es_ch_ol.db",
-        "size": "840 KB",
-        "version": 1
-    },
-
-    
     
     {
         "name": "Guaraní–Español (HABLE Guaraní)",
