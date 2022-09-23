@@ -37,6 +37,15 @@
         "version": 1
     },
     
+    {
+        "name": "Aymara (ILCNA)",
+        "author": "Instituto de Lengua y Cultura de la Nación Aymara (ILCNA)",
+        "description": "Aru Pirwa Aymara, El Alto, Bolivia: 2021.",
+        "file": "ay_ay_in.db",
+        "url": "https://ketanolab.com/simidic/ay_ay_in.db",
+        "size": "1.5 MB",
+        "version": 1
+    },
     
     {
         "name": "Aymara (Min.Edu.Perú)",
@@ -181,6 +190,24 @@
         "version": 1
     }, 
     
+    {
+        "name": "Quechua Boliviano–Español (ILCNQ)",
+        "author": "Instituto de Lengua y Cultura de la Nación Quechua (ILCNQ)",
+        "description": "Qhichwa simipirwa: Diccionario de la Nación Quechua, Cochabamba, Bolivia: 2018, 558pp.",
+        "file": "qu_es_in.db",
+        "url": "https://ketanolab.com/simidic/qu_es_in.db",
+        "size": "3.3 MB",
+        "version": 1
+    },
+    {
+        "name": "Español–Quechua Boliviano (ILCNQ)",
+        "author": "Instituto de Lengua y Cultura de la Nación Quechua (ILCNQ)",
+        "description": "Qhichwa simipirwa: Diccionario de la Nación Quechua, Cochabamba, Bolivia: 2018, 558pp.",
+        "file": "es_qu_in.db",
+        "url": "https://ketanolab.com/simidic/es_qu_in.db",
+        "size": "3.3 MB",
+        "version": 1
+    },
     
     {
         "name": "Quechua Cochabambino–Español (Herrero y Sánchez de Lozada)",
@@ -327,58 +354,6 @@
     
     
     {
-        "name": "Chipaya–ES,AY,EN (Olson et al.)",
-        "author": "Ronald D. Olson, Ulpian Ricardo López García, et al.",
-        "description": "Diccionario Chipaya",
-        "file": "ch_es_ol.db",
-        "url": "https://ketanolab.com/simidic/ch_es_ol.db",
-        "size": "?",
-        "version": 1
-    }
-    
-    {
-        "name": "Español–Chipaya (Olson et al.)",
-        "author": "Ronald D. Olson, Ulpian Ricardo López García, et al.",
-        "description": "Diccionario Chipaya",
-        "file": "es_ch_ol.db",
-        "url": "https://ketanolab.com/simidic/es_ch_ol.db",
-        "size": "?",
-        "version": 1
-    }
-    
-    {
-        "name": "Aymara–Chipaya (Olson et al.)",
-        "author": "Ronald D. Olson, Ulpian Ricardo López García, et al.",
-        "description": "Diccionario Chipaya",
-        "file": "ay_ch_ol.db",
-        "url": "https://ketanolab.com/simidic/ay_ch_ol.db",
-        "size": "?",
-        "version": 1
-    }
-
-    {
-        "name": "English–Chipaya (Olson et al.)",
-        "author": "Ronald D. Olson, Ulpian Ricardo López García, et al.",
-        "description": "Diccionario Chipaya",
-        "file": "en_ch_ol.db",
-        "url": "https://ketanolab.com/simidic/en_ch_ol.db",
-        "size": "?",
-        "version": 1
-    }
-
-    {
-        "name": "Español–Chipaya (Olson et al.)",
-        "author": "Ronald D. Olson, Ulpian Ricardo López García, et al.",
-        "description": "Diccionario Chipaya",
-        "file": "es_ch_ol.db",
-        "url": "https://ketanolab.com/simidic/es_ch_ol.db",
-        "size": "?",
-        "version": 1
-    }
-
-    
-    
-    {
         "name": "Guaraní–Español (HABLE Guaraní)",
         "author": "Comité HABLE Guaraní",
         "description": "Ñaneñee-Rɨru Diccionario: Guaraní – Castellano, 2a edición, Charagua, Santa Cruz, Bolivia: 1996.",
@@ -456,7 +431,44 @@
         "version": 1
     },
     
-   
+    
+    {
+        "name": "Mojeño Ignaciano–Español (ILCMI-SCM)",
+        "author": "Instituto de Lengua y Cultura Mojeño Ignaciano “Salvador Chappy Muibar”",
+        "description": "Diccionario Mojeño Ignaciano, San Ignacio de Moxos, Bolivia: 2021.",
+        "file": "ig_es_in.db",
+        "url": "https://ketanolab.com/simidic/ig_es_in.db",
+        "size": "1.0 MB",
+        "version": 1
+    },
+    {
+        "name": "Español–Mojeño Ignaciano (ILCMI-SCM)",
+        "author": "Instituto de Lengua y Cultura Mojeño Ignaciano “Salvador Chappy Muibar”",
+        "description": "Diccionario Mojeño Ignaciano, San Ignacio de Moxos, Bolivia: 2021.",
+        "file": "es_ig_in.db",
+        "url": "https://ketanolab.com/simidic/es_ig_in.db",
+        "size": "1.9 MB",
+        "version": 1
+    },
+    {
+        "name": "Mojeño Trinitario–Español (ILCMT-JSNG)",
+        "author": "Instituto de Lengua y Cultura Mojeño Trinitario “José Santos Noco Guaji”",
+        "description": "Taechirawkoriono Vechjiriiwo Trinranono: Diccionario Idioma Trinitario, Santa Cruz, Bolivia: 2021, 130pp.",
+        "file": "tr_es_in.db",
+        "url": "https://ketanolab.com/simidic/tr_es_in.db",
+        "size": "322 KB",
+        "version": 1
+    },
+    {
+        "name": "Español–Mojeño Trinitario (ILCMT-JSNG)",
+        "author": "Instituto de Lengua y Cultura Mojeño Trinitario “José Santos Noco Guaji”",
+        "description": "Taechirawkoriono Vechjiriiwo Trinranono: Diccionario Idioma Trinitario, Santa Cruz, Bolivia: 2021, 130pp.",
+        "file": "es_tr_in.db",
+        "url": "https://ketanolab.com/simidic/es_tr_in.db",
+        "size": "321 KB",
+        "version": 1
+    },
+
 
     {
         "name": "Mosetén–Español (OPIM)",
