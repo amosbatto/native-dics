@@ -44,7 +44,6 @@ Si Ud. quiere que formateemos su diccionario para funcionar en GoldenDict/StarDi
 
 **CHIPAYA:**  
 * Ronald D. Olson, Ulpian Ricardo López García, et al. ***Diccionario Chipaya***.<br>
-/home/amos/native-dics/dics/es-cap_chipaya-olson
 [`dics/cap-es_chipaya-olson`](https://github.com/amosbatto/native-dics/tree/main/dics/cap-es_chipaya-olson), [`dics/es-cap_chipaya-olson`](https://github.com/amosbatto/native-dics/tree/main/dics/es-cap_chipaya-olson), [`dics/ay-cap_chipaya-olson`](https://github.com/amosbatto/native-dics/tree/main/dics/ay-cap_chipaya-olson),[`dics/en-cap_chipaya-olson`](https://github.com/amosbatto/native-dics/tree/main/dics/en-cap_chipaya-olson), [`simidic/ch_es_ol.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/ch_es_ol.db), [`simidic/es_ch_ol.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/es_ch_ol.db), [`simidic/ay_ch_ol.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/ay_ch_ol.db), [`simidic/en_ch_ol.db`](https://github.com/amosbatto/native-dics/raw/main/simidic/en_ch_ol.db)
 
 **GUARANÍ:**
