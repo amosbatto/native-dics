@@ -17,13 +17,14 @@ License: public domain
 Version: 0.1 (2022-03-01)
 """
 
-import os, os.path, sys, pathlib, sqlite3, lxml.html
+import os, os.path, sys, pathlib, sqlite3, lxml.html, argparse
 
 def main():
 	dirDBs = pathlib.Path(sys.argv[1])
 	dbFiles = dirDBs.glob('*.db') # filter for only .db files
 	
 	newDics = [
+		'ch_es_ol.db', 'es_ch_ol.db', 'ay_ch_ol.db', 'en_ch_ol.db', #Chipaya (Olson) 
 		'ay_es_in.db',                # Aymara (ILCNA)
 		'tr_es_in.db', 'es_tr_in.db', # Mojeño trinitario
 		'ig_es_in.db', 'es_ig_in.db', # Mojeño ignaciano
