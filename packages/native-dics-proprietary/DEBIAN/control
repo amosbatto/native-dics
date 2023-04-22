@@ -8,6 +8,7 @@ Replaces: native-dics-free, native-dics-no-commercial
 Section: education
 Priority: optional
 Multi-Arch: foreign
+Installed-Size: 31672
 Homepage: http://www.illaa.org/index.php/diccionarios/, https://github.com/amosbatto/native-dics
 Description: Proprietary native language dictionaries for GoldenDict/StarDict 
  Contains these proprietary native language dictionaries for StarDict and GoldenDict 1.5:

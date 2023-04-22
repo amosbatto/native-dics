@@ -7,6 +7,7 @@ Suggests: stardict, native-dics-proprietary
 Section: education
 Priority: optional
 Multi-Arch: foreign
+Installed-Size: 109208
 Homepage: http://www.illaa.org/index.php/diccionarios/, https://github.com/amosbatto/native-dics
 Description: Free or non-commercial native language dictionaries for GoldenDict/StarDict 
  Contains native language dictionaries for StarDict and GoldenDict 1.5, 
