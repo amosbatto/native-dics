@@ -1,6 +1,6 @@
 <config>
  <paths>
-  <path recursive="1">/usr/share/stardict/dics</path>
+  <path recursive="1">/usr/share/native-dics</path>
  </paths>
  <sounddirs/>
  <dictionaryOrder id="0" name="">
